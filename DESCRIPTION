@@ -1,0 +1,15 @@
+Package: yad2ml
+Type: Package
+Title: Yad 2 Machine Learning
+    Builder in R
+Version: 1.0.0
+Date: 2017-03-30
+Authors@R: c(
+    person("Moshe", "Herskovits", email = "herskovi77@gmail.com", role = c("aut", "cre"))
+    )
+Maintainer: Moshe Herskovits <herskovi77@gmail.com>
+Description: R client and utilities for yad2
+License: Apache License 2.0 | file LICENSE
+VignetteBuilder: knitr
+URL: https://github.com/herskovi/
+BugReports: https://github.com/herskovi/sevenbridges-r/issues

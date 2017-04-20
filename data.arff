@@ -1,0 +1,1538 @@
+@relation R_data_frame
+
+@attribute WeekDay string
+@attribute Hour string
+@attribute MinuteRange string
+@attribute operatingSystem string
+@attribute language string
+@attribute MobileDeviceInfo string
+@attribute MobileDeviceManuf string
+@attribute visitNumber numeric
+@attribute VisitNumberGroup string
+@attribute Source string
+@attribute Medium string
+@attribute channelGrouping string
+@attribute campaign string
+@attribute platform string
+@attribute AccumAvgTimeonSite numeric
+@attribute AccumAvgpageviews numeric
+@attribute isFeedCar numeric
+@attribute isFeedNadlan numeric
+@attribute isFeedSecondHand numeric
+@attribute isNadlanRoomsFilter numeric
+@attribute isNadlanPriceFilter numeric
+@attribute isNadlanShowPhone numeric
+@attribute isNadlanCallSeller numeric
+@attribute Success numeric
+
+@data
+3,22,31-40,Android,he,'Huawei EVA-L09 P9 Standard Edition','Huawei ',2,2,(direct),(none),Direct,(none),MOBILE_WEB,125,6,0,1,0,0,0,0,0,0
+2,1,21-30,iOS,en,'Apple iPhone','Apple ',26,21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,506.428571,14.285714,0,1,0,1,0,0,0,0
+3,8,31-40,iOS,he,'Apple iPhone','Apple ',4,4-5,google,cpc,'Paid Search','Yad2 - Brand+Product',MOBILE_WEB,149.25,5.75,0,1,0,0,0,0,0,0
+3,14,31-40,iOS,he,'Apple iPhone','Apple ',829,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,973.25,30,1,1,0,0,0,0,0,0
+5,14,31-40,Android,he,'Sony D2303 Xperia M2','Sony ',29,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,938,21,0,1,0,0,0,0,0,0
+2,16,01-10,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',1,1,metasearch.co.il,referral,Referral,(none),MOBILE_WEB,77,2,0,1,0,0,0,0,0,0
+3,9,01-10,iOS,en,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,267,2,0,1,0,0,0,1,1,0
+1,18,51-60,Android,he,'Samsung SM-G925F Galaxy S6 Edge','Samsung ',38,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,223,8,0,1,0,0,0,0,0,0
+5,14,11-20,iOS,he,'Apple iPhone','Apple ',238,51+,(direct),(none),Direct,(none),MOBILE_WEB,72,3,0,1,0,1,1,0,0,0
+4,14,41-50,Android,he,'Samsung GT-I9300 Galaxy S III','Samsung ',68,51+,google,organic,'Organic Search',(none),MOBILE_WEB,705.5,17,0,1,0,1,0,0,0,0
+7,14,11-20,iOS,he,'Apple iPhone','Apple ',27,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,419.333333,12.666667,0,1,0,1,0,0,0,0
+3,14,11-20,iOS,he,'Apple iPhone','Apple ',134,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,676,14.5,0,1,0,1,0,0,0,0
+4,16,21-30,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',143,51+,(direct),(none),Direct,(none),MOBILE_WEB,204,13,0,1,0,1,0,0,0,0
+3,17,01-10,iOS,fr,'Apple iPhone','Apple ',51,51+,google,organic,'Organic Search',(none),MOBILE_WEB,761.5,12.833333,0,1,0,1,0,0,0,0
+3,18,21-30,Android,he,'LG F670S K10','LG ',64,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,2570.833333,54.833333,0,1,0,1,0,0,0,0
+5,10,41-50,Android,en,'Google Nexus 6P','Google ',9,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,59,5,0,1,0,0,0,0,0,0
+6,15,51-60,iOS,he,'Apple iPhone','Apple ',7,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,1500,39,0,1,0,0,1,0,0,0
+3,9,21-30,iOS,he,'Apple iPhone','Apple ',236,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,383.909091,3.181818,0,1,0,1,0,0,0,0
+1,5,41-50,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',4,4-5,(direct),(none),Direct,(none),MOBILE_WEB,254,14,0,1,0,1,0,0,0,0
+1,12,21-30,iOS,he,'Apple iPhone','Apple ',3,3,(direct),(none),Direct,(none),MOBILE_APP_IOS,238,11,0,1,0,1,0,0,0,0
+5,13,41-50,Android,en,'OnePlus A0001 One','OnePlus ',26,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,2862,51,0,1,0,1,0,0,0,0
+1,7,11-20,iOS,he,'Apple iPhone','Apple ',96,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,252,9.333333,0,1,0,0,0,0,0,0
+1,15,41-50,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',3,3,google,organic,'Organic Search',(none),MOBILE_WEB,601.5,28,0,1,0,1,0,0,0,0
+3,11,51-60,Android,he,'LG H960 V10','LG ',113,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1143.9,18.566667,0,1,0,0,0,0,0,0
+6,17,31-40,iOS,en,'Apple iPhone','Apple ',125,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,3011,62,0,1,0,1,0,0,0,0
+5,11,51-60,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',19,11-20,(direct),(none),Direct,(none),MOBILE_WEB,660,36,0,1,0,1,0,0,0,0
+4,18,31-40,Android,en,'LG H810 G4','LG ',167,51+,(direct),(none),Direct,(none),MOBILE_WEB,557.466667,14.866667,0,1,0,1,1,0,0,0
+3,20,31-40,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+5,17,21-30,iOS,en,'Apple iPhone','Apple ',5,4-5,(direct),(none),Direct,(none),MOBILE_APP_IOS,1023,29,0,1,0,1,0,0,0,0
+6,17,41-50,Android,he,'(not set)','(not ',52,51+,(direct),(none),Direct,(none),MOBILE_WEB,396.666667,14.5,0,1,0,0,0,0,0,0
+3,6,21-30,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',673,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,262.933333,7.866667,0,1,0,0,0,0,0,0
+7,10,31-40,Android,ru,'(not set)','(not ',1,1,(direct),(none),Direct,(none),MOBILE_WEB,812,29,0,1,0,1,0,0,0,0
+3,12,51-60,Android,es,'(not set)','(not ',7,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,1630.5,25.5,1,1,1,0,0,0,0,0
+1,15,11-20,Android,he,'Samsung SM-J500F Galaxy J5','Samsung ',151,51+,google,organic,'Organic Search',(none),MOBILE_WEB,418,13,0,1,0,1,1,0,0,0
+1,19,41-50,Android,en,'Samsung SM-A510F Galaxy A5 2016 Duos','Samsung ',3,3,google,organic,'Organic Search',(none),MOBILE_WEB,1339,27,0,1,0,1,1,0,0,0
+6,3,21-30,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',152,51+,google,organic,'Organic Search',(none),MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+5,23,11-20,Android,he,'Motorola XT1072 Moto G 4G (2nd Gen)','Motorola ',6,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,5280,95,0,1,0,1,0,0,0,0
+7,8,51-60,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',17,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,86.666667,6,0,1,0,1,0,0,0,0
+3,21,31-40,Android,he,'Samsung SM-J320H Galaxy J3 Duos','Samsung ',45,21-50,(direct),(none),Direct,(none),MOBILE_WEB,1341.666667,22.333333,0,1,0,0,0,0,0,0
+4,5,41-50,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',62,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,140.5,8,0,1,0,1,1,0,0,0
+4,20,31-40,iOS,he,'Apple iPhone','Apple ',3,3,(direct),(none),Direct,(none),MOBILE_APP_IOS,844,25.5,0,1,0,1,0,0,0,0
+2,8,21-30,Android,he,'LG H815 G4','LG ',26,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,83,8.5,0,1,0,0,1,0,0,0
+4,2,31-40,Android,en,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',16,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,0,1,0,1,0,1,0,0,0,0
+3,11,11-20,Android,ru,'Samsung SM-G920F Galaxy S6','Samsung ',114,51+,google,organic,'Organic Search',(none),MOBILE_WEB,226.428571,3.142857,0,1,0,0,0,0,0,0
+6,19,01-10,Android,he,'LG LG-H850 G Flex 2','LG ',259,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,161,3,0,1,0,1,1,0,0,0
+4,11,21-30,Android,en,'Samsung GT-I9195 Galaxy S4 Mini','Samsung ',30,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,230,17,0,1,0,0,0,0,0,0
+1,19,31-40,Android,he,'LG H815 G4','LG ',11,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,3013,42,0,1,0,1,0,0,0,0
+3,14,01-10,iOS,en,'Apple iPhone','Apple ',24,21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,1878,17,0,1,0,0,1,0,0,0
+3,1,41-50,Android,he,'Samsung SM-J500F Galaxy J5','Samsung ',17,11-20,(direct),(none),Direct,(none),MOBILE_WEB,602,22.333333,0,1,0,1,0,0,0,0
+3,17,21-30,Android,he,'LG H815 G4','LG ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,922,34,0,1,0,1,1,0,0,0
+6,22,01-10,Android,he,'Samsung SM-N910F Galaxy Note 4','Samsung ',10,6-10,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,264,6.333333,0,1,0,1,0,0,0,0
+2,14,41-50,Android,he,'Samsung SM-G7102 Galaxy Grand 2','Samsung ',54,51+,(direct),(none),Direct,(none),MOBILE_WEB,3256,73.5,0,1,0,0,0,0,0,0
+4,20,21-30,Android,he,'Samsung GT-I9500 Galaxy S IV','Samsung ',20,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,361.066667,6.4,0,1,0,1,1,0,0,0
+2,13,01-10,iOS,en,'Apple iPhone','Apple ',28,21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,591,33,0,1,0,0,1,0,0,0
+6,23,51-60,iOS,he,'Apple iPhone','Apple ',5,4-5,google,organic,'Organic Search',(none),MOBILE_WEB,82,3,0,1,0,0,0,0,0,0
+7,11,31-40,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',47,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,781.5,18.5,0,1,0,0,0,0,0,0
+3,6,51-60,Android,he,'Meizu M3s','Meizu ',9,6-10,(direct),(none),Direct,(none),MOBILE_WEB,297,4.25,0,1,0,1,0,0,0,0
+3,9,31-40,Android,he,'Meizu MZ-m3 note m3 note','Meizu ',3,3,google,organic,'Organic Search',(none),MOBILE_WEB,1974,34,0,1,0,0,0,0,0,0
+1,15,01-10,Android,en,'Samsung SM-G900F Galaxy S5','Samsung ',63,51+,google,organic,'Organic Search',(none),MOBILE_WEB,298.666667,18,0,1,0,0,0,0,0,0
+6,21,11-20,Android,he,'LG H735 G4 Beat','LG ',13,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,2555,26,0,1,0,0,0,1,0,0
+3,15,51-60,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',44,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1122,30,0,1,0,0,1,0,0,0
+2,16,41-50,Android,he,'Samsung SM-G925F Galaxy S6 Edge','Samsung ',1,1,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,115,3,0,1,0,0,0,0,0,0
+7,13,01-10,Android,ru,'Samsung SM-N9006 Galaxy Note 3','Samsung ',47,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1909.5,26.75,0,1,0,1,0,0,0,0
+7,20,01-10,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',2,2,google,organic,'Organic Search',(none),MOBILE_WEB,280,21.5,0,1,0,0,1,0,0,0
+4,20,11-20,iOS,he,'Apple iPhone','Apple ',350,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,126.3,5.9,0,1,0,1,1,0,0,0
+2,12,31-40,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',26,21-50,(direct),(none),Direct,(none),MOBILE_WEB,559,16.5,0,1,0,0,0,0,0,0
+7,21,21-30,Android,he,'(not set)','(not ',28,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,819.5,51.5,0,1,0,1,0,0,0,0
+4,17,21-30,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',18,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,703.333333,31.111111,0,1,0,0,0,0,0,0
+4,8,51-60,Android,he,'Huawei VNS-L22 P9 Lite','Huawei ',14,11-20,google,cpc,'Paid Search','Yad2 - Brand+Product',MOBILE_WEB,980.5,21.5,0,1,0,0,0,0,0,0
+1,16,21-30,Android,he,'LG D855 G3','LG ',133,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,414.6,9.8,1,1,0,0,0,0,0,0
+2,22,01-10,iOS,he,'Apple iPhone','Apple ',119,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,136.071429,8,0,1,0,0,0,0,0,0
+3,9,01-10,Android,he,'Samsung SM-J500F Galaxy J5','Samsung ',183,51+,google,organic,'Organic Search',(none),MOBILE_WEB,371.619048,25.714286,0,1,0,1,0,0,0,0
+6,7,51-60,Android,he,'(not set)','(not ',34,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,799.333333,23.666667,0,1,0,1,0,0,0,0
+2,18,31-40,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',8,6-10,(direct),(none),Direct,(none),MOBILE_WEB,372.75,17.75,0,1,0,1,1,0,0,0
+7,18,41-50,iOS,en,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),MOBILE_APP_IOS,1335,22,0,1,0,0,0,0,0,0
+6,5,51-60,iOS,he,'Apple iPhone','Apple ',26,21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,1477,10,0,1,0,0,0,0,0,0
+2,20,21-30,Android,he,'Google Nexus 6P','Google ',37,21-50,(direct),(none),Direct,(none),MOBILE_WEB,421,11.666667,0,1,0,0,0,0,0,0
+5,4,21-30,Android,ru,'Samsung SM-N910C Galaxy Note 4','Samsung ',342,51+,(direct),(none),Direct,(none),MOBILE_WEB,319,6,0,1,0,1,0,0,0,0
+7,23,51-60,Android,ar,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',1,1,google,cpc,'Paid Search','Yad2 - Brand E',MOBILE_WEB,3833,115,1,1,0,0,0,0,0,0
+7,8,41-50,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',92,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,126,8,0,1,0,0,0,0,0,0
+1,14,41-50,iOS,he,'Apple iPhone','Apple ',197,51+,google,organic,'Organic Search',(none),MOBILE_WEB,1169.533333,25.8,0,1,0,0,0,0,0,0
+7,22,01-10,iOS,en,'Apple iPhone','Apple ',33,21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,979.666667,15,0,1,0,0,0,0,0,0
+4,16,31-40,Android,he,'Samsung SM-J700F Galaxy J7','Samsung ',118,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,451.333333,31,0,1,0,0,0,0,0,0
+2,13,21-30,Android,ru,'Samsung SM-N900 Galaxy Note 3','Samsung ',26,21-50,(direct),(none),Direct,(none),MOBILE_WEB,1107,24.75,0,1,0,0,0,0,0,0
+5,15,21-30,Android,he,'Google Nexus 5','Google ',15,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,42,3,0,1,0,0,0,0,0,0
+3,12,11-20,Android,he,'LG D855 G3','LG ',2,2,google,organic,'Organic Search',(none),MOBILE_WEB,2270,46,0,1,0,0,0,0,0,0
+7,16,51-60,Android,he,'Google Nexus 5X','Google ',21,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,305,9,0,1,0,0,0,0,0,0
+5,15,11-20,iOS,he,'Apple iPhone','Apple ',29,21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,465.5,11,0,1,0,1,1,0,0,0
+5,14,01-10,Android,he,'(not set)','(not ',33,21-50,icon_cafe,popular_yad2,(Other),kafe_icons,MOBILE_WEB,374,21,0,1,0,1,0,0,0,0
+7,11,41-50,Android,he,'Xiaomi Redmi Note 4','Xiaomi ',15,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,2219,79,0,1,0,1,1,0,0,0
+2,19,21-30,Android,ru,'Samsung SM-G920F Galaxy S6','Samsung ',70,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,640.333333,16.666667,1,1,0,0,0,0,0,0
+3,13,51-60,Android,he,'LG D855 G3','LG ',24,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,62,2,0,1,0,0,0,0,0,0
+3,18,41-50,Android,he,'Huawei ALE-L02 P8 Lite','Huawei ',22,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1418,11,0,1,0,0,0,0,0,0
+4,17,41-50,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',22,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,718,17.25,0,1,0,1,0,0,0,0
+4,7,41-50,Android,he,'LG H735 G4 Beat','LG ',85,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1348.666667,23.666667,0,1,0,1,0,0,0,0
+4,17,21-30,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',15,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,475,6,0,1,0,1,0,0,0,0
+7,21,01-10,Android,en,'Samsung SM-G900F Galaxy S5','Samsung ',8,6-10,Whatsapp,'(not set)',(Other),m-ToAd,MOBILE_WEB,1278,40,0,1,0,0,0,0,0,0
+2,14,01-10,Android,he,'Samsung SM-G925F Galaxy S6 Edge','Samsung ',101,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,69.5,3,0,1,0,1,0,0,0,0
+7,19,01-10,Android,en,'Google Nexus 6','Google ',162,51+,google,organic,'Organic Search',(none),MOBILE_WEB,549.25,14.25,0,1,0,0,1,0,0,0
+7,16,41-50,iOS,ru,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,1406,29,0,1,0,0,1,0,0,0
+4,6,51-60,iOS,he,'Apple iPhone','Apple ',39,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,39,3,0,1,0,0,0,0,0,0
+2,4,41-50,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,175,6,0,1,0,0,0,0,0,0
+2,15,11-20,Android,he,'LG D855 G3','LG ',30,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,164,8.333333,0,1,0,1,0,0,0,0
+5,8,51-60,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',72,51+,(direct),(none),Direct,(none),MOBILE_WEB,48.5,3,0,1,0,1,1,0,0,0
+4,10,51-60,Android,he,'LG H990 V20','LG ',32,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,493,26.8,0,1,0,0,1,1,1,0
+5,9,21-30,Android,he,'LG D855 G3','LG ',34,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,2,1.5,0,1,0,0,0,0,0,0
+4,15,51-60,Android,he,'LG D855 G3','LG ',253,51+,google,organic,'Organic Search',(none),MOBILE_WEB,69,3,0,1,0,0,0,0,0,0
+5,23,11-20,Android,he,'Samsung SM-J700F Galaxy J7','Samsung ',497,51+,google,cpc,'Paid Search','Yad2 - Brand E',MOBILE_WEB,1822.666667,68,0,1,1,0,0,0,0,0
+3,7,41-50,iOS,en,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),MOBILE_APP_IOS,639,13,0,1,0,0,1,0,0,0
+3,15,21-30,Android,he,'Samsung SM-J700F Galaxy J7','Samsung ',43,21-50,(direct),(none),Direct,(none),MOBILE_WEB,1512,38,0,1,0,1,0,0,0,0
+5,18,11-20,Android,ru,'Lenovo K50-t5 K3 Note','Lenovo ',51,51+,(direct),(none),Direct,(none),MOBILE_WEB,1421.2,33.4,0,1,0,0,0,0,0,0
+1,6,11-20,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,72,3,0,1,0,0,0,0,0,0
+1,17,11-20,Android,en,'Google Nexus 5X','Google ',2,2,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,157.5,10,0,1,0,1,1,0,0,0
+7,16,41-50,iOS,he,'Apple iPhone','Apple ',103,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,439,25.666667,0,1,0,0,1,0,0,0
+5,17,51-60,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',22,21-50,(direct),(none),Direct,(none),MOBILE_WEB,61,4,0,1,0,0,0,0,0,0
+3,8,31-40,iOS,he,'Apple iPhone','Apple ',13,11-20,(direct),(none),Direct,(none),MOBILE_APP_IOS,1291.090909,35.909091,0,1,0,1,1,0,0,0
+5,21,31-40,Android,he,'Feiteng GT-i9300','Feiteng ',42,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,1326.333333,42.666667,0,1,0,0,1,0,0,0
+3,8,21-30,iOS,he,'Apple iPhone','Apple ',47,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,202,11,0,1,0,1,1,0,0,0
+3,20,51-60,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',12,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,28,2,0,1,0,0,0,0,0,0
+7,22,01-10,Android,he,'Samsung SM-J100FN Galaxy J1','Samsung ',149,51+,google,organic,'Organic Search',(none),MOBILE_WEB,1265,21.571429,1,1,1,0,0,0,0,0
+7,17,31-40,Android,he,'(not set)','(not ',2,2,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,879,30,0,1,0,1,0,0,0,0
+1,0,21-30,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',104,51+,(direct),(none),Direct,(none),MOBILE_WEB,609,30,0,1,0,1,1,0,0,0
+1,21,11-20,Android,he,'OnePlus A0001 One','OnePlus ',145,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,580.7,45.1,1,1,0,1,0,0,0,0
+2,14,51-60,Android,he,'Meizu MZ-m2 m2','Meizu ',15,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,391.384615,5.461538,0,1,0,0,0,0,0,0
+2,19,01-10,iOS,he,'Apple iPhone','Apple ',46,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,1295.5,25,0,1,0,1,0,0,0,0
+2,14,01-10,iOS,fr,'Apple iPhone','Apple ',2,2,google,organic,'Organic Search',(none),MOBILE_WEB,122.5,4.5,0,1,0,1,1,0,0,0
+3,10,41-50,Android,he,'Samsung SM-A510F Galaxy A5 2016 Duos','Samsung ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,703,15,0,1,0,0,0,0,0,0
+2,17,31-40,Android,he,'Samsung SM-J500F Galaxy J5','Samsung ',150,51+,(direct),(none),Direct,(none),MOBILE_WEB,137.2,1.2,0,1,0,0,0,0,0,0
+5,17,11-20,iOS,he,'Apple iPhone','Apple ',14,11-20,(direct),(none),Direct,(none),MOBILE_APP_IOS,106,7,0,1,0,0,0,0,0,0
+5,9,41-50,iOS,he,'Apple iPhone','Apple ',55,51+,(direct),(none),Direct,(none),MOBILE_WEB,386,12,0,1,0,1,0,0,0,0
+1,12,11-20,iOS,he,'Apple iPhone','Apple ',116,51+,google,organic,'Organic Search',(none),MOBILE_WEB,1003.714286,30.571429,0,1,0,0,1,0,0,0
+4,10,31-40,Android,he,'LG F670S K10','LG ',6,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,484,7.666667,0,1,0,0,0,0,0,0
+5,13,41-50,iOS,en,'Apple iPhone','Apple ',46,21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,53.5,3.5,0,1,0,0,1,0,0,0
+1,5,21-30,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',125,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,25.6,3.2,0,1,0,0,0,0,0,0
+1,10,01-10,Android,he,'LG D855 G3','LG ',12,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,1313.142857,28.428571,1,1,0,0,0,0,0,0
+5,21,31-40,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,561,26,0,1,0,0,0,0,0,0
+1,13,11-20,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',20,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,11,2,0,1,0,0,0,0,0,0
+6,12,21-30,Android,he,'LG D855 G3','LG ',226,51+,google,organic,'Organic Search',(none),MOBILE_WEB,254.5,7,0,1,0,0,0,0,0,0
+3,6,21-30,Android,he,'LG H815 G4','LG ',93,51+,google,organic,'Organic Search',(none),MOBILE_WEB,522.833333,22.5,0,1,0,1,0,0,0,0
+7,6,21-30,iOS,he,'Apple iPhone','Apple ',3,3,google,cpc,'Paid Search','Yad2 - Brand E',MOBILE_WEB,912,67,0,1,0,0,0,0,0,0
+2,5,01-10,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',2,2,google,organic,'Organic Search',(none),MOBILE_WEB,1437.5,46,0,1,0,0,0,0,0,0
+3,18,31-40,iOS,en,'Apple iPhone','Apple ',272,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,316.275862,4.482759,0,1,0,0,1,0,0,0
+2,19,31-40,Android,he,'Huawei GRA-L09 P8','Huawei ',32,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,999.25,31.25,0,1,0,1,0,0,0,0
+6,8,51-60,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',22,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,237,17,0,1,0,1,0,0,0,0
+7,13,11-20,iOS,en,'Apple iPhone','Apple ',7,6-10,(direct),(none),Direct,(none),MOBILE_APP_IOS,170.5,10.5,0,1,0,1,1,0,0,0
+2,11,01-10,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',18,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,2623.714286,62.142857,0,1,0,0,0,0,0,0
+1,12,31-40,Android,he,'Motorola XT1575 Moto X Style/Pure','Motorola ',71,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,639,14.5,0,1,0,0,0,0,0,0
+3,21,01-10,Android,he,'LG D855 G3','LG ',31,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,32,3,0,1,0,0,0,0,0,0
+5,22,51-60,Android,ru,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',212,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,25.5,2.5,0,1,0,1,0,0,0,0
+7,4,31-40,Android,he,'LG D855 G3','LG ',5,4-5,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,668,41,0,1,0,1,1,0,0,0
+3,21,51-60,Android,he,'Xplay Z5','Xplay ',34,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,1404.909091,27.909091,0,1,1,1,0,0,0,0
+4,18,31-40,iOS,fr,'Apple iPhone','Apple ',160,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,554.454545,25.090909,0,1,0,1,1,0,0,0
+6,20,51-60,Android,en,'Google Nexus 5X','Google ',541,51+,(direct),(none),Direct,(none),MOBILE_WEB,593.666667,4.555556,0,1,0,1,0,0,0,0
+5,12,51-60,Android,he,'LG D802 G2','LG ',342,51+,(direct),(none),Direct,(none),MOBILE_WEB,743.333333,6,0,1,0,1,1,0,0,0
+3,18,01-10,iOS,he,'Apple iPhone','Apple ',6,6-10,(direct),(none),Direct,(none),MOBILE_APP_IOS,53,3,0,1,0,0,0,0,0,0
+5,7,31-40,Android,he,'Xiaomi Redmi Note 4','Xiaomi ',16,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,2615,10,0,1,0,1,1,0,0,0
+5,9,31-40,Android,he,'Samsung GT-I9515 Galaxy S IV','Samsung ',65,51+,google,organic,'Organic Search',(none),MOBILE_WEB,203,7,0,1,0,1,0,0,0,0
+7,16,11-20,iOS,en,'Apple iPhone','Apple ',3,3,(direct),(none),Direct,(none),MOBILE_APP_IOS,873.666667,20.666667,0,1,0,1,1,0,0,0
+4,7,21-30,Android,he,'LG E975K Optimus G','LG ',49,21-50,(direct),(none),Direct,(none),MOBILE_WEB,84.333333,3.333333,0,1,0,1,1,0,0,0
+6,14,11-20,iOS,he,'Apple iPhone','Apple ',117,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,370,8,0,1,0,1,0,1,0,0
+1,18,11-20,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',38,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,57.5,4.5,0,1,0,1,1,0,0,0
+1,17,21-30,iOS,he,'Apple iPhone','Apple ',712,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,250.25,15.25,0,1,0,1,0,0,0,0
+6,9,11-20,Android,en,'Samsung SM-G930F Galaxy S7','Samsung ',24,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,755,47,0,1,0,1,0,0,0,0
+3,17,21-30,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',36,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,325.666667,7.333333,0,1,0,0,1,0,0,0
+1,22,31-40,Android,he,'LG D855 G3','LG ',71,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,447,43.5,0,1,0,0,1,0,0,0
+6,6,31-40,Android,he,'LG H960 V10','LG ',14,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1525.5,32,0,1,0,0,0,0,0,0
+7,20,11-20,Android,he,'Meizu m3 note m3 note','Meizu ',14,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,786.333333,26.666667,0,1,0,0,0,0,0,0
+3,22,01-10,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',274,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,491.73913,31.826087,0,1,0,1,1,0,0,0
+7,12,01-10,iOS,he,'Apple iPhone','Apple ',89,51+,google,organic,'Organic Search',(none),MOBILE_WEB,1551,18,1,1,0,0,0,0,0,0
+7,14,11-20,Android,he,'Kenxinda W5','Kenxinda ',1,1,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+7,12,31-40,Android,he,'OPPO X9006 Find 7a','OPPO ',9,6-10,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,326.8,21,0,1,0,1,0,0,0,0
+5,9,51-60,iOS,he,'Apple iPhone','Apple ',294,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,1312,22,0,1,0,1,0,1,0,0
+6,11,41-50,Android,he,'LG D855 G3','LG ',40,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,275,5.5,0,1,0,0,0,0,0,0
+1,18,31-40,Android,he,'LG K420 K10 LTE','LG ',3,3,google,organic,'Organic Search',(none),MOBILE_WEB,1031,25,0,1,0,0,0,0,0,0
+6,18,11-20,iOS,ru,'Apple iPhone','Apple ',923,51+,(direct),(none),Direct,(none),MOBILE_WEB,1557.4,38.4,0,1,0,1,0,0,0,0
+4,4,51-60,Android,ru,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',9,6-10,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,486.625,33,0,1,0,0,0,0,0,0
+7,16,11-20,iOS,he,'Apple iPhone','Apple ',5,4-5,google,organic,'Organic Search',(none),MOBILE_WEB,5270.4,76.2,0,1,0,0,0,0,0,0
+5,20,31-40,Android,he,'(not set)','(not ',23,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,40,4,0,1,0,0,0,0,0,0
+7,10,11-20,iOS,he,'Apple iPhone','Apple ',88,51+,Whatsapp,'(not set)',(Other),m-ToAd,MOBILE_WEB,717.5,14,0,1,0,1,0,0,0,0
+6,11,41-50,Android,he,'Samsung SM-N910C Galaxy Note 4','Samsung ',348,51+,google,organic,'Organic Search',(none),MOBILE_WEB,298,18.666667,0,1,0,0,0,0,0,0
+1,16,31-40,Android,he,'Kenxinda W5','Kenxinda ',207,51+,google,organic,'Organic Search',(none),MOBILE_WEB,555.75,19,0,1,0,0,0,0,0,0
+7,6,51-60,Android,he,'LG D855 G3','LG ',196,51+,(direct),(none),Direct,(none),MOBILE_WEB,245,13,0,1,0,1,0,1,0,0
+1,18,01-10,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',23,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,543.555556,7.555556,0,1,0,0,0,0,0,0
+2,6,11-20,iOS,he,'Apple iPhone','Apple ',17,11-20,(direct),(none),Direct,(none),MOBILE_APP_IOS,986,20,0,1,0,0,0,0,0,0
+5,17,01-10,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',356,51+,(direct),(none),Direct,(none),MOBILE_WEB,14.75,1.25,0,1,0,1,1,0,0,0
+3,17,41-50,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',13,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,582.454545,15,0,1,0,1,1,0,0,0
+1,22,51-60,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+2,23,01-10,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',47,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,307.9,10.5,0,1,0,1,0,0,0,0
+6,9,51-60,Android,he,'(not set)','(not ',37,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,688,4,0,1,0,1,0,0,0,0
+3,10,21-30,Android,he,'Xiaomi Redmi Note 4','Xiaomi ',11,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,1405,32.166667,0,1,0,0,1,1,1,0
+3,19,51-60,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',445,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1315,48.375,1,1,0,0,0,0,0,0
+3,13,41-50,Android,he,'LG H815 G4','LG ',13,11-20,(direct),(none),Direct,(none),MOBILE_WEB,1139.5,35.75,1,1,0,1,0,0,0,0
+6,9,51-60,iOS,en,'Apple iPhone','Apple ',162,51+,google,organic,'Organic Search',(none),MOBILE_WEB,51,7,0,1,0,0,0,0,0,0
+4,17,11-20,Android,he,'LG LG-H850 G Flex 2','LG ',25,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,347,18,0,1,0,0,1,0,0,0
+1,20,01-10,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',35,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,441.285714,16.571429,0,1,0,1,0,0,0,0
+3,19,31-40,iOS,fr,'Apple iPhone','Apple ',4,4-5,google,organic,'Organic Search',(none),MOBILE_WEB,1072,26,0,1,0,1,0,0,0,0
+5,14,51-60,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',191,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,103.75,10,0,1,0,1,0,0,0,0
+4,4,41-50,Android,ru,'(not set)','(not ',5,4-5,(direct),(none),Direct,(none),MOBILE_WEB,2241.333333,100.666667,0,1,0,1,0,0,0,0
+6,18,41-50,iOS,en,'Apple iPhone','Apple ',55,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,1089,33,1,1,0,1,0,0,0,0
+3,14,01-10,iOS,ru,'Apple iPhone','Apple ',34,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,354,11.333333,0,1,0,0,0,0,0,0
+5,19,01-10,Android,ru,'Samsung SM-N900 Galaxy Note 3','Samsung ',52,51+,Whatsapp,'(not set)',(Other),m-ToAd,MOBILE_WEB,3058,29,0,1,0,1,0,1,0,0
+3,20,41-50,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',43,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,372.6875,9.875,0,1,0,1,0,0,0,0
+1,14,41-50,iOS,he,'Apple iPhone','Apple ',356,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,197.6,4,0,1,0,1,0,0,0,0
+1,12,01-10,Android,en,'LG D855 G3','LG ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+7,7,31-40,iOS,he,'Apple iPhone','Apple ',59,51+,2net.co.il,referral,Referral,(none),MOBILE_WEB,879,22,0,1,0,0,0,0,0,0
+2,4,31-40,iOS,he,'Apple iPhone','Apple ',94,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,266.444444,8.555556,0,1,0,1,0,0,0,0
+5,9,31-40,Android,he,'Samsung SM-E500F Galaxy E5','Samsung ',227,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,47,3,0,1,0,0,1,0,0,0
+3,11,31-40,iOS,he,'Apple iPhone','Apple ',267,51+,google,organic,'Organic Search',(none),MOBILE_WEB,1336.5,31.1,0,1,0,1,0,0,0,0
+4,15,01-10,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,852,35,0,1,0,1,0,0,0,0
+2,13,21-30,Android,he,'LG LG-H850 G Flex 2','LG ',27,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,400.037037,9.962963,0,1,0,0,0,0,0,0
+2,20,51-60,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',17,11-20,google,cpc,'Paid Search','Yad2 - Brand E',MOBILE_WEB,262.4,10.1,1,1,0,1,0,0,0,0
+7,23,01-10,Android,en,'LG D855 G3','LG ',91,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,944,27.5,1,1,0,0,0,0,0,0
+1,5,51-60,iOS,he,'Apple iPhone','Apple ',770,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,754.75,39,1,1,0,0,1,0,0,0
+5,19,51-60,iOS,he,'Apple iPhone','Apple ',22,21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,852,52,0,1,0,1,0,0,0,0
+3,7,31-40,Android,he,'(not set)','(not ',58,51+,google,organic,'Organic Search',(none),MOBILE_WEB,379,17,0,1,0,0,0,0,0,0
+4,11,41-50,Android,he,'Xiaomi Redmi Note 4','Xiaomi ',41,21-50,(direct),(none),Direct,(none),MOBILE_WEB,195.333333,4.833333,0,1,0,1,1,0,0,0
+2,14,41-50,iOS,he,'Apple iPhone','Apple ',13,11-20,(direct),(none),Direct,(none),MOBILE_APP_IOS,337,15,0,1,0,0,1,0,0,0
+7,16,21-30,Android,he,'LG D855 G3','LG ',18,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,660,24,0,1,0,1,0,0,0,0
+2,15,21-30,Android,he,'(not set)','(not ',10,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,220.666667,4.666667,0,1,0,0,0,0,0,0
+5,19,11-20,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,537,26,0,1,0,0,0,0,0,0
+4,5,21-30,iOS,en,'Apple iPhone','Apple ',15,11-20,(direct),(none),Direct,(none),MOBILE_APP_IOS,727.5,18,0,1,0,1,1,0,0,0
+7,19,51-60,Android,en,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',346,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,252.6,12.4,0,1,0,0,0,0,0,0
+1,18,31-40,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',110,51+,google,organic,'Organic Search',(none),MOBILE_WEB,491.928571,14.785714,0,1,0,0,0,0,0,0
+3,18,11-20,iOS,he,'Apple iPhone','Apple ',3,3,google,organic,'Organic Search',(none),MOBILE_WEB,39.5,2,0,1,0,0,0,0,0,0
+3,18,21-30,Android,he,'Samsung SM-J500F Galaxy J5','Samsung ',49,21-50,(direct),(none),Direct,(none),MOBILE_WEB,175.5,3,0,1,0,0,0,0,0,0
+5,17,01-10,Android,he,'HTC M8 One M8','HTC ',71,51+,(direct),(none),Direct,(none),MOBILE_WEB,867.25,22.25,1,1,0,1,1,0,0,0
+2,22,01-10,Android,en,'Sony E6653 Xperia Z5','Sony ',47,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,489,5.666667,0,1,0,1,0,0,0,0
+1,19,51-60,iOS,ru,'Apple iPhone','Apple ',67,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,81.75,4.5,0,1,0,0,0,0,0,0
+2,14,31-40,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',85,51+,(direct),(none),Direct,(none),MOBILE_WEB,991.833333,17,0,1,0,1,1,0,0,0
+1,9,21-30,iOS,he,'Apple iPhone','Apple ',41,21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,900.666667,28.888889,0,1,0,1,0,0,0,0
+4,0,31-40,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',52,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,654.625,24.25,0,1,0,1,1,0,0,0
+6,9,31-40,Android,ru,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',345,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1612.666667,48,0,1,0,1,0,0,0,0
+4,11,11-20,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',28,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,316.333333,17.666667,0,1,0,0,0,0,0,0
+2,10,31-40,iOS,he,'Apple iPhone','Apple ',251,51+,google,organic,'Organic Search',(none),MOBILE_WEB,377.928571,15.071429,0,1,0,1,1,0,0,0
+7,9,41-50,iOS,he,'Apple iPhone','Apple ',164,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,374.4,12,0,1,0,1,0,0,0,0
+5,22,01-10,Android,en,'Google Nexus 5X','Google ',8,6-10,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,612,17.666667,0,1,0,1,1,0,0,0
+1,7,11-20,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',12,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,898,17.142857,0,1,0,0,0,0,0,0
+2,10,11-20,Android,he,'Samsung SM-N910F-ORANGE Galaxy Note 4','Samsung ',133,51+,(direct),(none),Direct,(none),MOBILE_WEB,114,4.375,0,1,0,1,0,0,0,0
+3,20,41-50,Android,en,'Xiaomi Redmi 3 Redmi 3','Xiaomi ',1,1,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1658,42,0,1,0,1,0,0,0,0
+7,15,41-50,Android,he,'Samsung SM-G900H Galaxy S5','Samsung ',95,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,233.166667,5.5,0,1,0,1,0,0,0,0
+7,23,11-20,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',5,4-5,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,754.75,49.75,0,1,0,0,0,0,0,0
+3,17,51-60,Android,he,'Samsung SM-N910F-ORANGE Galaxy Note 4','Samsung ',30,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,2127.214286,60.714286,0,1,0,1,0,0,0,0
+5,17,31-40,iOS,he,'Apple iPhone','Apple ',218,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,148,9,0,1,0,1,1,0,0,0
+3,7,21-30,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',32,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,315.4,18,0,1,1,0,0,0,0,0
+5,22,41-50,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',2,2,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1381.5,23,0,1,0,1,1,0,0,0
+7,21,11-20,Android,he,'Google Nexus 5X','Google ',24,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,503,29,0,1,0,1,1,0,0,0
+4,20,41-50,iOS,he,'Apple iPhone','Apple ',5,4-5,metasearch.co.il,referral,Referral,(none),MOBILE_WEB,449,18,0,1,0,0,0,0,0,0
+2,21,31-40,Android,he,'Google Nexus 6','Google ',138,51+,google,organic,'Organic Search',(none),MOBILE_WEB,1071.4,41,0,1,0,0,0,0,0,0
+4,10,31-40,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,230,13,0,1,0,0,0,0,0,0
+4,10,21-30,Android,he,'Xiaomi Redmi Note 2 Redmi Note 2','Xiaomi ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,3392,45,1,1,0,1,1,0,0,0
+1,11,21-30,Android,he,'LG D855 G3','LG ',56,51+,(direct),(none),Direct,(none),MOBILE_WEB,512.75,8,0,1,0,1,1,0,0,0
+7,15,31-40,Android,he,'Kenxinda W5','Kenxinda ',7,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,722.6,19.4,0,1,0,0,0,0,0,0
+4,19,51-60,Android,he,'LG H815 G4','LG ',332,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,117.454545,2.818182,0,1,0,1,0,0,0,0
+7,16,11-20,Android,he,'OnePlus ONE A2001 2','OnePlus ',9,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,921.666667,10.333333,0,1,0,1,1,0,0,0
+4,19,41-50,Android,he,'Google Nexus 5','Google ',15,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,106,2,0,1,0,0,0,0,0,0
+3,14,11-20,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',41,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,415.571429,10.5,0,1,0,1,0,0,0,0
+2,21,41-50,iOS,he,'Apple iPhone','Apple ',98,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,1301,45,0,1,0,1,0,0,0,0
+2,11,01-10,Android,he,'LG H815 G4','LG ',92,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,19,1.833333,0,1,0,1,0,0,0,0
+5,21,21-30,Android,he,'Sony e2104 Xperia E4','Sony ',34,21-50,(direct),(none),Direct,(none),MOBILE_WEB,1524.333333,13,0,1,0,0,1,0,0,0
+2,7,51-60,iOS,he,'Apple iPhone','Apple ',27,21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,749.75,14.5,0,1,0,0,0,0,0,0
+4,5,41-50,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,4159,20,0,1,0,0,0,0,0,0
+7,5,01-10,Android,he,'LG F670S K10','LG ',33,21-50,(direct),(none),Direct,(none),MOBILE_WEB,559.25,17,0,1,0,1,0,0,0,0
+7,15,11-20,Android,he,'Samsung GT-I9500 Galaxy S IV','Samsung ',292,51+,(direct),(none),Direct,(none),MOBILE_WEB,801.777778,10.444444,0,1,0,1,1,0,0,0
+4,1,51-60,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',40,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,83,8,0,1,0,0,0,0,0,0
+4,14,01-10,Android,he,'Xiaomi Redmi Note 4','Xiaomi ',4,4-5,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,467,24,0,1,0,1,0,0,0,0
+7,10,51-60,Android,he,'Motorola Moto G (4) Moto G4','Motorola ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,584,25,0,1,0,0,0,0,0,0
+1,18,11-20,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',9,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,57,3.75,0,1,0,0,0,0,0,0
+3,10,41-50,Android,he,'LG D855 G3','LG ',59,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,15,2,0,1,0,1,0,0,0,0
+7,20,31-40,Android,he,'Samsung SM-G532F Galaxy Grand Prime+','Samsung ',4,4-5,(direct),(none),Direct,(none),MOBILE_WEB,102.75,3.75,0,1,0,1,1,0,0,0
+2,12,11-20,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',174,51+,(direct),(none),Direct,(none),MOBILE_WEB,152.714286,8,0,1,0,1,0,0,0,0
+5,15,31-40,iOS,he,'Apple iPhone','Apple ',2,2,google,organic,'Organic Search',(none),MOBILE_WEB,471.5,6.5,0,1,0,0,0,0,0,0
+7,12,11-20,Android,he,'LG LG-H850 G Flex 2','LG ',17,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,430,3,0,1,0,0,0,0,0,0
+7,12,41-50,iOS,en,'Apple iPhone','Apple ',31,21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,797,55,1,1,0,1,1,0,0,0
+6,6,51-60,Android,ru,'Samsung SM-N7505 Note 3 Neo Duos','Samsung ',44,21-50,(direct),(none),Direct,(none),MOBILE_WEB,752.5,25,0,1,0,1,0,0,0,0
+4,15,21-30,Android,en,'Huawei EVA-AL10 P9 Premium Edition','Huawei ',35,21-50,Whatsapp,'(not set)',(Other),m-ToAd,MOBILE_WEB,548.6875,22.875,0,1,0,0,0,0,0,0
+6,13,41-50,Android,he,'Xiaomi Mi Max','Xiaomi ',40,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,916.666667,22.333333,0,1,0,1,1,0,0,0
+6,0,01-10,Android,he,'Xiaomi Redmi 3 Redmi 3','Xiaomi ',3,3,google,organic,'Organic Search',(none),MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+6,17,41-50,Android,he,'Sony F3311 Xperia E5','Sony ',2,2,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,120,9,0,1,0,1,0,0,0,0
+5,19,11-20,Android,he,'LG H850 G Flex 2','LG ',89,51+,google,organic,'Organic Search',(none),MOBILE_WEB,99,6,0,1,0,0,0,0,0,0
+4,17,41-50,iOS,he,'Apple iPhone','Apple ',17,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,496,26,0,1,0,1,0,0,0,0
+2,17,31-40,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',12,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,384,18,0,1,0,0,0,0,0,0
+2,12,51-60,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',39,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,156,8,0,1,0,1,1,0,0,0
+6,15,31-40,Android,he,'LG H850 G Flex 2','LG ',192,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,316.75,4.5,0,1,0,1,0,0,0,0
+7,9,41-50,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',1,1,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+5,12,41-50,Android,he,'LG D855 G3','LG ',6,6-10,(direct),(none),Direct,(none),MOBILE_WEB,90,6,0,1,0,1,0,0,0,0
+1,20,11-20,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',63,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,174.333333,5,0,1,0,0,0,0,0,0
+7,8,01-10,Android,he,'Huawei CRR-L09 Mate S','Huawei ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,2205,44,0,1,0,0,1,0,0,0
+6,15,41-50,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,140,3,0,1,0,0,0,0,0,0
+2,18,51-60,iOS,he,'Apple iPhone','Apple ',328,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,639.5,21.25,1,1,0,0,0,0,0,0
+5,12,21-30,Android,en,'Samsung SM-N9006 Galaxy Note 3','Samsung ',27,21-50,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,1,0,1,0,0,0,0
+5,18,41-50,iOS,uk,'Apple iPhone','Apple ',53,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,1127,124,0,1,0,0,0,0,0,0
+7,16,31-40,Android,he,'Samsung SM-J700F Galaxy J7','Samsung ',123,51+,(direct),(none),Direct,(none),MOBILE_WEB,1163.25,45.25,0,1,0,1,1,0,0,0
+7,16,41-50,Android,en,'Minix NEO X8H Plus','Minix ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+4,18,41-50,Android,he,'Samsung SM-G610F J7 Prime','Samsung ',24,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,534.25,20.25,0,1,0,1,1,0,0,0
+3,8,31-40,Android,he,'ZTE S6 Blade S6','ZTE ',67,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,563.705882,13.117647,0,1,0,1,1,0,0,0
+4,21,31-40,iOS,he,'Apple iPhone','Apple ',20,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,414.214286,14.285714,0,1,0,1,1,0,0,0
+4,15,01-10,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',77,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,153.066667,7.666667,0,1,0,1,0,0,0,0
+3,6,11-20,iOS,he,'Apple iPhone','Apple ',8,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,727.5,23,0,1,0,0,1,0,0,0
+3,11,21-30,iOS,en,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,315,4,0,1,0,0,0,0,0,0
+2,21,31-40,Android,he,'LG H990 V20','LG ',6,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,1148,43,0,1,0,0,0,0,0,0
+7,7,11-20,iOS,he,'Apple iPhone','Apple ',6,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,171,11,0,1,0,1,0,0,0,0
+1,16,31-40,Android,en,'OnePlus A0001 One','OnePlus ',113,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,204,7,0,1,0,1,1,0,0,0
+4,9,41-50,Android,en,'Samsung SM-G920F Galaxy S6','Samsung ',41,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1071.857143,23.714286,0,1,0,0,1,0,0,0
+5,15,01-10,Android,he,'LG H815 G4','LG ',2,2,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,445,14,0,1,0,0,1,0,0,0
+4,9,21-30,Android,he,'Samsung SM-G930U Galaxy S7','Samsung ',34,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,492.75,12.5,0,1,0,0,1,0,0,0
+2,6,11-20,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',30,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,84,7,0,1,0,0,0,0,0,0
+5,22,01-10,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),MOBILE_WEB,514.333333,10.333333,0,1,0,0,0,0,0,0
+1,21,51-60,Android,en,'Samsung SM-G930F Galaxy S7','Samsung ',18,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,364,10.857143,0,1,0,0,1,0,0,0
+4,8,01-10,Android,he,'Samsung SM-G110H Galaxy Pocket 2 Duos','Samsung ',3,3,google,cpc,'Paid Search','Yad2 - Brand E',MOBILE_WEB,1659,32.333333,0,1,0,0,1,1,1,0
+7,12,01-10,Android,he,'Samsung SM-G925F Galaxy S6 Edge','Samsung ',42,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,388,17,0,1,0,1,0,0,0,0
+3,13,11-20,Android,he,'Samsung GT-I9500 Galaxy S IV','Samsung ',5,4-5,google,organic,'Organic Search',(none),MOBILE_WEB,776,17,0,1,0,0,0,0,0,0
+7,22,01-10,Android,he,'Samsung GT-I9500 Galaxy S IV','Samsung ',32,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,1151.545455,21.545455,0,1,0,0,0,0,0,0
+5,22,01-10,Android,ru,'Samsung SM-G920F Galaxy S6','Samsung ',36,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,510.666667,6.666667,0,1,0,0,0,0,0,0
+3,11,41-50,Android,fr,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,306,20,0,1,0,0,0,0,0,0
+4,15,11-20,iOS,he,'Apple iPhone','Apple ',274,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,184.75,13.25,0,1,0,0,0,0,0,0
+6,22,01-10,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',1,1,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,552,15.666667,0,1,0,1,0,0,0,0
+7,20,41-50,Android,he,'Samsung SM-E500F Galaxy E5','Samsung ',347,51+,google,organic,'Organic Search',(none),MOBILE_WEB,1010.45,21.5,0,1,0,0,1,0,0,0
+3,5,41-50,Android,he,'LG D855 G3','LG ',113,51+,(direct),(none),Direct,(none),MOBILE_WEB,46.4,4.2,0,1,0,0,0,0,0,0
+6,8,01-10,Android,he,'Samsung SM-J500F Galaxy J5','Samsung ',8,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,100,4,0,1,0,0,0,0,0,0
+2,11,21-30,iOS,ru,'Apple iPhone','Apple ',40,21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,780.333333,26.833333,0,1,0,1,0,0,0,0
+6,22,01-10,iOS,ru,'Apple iPhone','Apple ',78,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,722.461538,28.307692,0,1,0,1,1,0,0,0
+7,17,41-50,Android,he,'Google Nexus 5','Google ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,1210,14,0,1,0,0,0,0,0,0
+2,14,31-40,iOS,he,'Apple iPhone','Apple ',33,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,99.875,5.5,0,1,0,0,0,0,0,0
+4,19,21-30,iOS,he,'Apple iPhone','Apple ',73,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,653.727273,20.727273,0,1,0,1,0,0,0,0
+3,12,31-40,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',34,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,888,21,0,1,0,0,0,0,0,0
+5,18,01-10,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,549,4,0,1,0,0,0,0,0,0
+7,10,21-30,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+2,19,11-20,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),MOBILE_WEB,130,4,0,1,0,0,0,0,0,0
+3,5,41-50,Android,en,'(not set)','(not ',36,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,795.470588,14.529412,0,1,0,1,0,0,0,0
+7,21,51-60,iOS,en,'Apple iPhone','Apple ',36,21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,233,8.333333,0,1,0,0,0,0,0,0
+1,7,51-60,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',85,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,295,12.333333,0,1,0,1,1,0,0,0
+2,8,41-50,iOS,en,'Apple iPhone','Apple ',438,51+,(direct),(none),Direct,(none),MOBILE_WEB,178.179487,3.871795,0,1,0,0,0,0,0,0
+7,14,01-10,Android,en,'(not set)','(not ',16,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,252,25,0,1,0,1,1,0,0,0
+4,18,21-30,Android,en,'(not set)','(not ',86,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,490.5,43.5,1,1,0,1,1,1,0,0
+5,6,41-50,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',2,2,(direct),(none),Direct,(none),MOBILE_WEB,429,23,0,1,0,0,0,0,0,0
+6,9,01-10,Android,ar,'(not set)','(not ',94,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,252.5,7.166667,0,1,0,0,0,0,0,0
+1,13,31-40,Android,he,'LG D855 G3','LG ',31,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,185,6,0,1,0,1,0,0,0,0
+6,8,01-10,Android,he,'Huawei EVA-L09 P9 Standard Edition','Huawei ',115,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,454,22,0,1,0,1,1,0,0,0
+1,10,41-50,iOS,he,'Apple iPhone','Apple ',3,3,google,organic,'Organic Search',(none),MOBILE_WEB,168,12,0,1,0,0,0,1,0,0
+3,7,21-30,Android,en,'Samsung SM-G900A Galaxy S5','Samsung ',79,51+,(direct),(none),Direct,(none),MOBILE_WEB,57,4,0,1,0,1,0,0,0,0
+7,8,21-30,Android,he,'Samsung SM-G925F Galaxy S6 Edge','Samsung ',57,51+,google,organic,'Organic Search',(none),MOBILE_WEB,164.666667,6,0,1,0,0,0,0,0,0
+1,19,41-50,iOS,fr,'Apple iPhone','Apple ',32,21-50,google,cpc,'Paid Search','Yad2 - Brand E',MOBILE_WEB,1263.875,21.875,0,1,0,1,1,0,0,0
+3,13,21-30,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',1099,51+,google,organic,'Organic Search',(none),MOBILE_WEB,897.954545,9.363636,0,1,0,0,0,0,0,0
+6,12,51-60,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',99,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,376.5,10.5,0,1,0,1,0,0,0,0
+3,18,41-50,Android,he,'Meizu M3s','Meizu ',104,51+,google,organic,'Organic Search',(none),MOBILE_WEB,504.833333,8,0,1,0,0,1,0,0,0
+7,8,11-20,Android,he,'LG D802 G2','LG ',23,21-50,(direct),(none),Direct,(none),MOBILE_WEB,893.666667,16.333333,0,1,0,1,0,0,0,0
+3,13,51-60,Android,he,'HTC One M7','HTC ',15,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,964,23,0,1,0,1,1,0,0,0
+4,10,21-30,Android,pt,'Samsung SM-G531M Galaxy Grand Prime','Samsung ',89,51+,google,organic,'Organic Search',(none),MOBILE_WEB,131,5,0,1,0,0,0,0,0,0
+3,11,21-30,Android,he,'(not set)','(not ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,168,5,0,1,0,0,0,0,0,0
+2,9,01-10,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,93,5,0,1,0,0,0,0,0,0
+3,9,41-50,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',3,3,google,organic,'Organic Search',(none),MOBILE_WEB,421.333333,6,0,1,0,1,0,0,0,0
+7,16,41-50,iOS,he,'Apple iPhone','Apple ',5,4-5,(direct),(none),Direct,(none),MOBILE_WEB,614,35,0,1,0,0,0,0,0,0
+3,17,41-50,Android,en,'(not set)','(not ',4,4-5,google,organic,'Organic Search',(none),MOBILE_WEB,428.5,11.25,0,1,0,0,0,0,0,0
+6,12,51-60,iOS,he,'Apple iPhone','Apple ',240,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,2054,39.5,1,1,0,0,0,1,0,0
+6,7,11-20,Android,he,'LG D802 G2','LG ',19,11-20,(direct),(none),Direct,(none),MOBILE_WEB,341,17,0,1,0,0,0,0,0,0
+5,22,31-40,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',69,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,16,2,0,1,0,1,0,0,0,0
+2,12,01-10,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',32,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,163.933333,5.8,0,1,0,0,0,0,0,0
+3,9,21-30,iOS,en,'Apple iPhone','Apple ',523,51+,google,organic,'Organic Search',(none),MOBILE_WEB,324.657895,2.763158,0,1,0,1,0,0,0,0
+2,8,01-10,iOS,en,'Apple iPhone','Apple ',3,3,google,organic,'Organic Search',(none),MOBILE_WEB,372.5,15,0,1,0,1,0,0,0,0
+4,14,11-20,iOS,ar,'Apple iPhone','Apple ',3,3,google,organic,'Organic Search',(none),MOBILE_WEB,131,3,0,1,0,0,0,0,0,0
+6,20,51-60,iOS,en,'Apple iPhone','Apple ',18,11-20,(direct),(none),Direct,(none),MOBILE_APP_IOS,348.5,17,0,1,0,1,1,0,0,0
+2,14,41-50,iOS,he,'Apple iPhone','Apple ',4,4-5,google,organic,'Organic Search',(none),MOBILE_WEB,1763.25,13.75,0,1,0,0,1,0,0,0
+6,4,31-40,Android,he,'Feiteng GT-i9300','Feiteng ',297,51+,(direct),(none),Direct,(none),MOBILE_WEB,468,13.666667,0,1,0,0,0,0,0,0
+6,22,21-30,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',14,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,138.5,8.5,0,1,0,1,0,0,0,0
+2,19,41-50,Android,he,'Samsung SM-N9006 Galaxy Note 3','Samsung ',17,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1362,11,0,1,1,0,0,0,0,0
+4,19,31-40,Android,he,'LG H735 G4 Beat','LG ',78,51+,google,organic,'Organic Search',(none),MOBILE_WEB,434.588235,16.352941,0,1,0,1,0,1,0,0
+6,21,01-10,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+4,15,51-60,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',60,51+,google,organic,'Organic Search',(none),MOBILE_WEB,233,12.333333,0,1,0,1,1,0,0,0
+4,19,21-30,Android,en,'Xiaomi Redmi Note 2 Redmi Note 2','Xiaomi ',11,11-20,(direct),(none),Direct,(none),MOBILE_WEB,620,13.6,0,1,0,1,1,0,0,0
+6,16,41-50,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',13,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,723,7,0,1,0,0,0,0,0,0
+4,6,51-60,Android,ru,'Asus ASUS_Z00AD ZenFone 2','Asus ',148,51+,(direct),(none),Direct,(none),MOBILE_WEB,1609.4375,22.8125,0,1,0,1,0,0,0,0
+1,18,41-50,Android,he,'Lenovo TB2-X30F TAB 2 A10-30','Lenovo ',5,4-5,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,206,6,0,1,0,1,0,0,0,0
+3,15,11-20,Android,ru,'Samsung SM-J700H Galaxy J7','Samsung ',530,51+,(direct),(none),Direct,(none),MOBILE_WEB,663.357143,27.428571,0,1,0,0,0,0,0,0
+2,11,21-30,Android,he,'LG D802T G2','LG ',60,51+,Whatsapp,'(not set)',(Other),m-ToAd,MOBILE_WEB,853.65,22.8,0,1,0,0,0,0,0,0
+4,14,31-40,Android,he,'Samsung SM-E500F Galaxy E5','Samsung ',221,51+,google,organic,'Organic Search',(none),MOBILE_WEB,333.285714,11.857143,0,1,0,0,0,0,0,0
+5,18,31-40,Android,he,'LG H815 G4','LG ',159,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,333.5,16,0,1,0,1,1,0,0,0
+1,17,31-40,iOS,he,'Apple iPad','Apple ',4,4-5,(direct),(none),Direct,(none),MOBILE_APP_IOS,1165,25,0,1,0,1,0,0,0,0
+6,17,41-50,Android,he,'Meizu M2 Note M2 Note','Meizu ',14,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,181,13,0,1,0,1,0,0,0,0
+2,13,21-30,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',10,6-10,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+6,15,21-30,Android,he,'LG H960 V10','LG ',106,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,93,5,0,1,0,1,0,0,0,0
+3,15,01-10,Android,he,'LG D855 G3','LG ',93,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,505,7.714286,0,1,0,1,0,0,0,0
+7,7,11-20,Android,he,'Huawei CRR-L09 Mate S','Huawei ',6,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,83,3.5,0,1,0,1,1,0,0,0
+4,18,01-10,Android,ru,'Huawei EVA-L09 P9 Standard Edition','Huawei ',19,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1493.8,51.2,0,1,0,1,0,0,0,0
+3,10,01-10,iOS,he,'Apple iPhone','Apple ',2,2,google,organic,'Organic Search',(none),MOBILE_WEB,452.5,11,0,1,0,0,0,0,0,0
+4,14,11-20,Android,he,'Samsung GT-S6310N Galaxy Young','Samsung ',55,51+,(direct),(none),Direct,(none),MOBILE_WEB,102.5,4,0,1,0,1,0,0,0,0
+1,21,21-30,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,1276,47,0,1,0,0,1,0,0,0
+7,12,11-20,iOS,he,'Apple iPhone','Apple ',6,6-10,(direct),(none),Direct,(none),MOBILE_APP_IOS,614,11.5,0,1,0,1,0,1,0,0
+3,14,41-50,Android,he,'LG D620 G2 Mini','LG ',2,2,(direct),(none),Direct,(none),MOBILE_WEB,1078,17,0,1,0,1,0,0,0,0
+3,7,31-40,iOS,he,'Apple iPhone','Apple ',116,51+,google,organic,'Organic Search',(none),MOBILE_WEB,658.5,17.25,0,1,0,1,0,0,0,0
+6,6,31-40,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',42,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,467.5,2.75,0,1,0,0,1,0,0,0
+7,0,41-50,iOS,en,'Apple iPhone','Apple ',2,2,google,organic,'Organic Search',(none),MOBILE_WEB,983,15,0,1,0,0,0,0,0,0
+7,18,31-40,Android,he,'Samsung SM-A500F Galaxy A5','Samsung ',1132,51+,(direct),(none),Direct,(none),MOBILE_WEB,685.625,19.875,0,1,0,1,0,0,0,0
+4,17,31-40,Android,he,'LG H815 G4','LG ',146,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,230.25,14.25,0,1,0,1,0,0,0,0
+4,13,41-50,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',23,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,109,7,0,1,0,0,0,0,0,0
+2,11,51-60,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',46,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,307.111111,10.111111,0,1,0,1,0,0,0,0
+1,11,51-60,iOS,fr,'Apple iPhone','Apple ',121,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,522,11.5,0,1,0,1,0,0,0,0
+5,6,51-60,Android,he,'Samsung SM-N900 Galaxy Note 3','Samsung ',8,6-10,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,359,13,0,1,0,0,0,1,0,0
+1,6,41-50,iOS,he,'Apple iPhone','Apple ',5,4-5,(direct),(none),Direct,(none),MOBILE_APP_IOS,2333,89,0,1,0,0,0,0,0,0
+1,5,11-20,iOS,es,'Apple iPhone','Apple ',15,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,626,16,0,1,0,1,1,0,0,0
+4,8,11-20,Android,he,'Xiaomi Redmi Note 4','Xiaomi ',40,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1029.4,16.2,0,1,0,1,1,1,0,0
+3,20,11-20,iOS,en,'Apple iPhone','Apple ',41,21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,260.5,25,0,1,0,0,0,0,0,0
+4,17,11-20,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',166,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,756.5,18.583333,0,1,0,1,0,0,0,0
+1,19,31-40,Android,he,'LG LG-H850 G Flex 2','LG ',107,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,421.5,9.4,0,1,0,0,0,1,0,0
+2,15,11-20,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',900,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,399.138889,4.277778,0,1,0,1,0,0,0,0
+2,16,51-60,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',23,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,420,16.4,0,1,0,1,0,0,0,0
+5,7,01-10,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',11,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,50,3,0,1,0,1,0,0,0,0
+2,8,51-60,Android,he,'LG D722 G3 Mini','LG ',144,51+,google,organic,'Organic Search',(none),MOBILE_WEB,1036.2,15,0,1,0,0,0,0,0,0
+3,10,31-40,iOS,he,'Apple iPhone','Apple ',587,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,575.157895,19.052632,0,1,0,0,1,0,0,0
+3,17,51-60,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',7,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,1566,46,0,1,0,1,0,0,0,0
+1,17,41-50,Android,he,'LG D855 G3','LG ',4,4-5,google,cpc,'Paid Search','Yad2 - Brand+Product',MOBILE_WEB,551,12.25,0,1,0,0,1,0,0,0
+3,17,01-10,Android,he,'LG H736','LG ',10,6-10,metasearch.co.il,referral,Referral,(none),MOBILE_WEB,278.25,7.25,0,1,0,0,0,0,0,0
+3,14,21-30,iOS,he,'Apple iPhone','Apple ',175,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,745.25,11.75,0,1,0,1,0,1,0,0
+7,13,31-40,Android,en,'Samsung SM-J500H Galaxy J5','Samsung ',11,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,111,5,0,1,0,1,1,0,0,0
+3,19,41-50,Android,he,'Xiaomi Redmi Note 2 Redmi Note 2','Xiaomi ',13,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,213,3,0,1,0,1,0,0,0,0
+4,20,11-20,Android,en,'Samsung SM-G930F Galaxy S7','Samsung ',68,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,459.5,15.166667,0,1,0,0,1,0,0,0
+6,7,41-50,Android,he,'Sony D5803 Xperia Z3 Compact','Sony ',14,11-20,(direct),(none),Direct,(none),MOBILE_WEB,194,7,0,1,0,0,0,0,0,0
+1,8,21-30,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',146,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,403,10.25,0,1,0,0,0,0,0,0
+1,1,01-10,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',61,51+,google,organic,'Organic Search',(none),MOBILE_WEB,355.8,14,0,1,0,1,1,0,0,0
+1,12,01-10,iOS,he,'Apple iPhone','Apple ',33,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,526,12,0,1,0,0,0,0,0,0
+7,4,41-50,Android,en,'BlackBerry STV100-1 Priv','BlackBerry ',37,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1328,28,0,1,0,0,0,0,0,0
+4,17,31-40,iOS,he,'Apple iPhone','Apple ',23,21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,110,4,0,1,0,1,0,0,0,0
+2,20,51-60,iOS,ru,'Apple iPhone','Apple ',4,4-5,google,organic,'Organic Search',(none),MOBILE_WEB,649,32,0,1,0,1,1,0,0,0
+4,13,11-20,iOS,he,'Apple iPhone','Apple ',15,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,740,9,0,1,0,0,0,0,0,0
+1,8,01-10,Android,he,'Google Nexus 5','Google ',80,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,719.666667,23,0,1,0,1,0,0,0,0
+2,9,41-50,Android,he,'Samsung SM-N910F Galaxy Note 4','Samsung ',330,51+,(direct),(none),Direct,(none),MOBILE_WEB,236.5,6,0,1,0,0,0,0,0,0
+7,17,21-30,Android,ru,'Samsung SM-N920C Galaxy Note 5','Samsung ',28,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,100.6,4,0,1,0,1,1,0,0,0
+7,6,11-20,iOS,en,'Apple iPhone','Apple ',64,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,140,9,0,1,0,0,0,0,0,0
+3,14,31-40,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+2,21,31-40,Android,he,'Huawei ALE-L02 P8 Lite','Huawei ',134,51+,google,organic,'Organic Search',(none),MOBILE_WEB,600.454545,17.318182,0,1,0,0,1,0,0,0
+1,1,01-10,Android,he,'Samsung GT-I9300 Galaxy S III','Samsung ',30,21-50,(direct),(none),Direct,(none),MOBILE_WEB,26,2,0,1,0,0,0,0,0,0
+4,15,41-50,Android,he,'Xiaomi Redmi Note 4','Xiaomi ',87,51+,(direct),(none),Direct,(none),MOBILE_WEB,993.411765,24.764706,0,1,0,1,1,1,0,0
+1,12,51-60,Android,he,'Samsung SM-J120M Galaxy J1 2016','Samsung ',534,51+,(direct),(none),Direct,(none),MOBILE_WEB,760.428571,21.714286,0,1,0,1,0,0,0,0
+4,8,21-30,Android,he,'Samsung GT-I9500 Galaxy S IV','Samsung ',884,51+,google,organic,'Organic Search',(none),MOBILE_WEB,324.5,12.833333,0,1,0,0,0,0,0,0
+2,23,11-20,iOS,en,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,94,5,0,1,0,1,0,0,0,0
+4,18,51-60,Android,he,'LG H815 G4','LG ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,112,5,0,1,0,0,0,0,0,0
+5,8,21-30,iOS,he,'Apple iPhone','Apple ',407,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,18.666667,3,0,1,0,1,0,0,0,0
+3,10,21-30,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),MOBILE_WEB,366,12,0,1,0,0,0,0,0,0
+6,11,51-60,Android,he,'Feiteng S4','Feiteng ',2,2,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+5,23,11-20,Android,he,'Xiaomi Mi Note Pro Mi Note Pro','Xiaomi ',276,51+,(direct),(none),Direct,(none),MOBILE_WEB,161.5,6,0,1,0,1,1,1,0,0
+5,23,11-20,Android,he,'LG D855 G3','LG ',25,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,1157.5,6.5,0,1,0,0,0,0,0,0
+1,22,21-30,Android,he,'Samsung SM-A500F Galaxy A5','Samsung ',15,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,1012.5,21.5,0,1,0,0,0,0,0,0
+5,10,21-30,Android,he,'LG D802 G2','LG ',17,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,236,6,0,1,0,1,0,0,0,0
+2,8,31-40,Android,he,'LG F670S K10','LG ',1,1,(direct),(none),Direct,(none),MOBILE_WEB,315,6,0,1,0,0,0,0,0,0
+2,12,11-20,iOS,ar,'Apple iPhone','Apple ',21,21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,1340.333333,32.333333,0,1,0,0,0,0,0,0
+7,3,21-30,Android,he,'LG H815 G4','LG ',2,2,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,737,46,0,1,0,1,0,0,0,0
+6,19,31-40,Android,he,'LG D855 G3','LG ',547,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,2124.428571,63.071429,0,1,0,0,0,0,0,0
+1,16,31-40,iOS,he,'Apple iPad','Apple ',38,21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,276.5,6,0,1,0,1,0,0,0,0
+5,7,11-20,Android,he,'Samsung SM-G925F Galaxy S6 Edge','Samsung ',79,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,301,23,0,1,0,0,1,0,0,0
+1,8,51-60,Android,he,'Samsung SM-J100FN Galaxy J1','Samsung ',2,2,google,organic,'Organic Search',(none),MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+5,21,41-50,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',185,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,152.75,9.5,0,1,0,0,0,0,0,0
+7,14,01-10,iOS,he,'Apple iPhone','Apple ',68,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,465.666667,6,0,1,0,0,0,0,0,0
+2,19,31-40,Android,he,'Feiteng GT-i9300','Feiteng ',33,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,1107.142857,24.857143,0,1,0,1,1,0,0,0
+1,6,41-50,Android,he,'Samsung SM-N910F Galaxy Note 4','Samsung ',41,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,117,3.8,0,1,0,0,0,0,0,0
+4,10,41-50,Android,he,'LG LG-H850 G Flex 2','LG ',45,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,165.5,3.5,0,1,0,0,0,0,0,0
+6,15,11-20,Android,he,'Samsung GT-I9500 Galaxy S IV','Samsung ',89,51+,google,organic,'Organic Search',(none),MOBILE_WEB,494,10,0,1,0,1,1,0,0,0
+1,9,11-20,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',1,1,(direct),(none),Direct,(none),MOBILE_WEB,93,5,0,1,0,0,0,0,0,0
+7,22,01-10,Android,ru,'Samsung SM-G925F Galaxy S6 Edge','Samsung ',203,51+,(direct),(none),Direct,(none),MOBILE_WEB,684.714286,33.142857,0,1,0,0,1,0,0,0
+3,13,51-60,Android,en,'LG D802 G2','LG ',1,1,(direct),(none),Direct,(none),MOBILE_WEB,77,6,0,1,0,1,0,0,0,0
+4,14,41-50,Android,he,'Samsung SM-E500F Galaxy E5','Samsung ',51,51+,google,organic,'Organic Search',(none),MOBILE_WEB,1418.6,40.44,0,1,0,0,0,0,0,0
+3,3,41-50,iOS,he,'Apple iPhone','Apple ',11,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,263.666667,7.333333,0,1,0,1,0,0,0,0
+7,18,41-50,Android,ru,'Samsung SM-G930F Galaxy S7','Samsung ',32,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,2488.666667,47,0,1,0,1,0,0,0,0
+6,18,21-30,Android,he,'LG V400 G Pad 7.0','LG ',21,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,2558,35,0,1,0,0,0,0,0,0
+4,19,21-30,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',6,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,1394,76,0,1,0,0,1,1,0,0
+6,22,01-10,Android,he,'LG D855 G3','LG ',151,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,210.666667,14.333333,0,1,0,0,0,0,0,0
+5,11,11-20,Android,ru,'Xiaomi Mi Max','Xiaomi ',11,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1332,27,0,1,0,1,1,1,0,0
+2,8,01-10,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',5,4-5,(direct),(none),Direct,(none),MOBILE_WEB,475,14,0,1,0,0,1,0,0,0
+7,17,31-40,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),MOBILE_WEB,1576,46,0,1,0,1,0,0,0,0
+5,6,11-20,Android,he,'Samsung SM-G530H Galaxy Grand Prime','Samsung ',5,4-5,google,organic,'Organic Search',(none),MOBILE_WEB,111,5,0,1,0,0,0,0,0,0
+5,8,51-60,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',147,51+,google,organic,'Organic Search',(none),MOBILE_WEB,730.333333,2.333333,0,1,0,1,0,1,1,0
+7,8,51-60,iOS,he,'Apple iPhone','Apple ',17,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,191,4.333333,0,1,0,0,0,0,0,0
+1,7,21-30,Android,he,'(not set)','(not ',27,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,774,23.5,0,1,0,0,1,0,0,0
+2,14,21-30,Android,ru,'Meizu PRO 5 PRO 5','Meizu ',57,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,421.555556,10.666667,0,1,0,1,0,0,0,0
+6,11,11-20,Android,he,'LG H815 G4','LG ',66,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,3205,59,0,1,0,0,0,0,0,0
+5,13,21-30,Android,he,'Samsung SM-N910F Galaxy Note 4','Samsung ',53,51+,google,cpc,'Paid Search','Yad2 - Brand E',MOBILE_WEB,87,5.333333,0,1,0,0,0,0,0,0
+7,7,41-50,iOS,he,'Apple iPhone','Apple ',2,2,google,cpc,'Paid Search','Yad2 - Brand E',MOBILE_WEB,66,3,0,1,0,0,0,0,0,0
+6,21,51-60,Android,en,'Huawei VNS-L22 P9 Lite','Huawei ',20,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,440.333333,17.333333,0,1,0,0,1,0,0,0
+3,22,01-10,Android,he,'Samsung GT-I9500 Galaxy S IV','Samsung ',61,51+,google,organic,'Organic Search',(none),MOBILE_WEB,275.5,8,0,1,0,0,0,0,0,0
+5,9,51-60,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',24,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,330,24,0,1,0,0,0,0,0,0
+4,22,01-10,Android,ru,'Sony E5823 Xperia Z5 Compact','Sony ',37,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,846,18,0,1,0,1,0,0,0,0
+6,23,51-60,Android,he,'OnePlus RAIN A3000 3','OnePlus ',17,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,2192,94,0,1,0,0,1,0,0,0
+2,4,01-10,Android,en,'Samsung SM-G850F Galaxy Alpha','Samsung ',6,6-10,(direct),(none),Direct,(none),MOBILE_WEB,1925,18.5,0,1,0,1,0,0,0,0
+6,13,31-40,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',9,6-10,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,3416,43,0,1,0,1,0,0,0,0
+6,15,01-10,iOS,he,'Apple iPhone','Apple ',17,11-20,yahoo,organic,'Organic Search',(none),MOBILE_WEB,3022.75,15.25,0,1,0,1,0,0,0,0
+2,17,31-40,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',338,51+,google,organic,'Organic Search',(none),MOBILE_WEB,412.666667,14.888889,0,1,0,0,0,0,0,0
+1,17,01-10,Android,he,'Samsung GT-N7100 Galaxy Note II','Samsung ',272,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,87.5,6.6,0,1,0,0,0,0,0,0
+3,15,31-40,Android,he,'LG F670S K10','LG ',274,51+,(direct),(none),Direct,(none),MOBILE_WEB,712.666667,9.666667,0,1,0,0,0,0,0,0
+4,8,31-40,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',4,4-5,google,organic,'Organic Search',(none),MOBILE_WEB,628,15,0,1,0,0,0,0,0,0
+2,14,01-10,Android,he,'Samsung SM-N900 Galaxy Note 3','Samsung ',3,3,google,organic,'Organic Search',(none),MOBILE_WEB,627,16,0,1,0,1,1,0,0,0
+7,14,21-30,Android,en,'Huawei CRR-L09 Mate S','Huawei ',158,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,853.5,27,0,1,0,1,1,0,0,0
+2,21,11-20,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',8,6-10,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,576.125,12.625,0,1,0,1,0,0,0,0
+1,22,01-10,Android,he,'Samsung SM-J510F Galaxy J5 (2016)','Samsung ',52,51+,google,organic,'Organic Search',(none),MOBILE_WEB,1216.666667,41.666667,0,1,0,0,0,0,0,0
+2,20,31-40,Android,he,'Meizu m3 note m3 note','Meizu ',4,4-5,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,730.5,27,0,1,1,0,0,0,0,0
+7,22,41-50,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',199,51+,(direct),(none),Direct,(none),MOBILE_WEB,356.833333,10.833333,0,1,0,0,0,0,0,0
+2,18,21-30,Android,he,'Samsung SM-T580 Galaxy Tab A 10.1','Samsung ',11,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,2444,50,0,1,0,1,0,1,0,0
+5,10,41-50,iOS,he,'Apple iPhone','Apple ',6,6-10,(direct),(none),Direct,(none),MOBILE_APP_IOS,553,29,0,1,0,1,0,0,0,0
+3,21,31-40,iOS,he,'Apple iPhone','Apple ',13,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,408.2,10.2,0,1,0,1,0,0,0,0
+2,18,51-60,Android,fi,'Samsung SM-G920F Galaxy S6','Samsung ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,2183,41,0,1,0,1,0,0,0,0
+4,1,21-30,Android,ru,'Google Nexus 5','Google ',45,21-50,(direct),(none),Direct,(none),MOBILE_WEB,3541.666667,42,0,1,0,1,0,0,0,0
+7,19,41-50,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',891,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,690.785714,9.714286,0,1,0,1,0,0,0,0
+7,13,11-20,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',4,4-5,Whatsapp,'(not set)',(Other),m-ToAd,MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+3,15,31-40,Android,he,'Google Nexus 5','Google ',44,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,661,15,0,1,0,0,1,0,0,0
+4,7,01-10,Android,he,'Samsung SM-N910F Galaxy Note 4','Samsung ',72,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,147.642857,6.357143,0,1,0,1,1,0,0,0
+5,18,41-50,iOS,he,'Apple iPhone','Apple ',291,51+,(direct),(none),Direct,(none),MOBILE_WEB,25,4,0,1,0,0,0,0,0,0
+1,13,21-30,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',14,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,501.2,13.2,0,1,0,0,1,0,0,0
+5,11,21-30,iOS,en,'Apple iPad','Apple ',53,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,136,7,0,1,0,0,0,0,0,0
+2,20,41-50,Android,en,'Samsung SM-G920F Galaxy S6','Samsung ',20,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,319.8,16.6,0,1,0,1,1,0,0,0
+6,2,01-10,Android,en,'OnePlus ONE A2001 2','OnePlus ',4,4-5,google,organic,'Organic Search',(none),MOBILE_WEB,913,24,0,1,0,1,1,0,0,0
+7,9,41-50,Android,he,'LG D855 G3','LG ',26,21-50,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+3,20,21-30,iOS,en,'Apple iPhone','Apple ',183,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,1281.5,48.5,0,1,0,1,1,0,0,0
+5,14,11-20,iOS,he,'Apple iPhone','Apple ',261,51+,google,organic,'Organic Search',(none),MOBILE_WEB,167,10,0,1,0,1,0,0,0,0
+2,12,11-20,iOS,he,'Apple iPhone','Apple ',46,21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,330.777778,4.111111,0,1,0,1,0,0,0,0
+6,16,11-20,iOS,he,'Apple iPhone','Apple ',13,11-20,(direct),(none),Direct,(none),MOBILE_APP_IOS,338,9,0,1,0,0,0,0,0,0
+7,9,11-20,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',25,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,399,16,0,1,0,0,0,0,0,0
+4,20,31-40,iOS,he,'Apple iPhone','Apple ',143,51+,(direct),(none),Direct,(none),MOBILE_WEB,279.636364,14.181818,0,1,0,0,0,0,0,0
+5,17,01-10,iOS,he,'Apple iPhone','Apple ',1021,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,442,8.2,1,1,0,0,0,0,0,0
+7,17,31-40,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',5,4-5,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,226,11,0,1,0,1,1,0,0,0
+3,23,01-10,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',7,6-10,google,cpc,'Paid Search','Yad2 - Brand E',MOBILE_WEB,934.666667,19.666667,0,1,0,0,1,0,0,0
+2,0,11-20,Android,he,'Samsung GT-I9500 Galaxy S IV','Samsung ',69,51+,(direct),(none),Direct,(none),MOBILE_WEB,421.333333,9.333333,0,1,0,0,0,0,0,0
+2,8,21-30,Android,he,'Samsung SM-J510F Galaxy J5 (2016)','Samsung ',38,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,1275.8,24.8,0,1,0,1,0,0,0,0
+7,15,51-60,iOS,en,'Apple iPhone','Apple ',3,3,google,organic,'Organic Search',(none),MOBILE_WEB,82,2,0,1,0,0,0,0,0,0
+5,6,11-20,iOS,he,'Apple iPhone','Apple ',1,1,google,cpc,'Paid Search','Yad2 - Brand E',MOBILE_WEB,1242,10,0,1,0,0,0,0,0,0
+4,3,11-20,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',163,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1127,23.75,0,1,0,0,0,0,0,0
+3,22,01-10,Android,en,'Google Nexus 6P','Google ',15,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,369,5,0,1,0,0,0,0,0,0
+7,16,21-30,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,1045,39,0,1,0,1,0,0,0,0
+3,18,51-60,iOS,he,'Apple iPhone','Apple ',44,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,320.416667,7,0,1,0,1,1,0,0,0
+7,8,51-60,Android,en,'LG H815 G4','LG ',7,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,340.5,17,0,1,0,0,0,0,0,0
+3,6,11-20,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',98,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,53,5.333333,0,1,0,0,0,0,0,0
+3,22,01-10,Android,he,'Meizu MZ-m3 note m3 note','Meizu ',1,1,search.clearch.org,referral,Referral,(none),MOBILE_WEB,273,14,0,1,0,0,0,0,0,0
+4,16,41-50,iOS,en,'Apple iPhone','Apple ',58,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,1458,28,0,1,0,0,1,0,0,0
+1,19,41-50,Android,ru,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',4,4-5,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,530,10,0,1,0,1,0,0,0,0
+2,4,41-50,Android,he,'Samsung GT-N7100 Galaxy Note II','Samsung ',201,51+,(direct),(none),Direct,(none),MOBILE_WEB,311.142857,6.642857,0,1,0,0,1,0,0,0
+4,16,51-60,Android,he,'HTC M8 One M8','HTC ',30,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,169,8,0,1,0,0,0,0,0,0
+4,7,31-40,Android,en,'LG D802 G2','LG ',37,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,277,6.5,0,1,0,1,1,0,0,0
+1,16,41-50,Android,he,'LG H815 G4','LG ',80,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,392.846154,10.846154,0,1,0,0,0,0,0,0
+3,5,11-20,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',163,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,19,2.5,0,1,0,1,0,0,0,0
+2,20,01-10,iOS,en,'Apple iPhone','Apple ',62,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,446.8,15.4,0,1,0,1,0,0,0,0
+4,9,21-30,Android,he,'LG H815 G4','LG ',39,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,315.5625,7.75,0,1,0,1,0,0,0,0
+2,15,51-60,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,1592,27,0,1,0,0,0,0,0,0
+6,4,11-20,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),MOBILE_WEB,615,14,0,1,0,0,1,0,0,0
+5,22,11-20,Android,he,'Samsung SM-J700F Galaxy J7','Samsung ',116,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,418,23.8,1,1,0,0,0,0,0,0
+5,6,01-10,iOS,he,'Apple iPhone','Apple ',53,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,780,23,0,1,0,1,0,0,0,0
+3,11,11-20,Android,he,'Samsung SM-J700F Galaxy J7','Samsung ',234,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1190.833333,37.75,0,1,1,1,1,0,0,0
+3,20,11-20,Android,he,'Google Nexus 5X','Google ',8,6-10,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,715.25,26.625,0,1,0,1,0,0,0,0
+4,12,11-20,Android,he,'LG H815 G4','LG ',117,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,947.166667,35.527778,0,1,0,0,0,0,0,0
+1,14,51-60,Android,en,'Samsung SM-G925I Galaxy S6 Edge','Samsung ',38,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,1274.666667,41,0,1,0,0,0,0,0,0
+4,10,11-20,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',332,51+,(direct),(none),Direct,(none),MOBILE_WEB,1505.045455,26,0,1,0,1,1,0,0,0
+3,15,01-10,iOS,en,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),MOBILE_APP_IOS,387,22.5,0,1,0,0,0,0,0,0
+7,11,41-50,iOS,he,'Apple iPhone','Apple ',16,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,121.6,5.4,0,1,0,0,0,0,0,0
+7,6,01-10,iOS,he,'Apple iPhone','Apple ',6,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,76,4,0,1,0,0,0,0,0,0
+4,12,51-60,Android,he,'Sony C6902 Xperia Z1','Sony ',3,3,google,organic,'Organic Search',(none),MOBILE_WEB,1296.333333,18.666667,0,1,0,0,1,0,0,0
+2,8,51-60,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',37,21-50,AdExpired,email,Email,AdExpired,MOBILE_WEB,129,2,0,1,0,0,0,0,0,0
+5,15,11-20,Android,he,'Samsung SM-J700F Galaxy J7','Samsung ',81,51+,google,organic,'Organic Search',(none),MOBILE_WEB,102,7,0,1,0,0,0,0,0,0
+7,10,21-30,Android,he,'Samsung SM-G925F Galaxy S6 Edge','Samsung ',66,51+,Whatsapp,'(not set)',(Other),m-ToAd,MOBILE_WEB,439,14,0,1,0,0,1,0,0,0
+5,9,31-40,Android,he,'Samsung SM-G610F J7 Prime','Samsung ',31,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,2396,31,0,1,0,0,0,0,0,0
+5,4,01-10,Android,he,'LG H815 G4','LG ',8,6-10,(direct),(none),Direct,(none),MOBILE_WEB,1228,40,0,1,0,1,0,0,0,0
+7,7,51-60,Android,he,'LG D855 G3','LG ',148,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,160,7.666667,0,1,0,1,0,0,0,0
+1,22,01-10,Android,en,'Samsung SM-G930F Galaxy S7','Samsung ',2,2,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,474.5,17,0,1,0,1,0,0,0,0
+2,21,31-40,iOS,he,'Apple iPhone','Apple ',527,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,431.166667,19,1,1,0,1,0,0,0,0
+4,19,21-30,iOS,en,'Apple iPhone','Apple ',101,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,152,9,0,1,0,1,0,0,0,0
+1,5,51-60,Android,he,'Samsung GT-I9500 Galaxy S IV','Samsung ',4,4-5,(direct),(none),Direct,(none),MOBILE_WEB,2152,37,0,1,0,0,0,0,0,0
+5,17,31-40,Android,he,'LG D802 G2','LG ',322,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,174,7,0,1,0,0,0,0,0,0
+5,17,01-10,Android,he,'LG D855 G3','LG ',12,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,569,15,0,1,0,1,0,0,0,0
+3,18,31-40,Android,ru,'Samsung SM-G920F Galaxy S6','Samsung ',12,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,1389.916667,41.75,0,1,0,0,0,0,0,0
+3,12,21-30,Android,he,'Samsung SM-N900T Galaxy Note 3','Samsung ',293,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,642.1,19.25,0,1,0,1,1,0,0,0
+7,8,51-60,iOS,he,'Apple iPhone','Apple ',4,4-5,google,organic,'Organic Search',(none),MOBILE_WEB,187,8,0,1,0,1,0,0,0,0
+3,19,51-60,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',6,6-10,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,982.5,28.5,0,1,0,0,0,0,0,0
+2,18,21-30,Android,en,'Samsung GT-I9500 Galaxy S IV','Samsung ',34,21-50,(direct),(none),Direct,(none),MOBILE_WEB,498.166667,5.166667,0,1,0,0,0,0,0,0
+4,15,01-10,Android,he,'Samsung SM-J510F Galaxy J5 (2016)','Samsung ',33,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,842,18.625,0,1,0,0,0,0,0,0
+3,17,51-60,Android,he,'Samsung SM-N910C Galaxy Note 4','Samsung ',242,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,173,6.5,0,1,0,1,0,0,0,0
+2,21,01-10,Android,he,'Samsung SM-J700H Galaxy J7','Samsung ',81,51+,(direct),(none),Direct,(none),MOBILE_WEB,263.333333,12.333333,0,1,0,1,1,0,0,0
+5,17,21-30,Android,he,'LG H815 G4','LG ',29,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,666,17,0,1,0,0,0,0,0,0
+2,4,31-40,Android,he,'LG H815 G4','LG ',7,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+1,7,41-50,Android,he,'Xiaomi Redmi 3S','Xiaomi ',50,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,684.571429,10.714286,0,1,0,1,0,0,0,0
+2,4,31-40,Android,he,'Samsung SM-A510F Galaxy A5 2016 Duos','Samsung ',311,51+,(direct),(none),Direct,(none),MOBILE_WEB,605.833333,14.5,0,1,0,0,0,0,0,0
+6,15,51-60,iOS,en,'Apple iPhone','Apple ',9,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+4,14,41-50,Android,he,'LG D855 G3','LG ',8,6-10,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1277.333333,31.333333,0,1,0,1,1,0,0,0
+2,16,11-20,iOS,ru,'Apple iPhone','Apple ',5,4-5,clipboard,'(not set)',(Other),m-ToAd,MOBILE_WEB,20,1,0,1,0,0,0,0,0,0
+3,13,31-40,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',2,2,(direct),(none),Direct,(none),MOBILE_WEB,1288.5,16.5,0,1,0,0,0,0,0,0
+5,18,01-10,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',50,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,779,11,0,1,0,1,1,0,0,0
+3,14,31-40,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',122,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,492.4,37.4,0,1,0,0,0,0,0,0
+2,6,31-40,iOS,he,'Apple iPhone','Apple ',134,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,2029.25,35.75,0,1,1,0,0,0,0,0
+6,9,41-50,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',45,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,124,13,0,1,0,0,0,0,0,0
+4,8,01-10,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',191,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,521.6,16,0,1,0,0,0,0,0,0
+3,14,11-20,Android,en,'Google Nexus 5X','Google ',621,51+,google,organic,'Organic Search',(none),MOBILE_WEB,55.703704,2.851852,0,1,0,0,0,0,0,0
+1,14,31-40,iOS,ar,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,88,6,0,1,0,0,0,0,0,0
+3,21,01-10,iOS,en,'Apple iPhone','Apple ',28,21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,444.8,34.6,0,1,0,0,0,0,0,0
+2,11,41-50,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',212,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,370.8,15.8,0,1,0,1,0,0,0,0
+3,18,41-50,iOS,he,'Apple iPhone','Apple ',78,51+,google,organic,'Organic Search',(none),MOBILE_WEB,20.5,3.5,0,1,0,0,0,0,0,0
+4,7,31-40,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',8,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,327,19,0,1,0,1,1,0,0,0
+4,19,31-40,Android,he,'LG D855 G3','LG ',52,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,865.857143,26.571429,0,1,0,1,0,1,0,0
+1,12,51-60,iOS,he,'Apple iPhone','Apple ',307,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,1458.5,45.5,0,1,0,1,0,0,0,0
+6,12,21-30,iOS,he,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),MOBILE_APP_IOS,72,3,0,1,0,1,0,0,0,0
+6,12,31-40,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',4,4-5,google,cpc,'Paid Search','Yad2 - Brand+Product',MOBILE_WEB,95.666667,4,0,1,0,0,0,0,0,0
+6,4,31-40,Android,he,'LG K420 K10 LTE','LG ',120,51+,google,organic,'Organic Search',(none),MOBILE_WEB,285.75,14.75,0,1,0,0,0,0,0,0
+3,11,31-40,Android,he,'Meizu M2 Note M2 Note','Meizu ',8,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,446.846154,12.846154,0,1,0,0,0,0,0,0
+7,18,31-40,Android,he,'Samsung SM-J510F Galaxy J5 (2016)','Samsung ',5,4-5,google,organic,'Organic Search',(none),MOBILE_WEB,138,3.5,0,1,0,0,0,0,0,0
+3,17,21-30,Android,he,'Huawei G7-L01 Ascend G760-L01','Huawei ',19,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,208,6,0,1,0,1,1,0,0,0
+6,6,41-50,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',122,51+,google,cpc,'Paid Search','Yad2 - Brand+Product',MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+5,7,11-20,iOS,he,'Apple iPhone','Apple ',515,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,185,8,0,1,0,1,0,0,0,0
+1,22,21-30,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',38,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,253.181818,5.272727,0,1,0,1,0,0,0,0
+2,10,11-20,Android,he,'Samsung SM-A500F','Samsung ',118,51+,google,cpc,'Paid Search','Yad2 - Brand+Product',MOBILE_WEB,223,12.5,0,1,0,0,0,0,0,0
+1,22,01-10,iOS,en,'Apple iPhone','Apple ',117,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,443.133333,9.266667,0,1,0,0,1,0,0,0
+2,21,21-30,Android,en,'Huawei EVA-L09 P9 Standard Edition','Huawei ',9,6-10,(direct),(none),Direct,(none),MOBILE_WEB,209.5,9,0,1,0,1,0,0,0,0
+7,0,51-60,Android,en,'Samsung SM-G920F Galaxy S6','Samsung ',117,51+,Whatsapp,'(not set)',(Other),m-ToAd,MOBILE_WEB,20.8,2.2,0,1,0,1,0,0,0,0
+2,17,01-10,Android,he,'Samsung SM-N910F Galaxy Note 4','Samsung ',295,51+,(direct),(none),Direct,(none),MOBILE_WEB,1338,8.5,0,1,0,0,0,0,0,0
+3,19,31-40,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',296,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,216,5.947368,0,1,0,1,0,1,0,0
+4,14,31-40,Android,he,'LG D405 L90','LG ',3,3,google,organic,'Organic Search',(none),MOBILE_WEB,124,4,0,1,0,1,0,0,0,0
+2,19,41-50,Android,ru,'Sony D6503 Xperia Z2','Sony ',13,11-20,(direct),(none),Direct,(none),MOBILE_WEB,2689,40,0,1,0,1,1,0,0,0
+4,11,21-30,Android,he,'Xiaomi Redmi Note 4','Xiaomi ',7,6-10,(direct),(none),Direct,(none),MOBILE_WEB,193.714286,14,0,1,0,0,0,0,0,0
+7,21,11-20,iOS,en,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,2790,21,0,1,0,0,0,0,0,0
+7,22,11-20,iOS,he,'Apple iPhone','Apple ',533,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,1088,81.666667,0,1,0,0,1,0,0,0
+7,9,21-30,Android,he,'Samsung SM-G900A Galaxy S5','Samsung ',3,3,google,organic,'Organic Search',(none),MOBILE_WEB,2707,28,0,1,0,0,1,0,0,0
+7,1,51-60,Android,en,'Asus ASUS_Z00AD ZenFone 2','Asus ',63,51+,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,1,0,1,0,0,0,0
+7,8,21-30,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',180,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,349.666667,18.333333,0,1,0,0,0,0,0,0
+7,22,01-10,iOS,he,'Apple iPhone','Apple ',4,4-5,google,organic,'Organic Search',(none),MOBILE_WEB,1658.375,30.625,0,1,0,0,0,0,0,0
+2,19,51-60,iOS,he,'Apple iPhone','Apple ',321,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,59.666667,2.833333,0,1,0,0,1,0,0,0
+2,14,01-10,Android,en,'Samsung SM-G900A Galaxy S5','Samsung ',63,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,818.5,41.25,0,1,0,1,1,0,0,0
+1,15,51-60,Android,ru,'Huawei EVA-L09 P9 Standard Edition','Huawei ',3,3,(direct),(none),Direct,(none),MOBILE_WEB,1203,28.333333,0,1,0,1,1,0,0,0
+1,22,11-20,iOS,he,'Apple iPhone','Apple ',33,21-50,google,cpc,'Paid Search','Yad2 - Brand+Product',MOBILE_WEB,1613.368421,31.526316,0,1,0,1,1,0,0,0
+4,11,31-40,Android,he,'Xiaomi Redmi 3S','Xiaomi ',116,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,452.6,19.2,0,1,0,0,0,0,0,0
+3,19,21-30,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',551,51+,google,organic,'Organic Search',(none),MOBILE_WEB,506.125,12.3125,0,1,0,0,0,0,0,0
+5,20,21-30,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',68,51+,google,organic,'Organic Search',(none),MOBILE_WEB,799.666667,5.333333,0,1,0,0,0,0,0,0
+5,15,11-20,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',331,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1023.666667,10.5,0,1,0,0,0,0,0,0
+6,21,41-50,iOS,he,'Apple iPhone','Apple ',207,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,850,46,1,1,0,1,0,0,0,0
+2,9,41-50,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',8,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,302.75,16.125,0,1,0,1,1,0,0,0
+2,8,51-60,iOS,he,'Apple iPhone','Apple ',2,2,google,organic,'Organic Search',(none),MOBILE_WEB,175,8,0,1,0,1,1,0,0,0
+3,20,41-50,Android,he,'LG H850 G Flex 2','LG ',18,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,1703,28,0,1,0,1,0,0,0,0
+6,17,01-10,iOS,he,'Apple iPhone','Apple ',144,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,210,7,0,1,0,0,0,0,0,0
+4,7,11-20,Android,he,'LG D800 G2','LG ',17,11-20,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+2,10,21-30,Android,en,'LG H955 G Flex 2','LG ',208,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,206.571429,2.428571,0,1,0,1,1,0,0,0
+5,19,01-10,iOS,en,'Apple iPhone','Apple ',3,3,google,organic,'Organic Search',(none),MOBILE_WEB,73.666667,4.333333,0,1,0,0,0,0,0,0
+7,23,21-30,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',9,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,415.5,12.5,0,1,0,1,0,0,0,0
+3,17,01-10,iOS,he,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),MOBILE_WEB,185,8,0,1,0,1,0,0,0,0
+5,21,41-50,Android,en,'OnePlus A3003 3','OnePlus ',14,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,468,7.25,0,1,0,1,1,0,0,0
+5,22,01-10,Android,he,'Feiteng GT-i9300','Feiteng ',42,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,1121.571429,36.571429,0,1,0,0,1,0,0,0
+1,6,41-50,Android,en,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',115,51+,google,cpc,'Paid Search','Yad2 - Brand E',MOBILE_WEB,174,12,0,1,0,0,0,0,0,0
+5,9,31-40,Android,he,'LG D855 G3','LG ',5,4-5,(direct),(none),Direct,(none),MOBILE_WEB,183,6,0,1,0,1,1,0,0,0
+7,14,01-10,iOS,he,'Apple iPhone','Apple ',64,51+,google,organic,'Organic Search',(none),MOBILE_WEB,5403.666667,45,0,1,0,0,0,0,0,0
+7,11,51-60,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',8,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,1430,31,0,1,0,1,1,0,0,0
+3,17,41-50,Android,he,'Alcatel One Touch 6012A Idol Mini','Alcatel ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,4353,104,0,1,0,0,0,1,1,0
+4,17,31-40,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',3,3,google,organic,'Organic Search',(none),MOBILE_WEB,71,3,0,1,0,1,0,0,0,0
+6,23,51-60,Android,he,'LG H815 G4','LG ',194,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,706.8,12.2,0,1,0,1,1,0,0,0
+6,16,51-60,iOS,he,'Apple iPhone','Apple ',105,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,2304.666667,37,0,1,0,0,1,0,0,0
+2,9,11-20,Android,he,'Xiaomi Mi Max','Xiaomi ',107,51+,ad.co.il,referral,Referral,(none),MOBILE_WEB,167.294118,3.294118,0,1,0,1,0,0,0,0
+4,19,01-10,Android,he,'LG H815 G4','LG ',20,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,281,10.2,0,1,0,0,1,0,0,0
+7,9,51-60,Android,he,'Motorola XT1562 Moto X Play','Motorola ',43,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,598,19,0,1,0,0,0,0,0,0
+2,12,51-60,Android,he,'Google Nexus 5','Google ',810,51+,google,organic,'Organic Search',(none),MOBILE_WEB,128.666667,11.333333,0,1,0,0,0,0,0,0
+7,18,31-40,Android,en,'Samsung SM-T530NU Galaxy Tab 4 10.1','Samsung ',4,4-5,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,855,21,0,1,0,1,1,0,0,0
+3,17,21-30,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',27,21-50,(direct),(none),Direct,(none),MOBILE_WEB,1498.333333,23.666667,0,1,0,1,0,0,0,0
+3,4,51-60,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',38,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1322.28,32.28,1,1,0,1,1,0,0,0
+5,0,21-30,iOS,fr,'Apple iPhone','Apple ',5,4-5,google,cpc,'Paid Search','Yad2 - Brand E',MOBILE_WEB,197.6,6.8,0,1,0,1,1,0,0,0
+5,15,31-40,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',18,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,511.666667,19.666667,0,1,0,1,0,1,1,0
+3,22,31-40,Android,he,'(not set)','(not ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,1111,30,0,1,0,0,0,0,0,0
+3,8,11-20,Android,he,'LG D802 G2','LG ',352,51+,(direct),(none),Direct,(none),MOBILE_WEB,358.846154,7.538462,0,1,0,1,1,0,0,0
+7,22,01-10,Android,he,'Google Nexus 5','Google ',55,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,278.666667,17,0,1,0,0,1,0,0,0
+2,11,01-10,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',36,21-50,(direct),(none),Direct,(none),MOBILE_WEB,445.666667,3,0,1,0,0,0,0,0,0
+1,11,21-30,Android,he,'LG D855 G3','LG ',41,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,347.333333,11.555556,0,1,0,0,0,0,0,0
+3,18,41-50,iOS,it,'Apple iPhone','Apple ',199,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,150.545455,7.090909,0,1,0,1,1,0,0,0
+2,20,51-60,Android,he,'Samsung GT-I9301I Galaxy S III Neo+','Samsung ',12,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,115,5,0,1,0,1,0,0,0,0
+5,15,01-10,Android,he,'LG D855 G3','LG ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+3,8,01-10,Android,he,'Samsung SM-G925F Galaxy S6 Edge','Samsung ',394,51+,google,organic,'Organic Search',(none),MOBILE_WEB,137.142857,5.238095,0,1,0,1,0,0,0,0
+3,13,11-20,iOS,he,'Apple iPhone','Apple ',9,6-10,(direct),(none),Direct,(none),MOBILE_APP_IOS,3360,48,0,1,0,1,1,0,0,0
+6,7,01-10,Android,he,'LG H815 G4','LG ',99,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,2221.75,91.25,0,1,0,1,0,0,0,0
+2,19,21-30,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',88,51+,google,organic,'Organic Search',(none),MOBILE_WEB,740.5,27.5,0,1,0,0,0,0,0,0
+5,18,01-10,Android,he,'Samsung SM-J700F Galaxy J7','Samsung ',31,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,762,24,0,1,0,1,1,0,0,0
+4,22,01-10,Android,he,'LG D855 G3','LG ',5,4-5,google,organic,'Organic Search',(none),MOBILE_WEB,72,5,0,1,0,0,0,0,0,0
+6,17,41-50,Android,ru,'MediaTek MT6735','MediaTek ',93,51+,google,organic,'Organic Search',(none),MOBILE_WEB,857.75,38.25,0,1,1,1,0,0,0,0
+3,21,51-60,iOS,en,'Apple iPhone','Apple ',288,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,576.142857,18.714286,0,1,0,1,1,0,0,0
+4,8,31-40,Android,he,'LG H990 V20','LG ',2,2,google,organic,'Organic Search',(none),MOBILE_WEB,1052,39,0,1,0,1,1,0,0,0
+2,12,51-60,iOS,he,'Apple iPhone','Apple ',17,11-20,(direct),(none),Direct,(none),MOBILE_APP_IOS,2244.6,67.2,0,1,0,0,1,1,0,0
+2,21,11-20,Android,en,'Samsung SM-N920C Galaxy Note 5','Samsung ',1,1,(direct),(none),Direct,(none),MOBILE_WEB,116,5,0,1,0,0,0,0,0,0
+3,21,51-60,iOS,he,'Apple iPhone','Apple ',4,4-5,google,organic,'Organic Search',(none),MOBILE_WEB,904.4,9.4,0,1,0,0,0,0,0,0
+2,22,31-40,Android,he,'(not set)','(not ',164,51+,google,organic,'Organic Search',(none),MOBILE_WEB,541.692308,6.615385,0,1,0,1,0,0,0,0
+1,15,21-30,iOS,he,'Apple iPhone','Apple ',286,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,676.75,15.75,0,1,0,0,1,0,0,0
+3,14,11-20,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+4,11,51-60,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',67,51+,(direct),(none),Direct,(none),MOBILE_WEB,222.5,13.875,0,1,0,0,0,0,0,0
+3,21,31-40,iOS,en,'Apple iPhone','Apple ',20,11-20,(direct),(none),Direct,(none),MOBILE_APP_IOS,1628,27.333333,0,1,0,0,0,0,0,0
+6,19,21-30,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',132,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,483,14.5,0,1,0,1,0,0,0,0
+5,12,41-50,'Windows Phone',he,'Microsoft Lumia 535 Lumia 535','Microsoft ',7,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,0,1,0,1,0,1,0,0,0,0
+2,22,21-30,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',222,51+,(direct),(none),Direct,(none),MOBILE_WEB,414.666667,12.666667,0,1,0,0,0,0,0,0
+7,12,01-10,Android,he,'LG H815 G4','LG ',32,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,218,14.5,0,1,0,1,0,0,0,0
+1,12,11-20,iOS,ru,'Apple iPhone','Apple ',36,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,322,19,0,1,0,0,0,0,0,0
+2,23,01-10,iOS,en,'Apple iPhone','Apple ',99,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,676.75,15,0,1,0,1,1,0,0,0
+5,14,21-30,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',87,51+,google,organic,'Organic Search',(none),MOBILE_WEB,315.25,5.5,0,1,0,1,1,0,0,0
+3,21,31-40,Android,he,'LG H815 G4','LG ',98,51+,google,organic,'Organic Search',(none),MOBILE_WEB,1219.666667,35.666667,0,1,0,0,0,0,0,0
+4,15,41-50,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',138,51+,(direct),(none),Direct,(none),MOBILE_WEB,977.6,24.2,0,1,0,0,1,0,0,0
+3,1,21-30,iOS,he,'Apple iPhone','Apple ',4,4-5,(direct),(none),Direct,(none),MOBILE_APP_IOS,1098.75,16.75,0,1,0,0,0,0,0,0
+2,18,01-10,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',19,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1236,47,0,1,0,0,0,0,0,0
+5,20,41-50,iOS,ru,'Apple iPhone','Apple ',45,21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,913.6,20.8,0,1,0,1,1,0,0,0
+4,13,11-20,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',30,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,805.8,16.6,0,1,0,0,1,0,0,0
+4,20,51-60,iOS,he,'Apple iPhone','Apple ',75,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,786.142857,24,0,1,0,1,0,0,0,0
+3,7,41-50,Android,he,'LG H735 G4 Beat','LG ',11,11-20,google,cpc,'Paid Search','Yad2 - Brand+Product',MOBILE_WEB,334.666667,11.333333,0,1,0,0,0,0,0,0
+5,21,11-20,Android,ru,'LG F670S K10','LG ',5,4-5,(direct),(none),Direct,(none),MOBILE_WEB,154,6,0,1,0,0,1,0,0,0
+7,20,21-30,Android,en,'Samsung SM-G920F Galaxy S6','Samsung ',19,11-20,(direct),(none),Direct,(none),MOBILE_WEB,47.5,2.5,0,1,0,0,0,0,0,0
+2,12,11-20,Android,he,'Google Nexus 5','Google ',445,51+,(direct),(none),Direct,(none),MOBILE_WEB,377.857143,10.428571,0,1,0,0,0,0,0,0
+5,14,51-60,iOS,he,'Apple iPhone','Apple ',16,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,232,5,0,1,0,0,0,0,0,0
+5,13,51-60,iOS,he,'Apple iPhone','Apple ',56,51+,google,organic,'Organic Search',(none),MOBILE_WEB,566.5,10.5,0,1,0,0,0,0,0,0
+5,10,01-10,iOS,en,'Apple iPhone','Apple ',14,11-20,(direct),(none),Direct,(none),MOBILE_APP_IOS,280,3,0,1,0,1,1,0,0,0
+2,20,41-50,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',22,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,465,15.666667,0,1,0,1,0,0,0,0
+7,10,11-20,Android,he,'LG D405 L90','LG ',61,51+,google,organic,'Organic Search',(none),MOBILE_WEB,202,10,0,1,0,0,0,0,0,0
+4,22,31-40,iOS,he,'Apple iPhone','Apple ',666,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,23,2,0,1,0,1,0,0,0,0
+2,13,21-30,Android,en,'Sony D5803 Xperia Z3 Compact','Sony ',4,4-5,Whatsapp,'(not set)',(Other),m-ToAd,MOBILE_WEB,379.5,11.25,0,1,0,1,0,0,0,0
+2,22,01-10,iOS,he,'Apple iPhone','Apple ',20,11-20,(direct),(none),Direct,(none),MOBILE_APP_IOS,738.666667,28.333333,0,1,0,1,1,0,0,0
+4,17,11-20,iOS,he,'Apple iPhone','Apple ',11,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,255.333333,9,0,1,0,1,0,0,0,0
+2,11,31-40,Android,he,'Google Nexus 5','Google ',9,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,106,4.666667,0,1,0,0,0,0,0,0
+7,17,21-30,Android,he,'LG D802 G2','LG ',75,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1099,18,0,1,0,1,0,0,0,0
+2,18,21-30,iOS,he,'Apple iPhone','Apple ',51,51+,(direct),(none),Direct,(none),MOBILE_WEB,284.4,7.8,0,1,0,1,1,0,0,0
+3,21,41-50,Android,he,'LG D620 G2 Mini','LG ',86,51+,google,organic,'Organic Search',(none),MOBILE_WEB,289,6,0,1,0,1,0,0,0,0
+1,16,21-30,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',1,1,(direct),(none),Direct,(none),MOBILE_WEB,727,30,0,1,0,1,1,0,0,0
+3,12,21-30,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',6,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+2,11,11-20,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',99,51+,google,organic,'Organic Search',(none),MOBILE_WEB,676.75,9.5,0,1,0,1,0,0,0,0
+5,17,21-30,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',103,51+,google,organic,'Organic Search',(none),MOBILE_WEB,191,12,0,1,0,0,0,1,0,0
+3,5,51-60,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',84,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,625,11.5,0,1,0,1,0,0,0,0
+4,9,51-60,Android,he,'Samsung SM-N910F Galaxy Note 4','Samsung ',472,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,147.166667,4.5,0,1,0,0,0,0,0,0
+1,22,21-30,Android,ru,'Sony D6603 Xperia Z3','Sony ',74,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,975,19,0,1,0,1,1,0,0,0
+1,9,51-60,Android,he,'Samsung SM-G610F J7 Prime','Samsung ',34,21-50,(direct),(none),Direct,(none),MOBILE_WEB,1057,25,0,1,0,0,0,0,0,0
+6,11,31-40,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',16,11-20,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,613.5,8.75,0,1,0,1,0,0,0,0
+3,5,51-60,Android,he,'LG D855 G3','LG ',21,21-50,(direct),(none),Direct,(none),MOBILE_WEB,699.5,36.5,0,1,0,0,0,0,0,0
+2,3,11-20,Android,he,'LG D855 G3','LG ',40,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,30.75,2.5,0,1,0,1,0,0,0,0
+6,4,51-60,iOS,he,'Apple iPhone','Apple ',467,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,247,10,0,1,0,0,0,0,0,0
+3,16,31-40,iOS,he,'Apple iPhone','Apple ',4,4-5,google,organic,'Organic Search',(none),MOBILE_WEB,641,17,0,1,0,1,0,0,0,0
+6,8,01-10,Android,he,'LG D722 G3 Mini','LG ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,290,6,0,1,0,0,0,0,0,0
+3,16,31-40,'Windows Phone',he,'Samsung GT-I8750 ATIV S','Samsung ',91,51+,google,organic,'Organic Search',(none),MOBILE_WEB,0,1,0,1,0,0,0,0,0,0
+1,18,11-20,Android,he,'LG H815 G4','LG ',64,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1051,46.333333,1,1,0,0,1,0,0,0
+1,18,51-60,Android,en,'Samsung SM-G930F Galaxy S7','Samsung ',4,4-5,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,431,19,0,1,0,0,0,0,0,0
+2,10,41-50,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',27,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,933.25,24.5,0,1,0,1,1,0,0,0
+1,7,21-30,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',60,51+,google,organic,'Organic Search',(none),MOBILE_WEB,237,6,0,1,0,0,0,0,0,0
+7,17,41-50,Android,he,'Samsung SM-G903F Galaxy S5 Neo','Samsung ',45,21-50,Whatsapp,'(not set)',(Other),m-ToAd,MOBILE_WEB,662.5,17,0,1,0,0,0,0,0,0
+2,15,31-40,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,71,5,0,1,0,0,0,0,0,0
+1,8,11-20,Android,ru,'LG H815 G4','LG ',48,21-50,(direct),(none),Direct,(none),MOBILE_WEB,514,19,0,1,0,1,1,0,0,0
+3,8,11-20,iOS,en,'Apple iPhone','Apple ',266,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,288.434783,4.608696,0,1,0,0,1,0,0,0
+3,22,11-20,Android,ru,'LG H960 V10','LG ',21,21-50,(direct),(none),Direct,(none),MOBILE_WEB,172,10,0,1,0,1,1,0,0,0
+7,21,41-50,iOS,en,'Apple iPhone','Apple ',5,4-5,google,organic,'Organic Search',(none),MOBILE_WEB,473.5,13,0,1,0,0,0,0,0,0
+1,17,31-40,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',1,1,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1167,14,0,1,0,1,0,0,0,0
+2,4,11-20,Android,he,'Samsung GT-I9300I Galaxy S III','Samsung ',90,51+,(direct),(none),Direct,(none),MOBILE_WEB,739.571429,16,0,1,0,1,0,0,0,0
+3,18,31-40,Android,he,'Sony F3311 Xperia E5','Sony ',17,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,1797,44,0,1,0,0,0,0,0,0
+2,15,31-40,iOS,he,'Apple iPhone','Apple ',13,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,589,19,0,1,0,0,0,0,0,0
+2,22,01-10,Android,he,'Samsung SM-J510F Galaxy J5 (2016)','Samsung ',14,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,3665,56.333333,0,1,0,1,1,0,0,0
+2,17,11-20,Android,he,'Samsung GT-I9515 Galaxy S IV','Samsung ',239,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1069.4,29.2,0,1,0,0,0,0,0,0
+6,16,51-60,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',78,51+,google,organic,'Organic Search',(none),MOBILE_WEB,145.333333,9,0,1,0,1,1,0,0,0
+4,15,11-20,Android,he,'Samsung SM-N910F Galaxy Note 4','Samsung ',6,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,318,8,0,1,0,1,0,0,0,0
+7,16,21-30,Android,ru,'Samsung SM-G930F Galaxy S7','Samsung ',24,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,190,8,0,1,0,1,1,1,1,0
+3,22,01-10,Android,he,'Xiaomi Redmi Note 4','Xiaomi ',49,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,434.777778,16.555556,0,1,0,0,0,0,0,0
+4,12,01-10,Android,he,'LG F670S K10','LG ',183,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1177.8,96.3,1,1,0,0,1,0,0,0
+6,9,11-20,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',279,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,774.166667,4.833333,0,1,0,1,0,0,0,0
+7,14,11-20,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',36,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,425,13,0,1,0,0,0,0,0,0
+6,15,11-20,iOS,en,'Apple iPhone','Apple ',19,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,340,20,0,1,0,0,0,0,0,0
+7,21,51-60,Android,he,'Xiaomi Redmi Note 4','Xiaomi ',6,6-10,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,733.666667,13,0,1,0,0,1,0,0,0
+7,21,11-20,Android,he,'Samsung SM-J700H Galaxy J7','Samsung ',78,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,337.142857,5,0,1,0,1,1,0,0,0
+1,18,51-60,Android,he,'LG H815 G4','LG ',360,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1086.352941,35.764706,0,1,0,1,0,0,0,0
+1,12,01-10,Android,en,'Samsung SM-N910F Galaxy Note 4','Samsung ',95,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,364.285714,13.142857,0,1,0,1,0,0,0,0
+7,14,51-60,iOS,en,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,166,10,0,1,0,1,1,0,0,0
+5,17,31-40,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',174,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,44,3.25,0,1,0,0,0,0,0,0
+4,17,51-60,iOS,ru,'Apple iPhone','Apple ',29,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,169,5.5,0,1,0,0,0,0,0,0
+7,21,31-40,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',21,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1008,82.5,0,1,0,1,1,0,0,0
+2,8,31-40,iOS,en,'Apple iPhone','Apple ',14,11-20,google,organic,'Organic Search',(none),Unknown,35,1.5,0,0,0,0,0,0,0,1
+1,12,31-40,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,154,6,0,0,0,0,0,0,0,1
+7,16,01-10,iOS,en,'Apple iPhone 6','Apple ',2,2,re_facebook,yad1_re_facebook,(Other),'(not set)',Unknown,76,2,0,0,0,0,0,0,0,1
+1,16,31-40,iOS,en,'Apple iPhone','Apple ',4,4-5,(direct),(none),Direct,(none),Unknown,794,3,0,0,0,0,0,0,0,1
+2,9,31-40,Android,he,'LG H990 V20','LG ',1,1,(direct),(none),Direct,(none),Unknown,537,11,0,0,0,0,0,0,0,1
+3,18,21-30,Android,he,'LG H990 V20','LG ',2,2,(direct),(none),Direct,(none),Unknown,306.5,7.5,0,0,0,0,0,0,0,1
+2,20,41-50,iOS,he,'Apple iPhone','Apple ',7,6-10,google,organic,'Organic Search',(none),Unknown,718.5,7,0,0,0,0,0,0,0,1
+2,23,21-30,Android,he,'(not set)','(not ',4,4-5,(direct),(none),Direct,(none),Unknown,147,5.5,0,0,0,0,0,0,0,1
+7,17,21-30,iOS,he,'Apple iPhone','Apple ',243,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,2282.25,72.75,0,1,0,0,1,0,0,1
+7,15,21-30,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,688,13,0,0,0,0,0,0,0,1
+4,17,21-30,Android,he,'Samsung SM-G7102 Galaxy Grand 2','Samsung ',431,51+,(direct),(none),Direct,(none),MOBILE_WEB,1472.111111,17.666667,0,0,0,0,0,0,0,1
+4,22,01-10,Android,en,'Samsung SM-G920A Galaxy S6','Samsung ',6,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,680,13,0,1,0,0,0,0,0,1
+2,5,01-10,Android,he,'LG D802T G2','LG ',23,21-50,(direct),(none),Direct,(none),MOBILE_WEB,2005,78,0,1,0,0,1,0,0,1
+1,16,41-50,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',40,21-50,(direct),(none),Direct,(none),Unknown,95.666667,2,0,0,0,0,0,0,0,1
+1,14,01-10,iOS,he,'Apple iPhone','Apple ',2,2,google,organic,'Organic Search',(none),Unknown,520,3.5,0,0,0,0,0,0,0,1
+6,18,31-40,Android,he,'Samsung SM-G7105 Galaxy Grand 2 LTE','Samsung ',8,6-10,google,organic,'Organic Search',(none),Unknown,756.5,3,0,0,0,0,0,0,0,1
+6,7,01-10,Android,he,'Samsung GT-I9500 Galaxy S IV','Samsung ',3,3,(direct),(none),Direct,(none),Unknown,106,3,0,0,0,0,0,0,0,1
+3,20,31-40,iOS,fr,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,135,2,0,0,0,0,0,0,0,1
+7,11,41-50,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,133,2,0,0,0,0,0,0,0,1
+1,4,01-10,iOS,he,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),Unknown,66.5,1.5,0,0,0,0,0,0,0,1
+1,17,21-30,iOS,he,'Apple iPhone','Apple ',3,3,(direct),(none),Direct,(none),Unknown,44.333333,1.333333,0,0,0,0,0,0,0,1
+6,11,21-30,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',6,6-10,google,organic,'Organic Search',(none),Unknown,0,1,0,0,0,0,0,0,0,1
+6,14,21-30,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',7,6-10,google,organic,'Organic Search',(none),Unknown,0,1,0,0,0,0,0,0,0,1
+7,20,41-50,Android,he,'LG LG-H850 G Flex 2','LG ',32,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,2262,48,0,1,0,0,0,0,0,1
+1,6,21-30,Android,he,'LG LG-H850 G Flex 2','LG ',33,21-50,google,organic,'Organic Search',(none),Unknown,1131,24.5,0,0,0,0,0,0,0,1
+7,13,51-60,Android,he,'Samsung SM-A500YZ Galaxy A5','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,31,3,0,0,0,0,0,0,0,1
+5,13,41-50,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',42,21-50,(direct),(none),Direct,(none),Unknown,291,3,0,0,0,0,0,0,0,1
+2,15,01-10,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',7,6-10,Whatsapp,Yad1_share,(Other),Yad1,Unknown,737,4,0,0,0,0,0,0,0,1
+7,14,11-20,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',3,3,(direct),(none),Direct,(none),Unknown,292,6,0,0,0,0,0,0,0,1
+7,14,01-10,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,212,3,0,0,0,0,0,0,0,1
+7,19,51-60,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,108,2.5,0,0,0,0,0,0,0,1
+2,15,51-60,Android,he,'LG H815 G4','LG ',1,1,(direct),(none),Direct,(none),Unknown,1425,2,0,0,0,0,0,0,0,1
+4,12,51-60,Android,he,'LG H815 G4','LG ',2,2,(direct),(none),Direct,(none),Unknown,712.5,1.5,0,0,0,0,0,0,0,1
+4,21,01-10,Android,he,'LG H815 G4','LG ',3,3,(direct),(none),Direct,(none),Unknown,475,1.333333,0,0,0,0,0,0,0,1
+2,15,41-50,Android,ru,'Samsung SM-A310F Galaxy A3','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,57,2,0,0,0,0,0,0,0,1
+5,7,41-50,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',14,11-20,(direct),(none),Direct,(none),Unknown,673,13,0,0,0,0,0,0,0,1
+2,19,11-20,iOS,he,'Apple iPhone','Apple ',9,6-10,(direct),(none),Direct,(none),Unknown,380,3,0,0,0,0,0,0,0,1
+2,13,31-40,iOS,en,'Apple iPhone','Apple ',8,6-10,(direct),(none),Direct,(none),Unknown,590,2,0,0,0,0,0,0,0,1
+1,12,31-40,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),Unknown,32,3,0,0,0,0,0,0,0,1
+7,15,11-20,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',4,4-5,(direct),(none),Direct,(none),Unknown,1093,7,0,0,0,0,0,0,0,1
+7,18,31-40,Android,he,'Samsung GT-I9301I Galaxy S III Neo+','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,2048,13,0,0,0,0,0,0,0,1
+6,19,11-20,iOS,he,'Apple iPhone','Apple ',7,6-10,(direct),(none),Direct,(none),Unknown,164,5,0,0,0,0,0,0,0,1
+3,15,21-30,iOS,he,'Apple iPhone','Apple ',10,6-10,(direct),(none),Direct,(none),Unknown,279,4,0,0,0,0,0,0,0,1
+5,6,21-30,Android,he,'Samsung SM-G925F Galaxy S6 Edge','Samsung ',8,6-10,(direct),(none),Direct,(none),Unknown,1006,21,0,0,0,0,0,0,0,1
+1,14,41-50,Android,he,'LG D855 G3','LG ',5,4-5,google,organic,'Organic Search',(none),Unknown,435,15,0,0,0,0,0,0,0,1
+7,19,01-10,Android,he,'Asus ASUS_Z00AD ZenFone 2','Asus ',5,4-5,google,organic,'Organic Search',(none),Unknown,415,29,0,0,0,0,0,0,0,1
+3,12,31-40,Android,en,'Samsung SM-G920F Galaxy S6','Samsung ',3,3,Whatsapp,Yad1_share,(Other),Yad1,Unknown,215.666667,4.333333,0,0,0,0,0,0,0,1
+7,20,01-10,Android,he,'LG D855 G3','LG ',14,11-20,(direct),(none),Direct,(none),Unknown,90.6,2.4,0,0,0,0,0,0,0,1
+1,22,11-20,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,815,5,0,0,0,0,0,0,0,1
+7,6,41-50,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,273,4,0,0,0,0,0,0,0,1
+4,7,31-40,Android,he,'Samsung SM-N910F-ORANGE Galaxy Note 4','Samsung ',4,4-5,google,organic,'Organic Search',(none),Unknown,48,3,0,0,0,0,0,0,0,1
+1,19,51-60,iOS,he,'Apple iPhone','Apple ',16,11-20,(direct),(none),Direct,(none),Unknown,96,4,0,0,0,0,0,0,0,1
+1,18,21-30,Android,he,'Google Nexus 5X','Google ',13,11-20,google,organic,'Organic Search',(none),Unknown,193,3,0,0,0,0,0,0,0,1
+2,9,21-30,Android,en,'Samsung SM-G900F Galaxy S5','Samsung ',13,11-20,google,organic,'Organic Search',(none),Unknown,39,3,0,0,0,0,0,0,0,1
+7,18,11-20,Android,he,'Xiaomi Redmi Note 4','Xiaomi ',1,1,(direct),(none),Direct,(none),Unknown,469,2,0,0,0,0,0,0,0,1
+1,17,01-10,Android,he,'Samsung SM-J500F Galaxy J5','Samsung ',25,21-50,google,organic,'Organic Search',(none),Unknown,214,7,0,0,0,0,0,0,0,1
+4,22,31-40,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',4,4-5,(direct),(none),Direct,(none),Unknown,96,3,0,0,0,0,0,0,0,1
+6,20,41-50,iOS,he,'Apple iPhone','Apple ',7,6-10,(direct),(none),Direct,(none),Unknown,183,3,0,0,0,0,0,0,0,1
+2,18,21-30,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',3,3,(direct),(none),Direct,(none),Unknown,157,3,0,0,0,0,0,0,0,1
+2,19,31-40,Android,he,'LG K420 K10 LTE','LG ',17,11-20,(direct),(none),Direct,(none),Unknown,2237,7,0,0,0,0,0,0,0,1
+7,6,51-60,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,100,3,0,0,0,0,0,0,0,1
+5,16,01-10,Android,he,'LG F670S K10','LG ',6,6-10,google,organic,'Organic Search',(none),Unknown,170,2,0,0,0,0,0,0,0,1
+6,22,51-60,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',2,2,google,organic,'Organic Search',(none),Unknown,315,15,0,0,0,0,0,0,0,1
+4,14,41-50,Android,he,'LG H815 G4','LG ',2,2,(direct),(none),Direct,(none),Unknown,695,4,0,0,0,0,0,0,0,1
+3,6,01-10,Android,he,'LG D855 G3','LG ',355,51+,google,organic,'Organic Search',(none),MOBILE_WEB,1494.636364,24.545455,0,1,0,1,1,1,1,1
+7,6,31-40,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,853,34,0,0,0,0,0,0,0,1
+6,23,01-10,Android,ru,'Samsung GT-I9500 Galaxy S IV','Samsung ',4,4-5,(direct),(none),Direct,(none),Unknown,472.5,6,0,0,0,0,0,0,0,1
+5,14,41-50,Android,en,'LG D802T G2','LG ',1,1,(direct),(none),Direct,(none),Unknown,133,4,0,0,0,0,0,0,0,1
+4,2,41-50,Android,fr,'HOMTOM HT7 Pro','HOMTOM ',1,1,(direct),(none),Direct,(none),Unknown,196,3,0,0,0,0,0,0,0,1
+6,23,01-10,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,239,10,0,0,0,0,0,0,0,1
+4,7,31-40,Android,en,'Samsung SM-J700F Galaxy J7','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,416,6,0,0,0,0,0,0,0,1
+5,10,21-30,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,188,4,0,0,0,0,0,0,0,1
+5,11,11-20,iOS,ru,'Apple iPhone','Apple ',2,2,google,organic,'Organic Search',(none),Unknown,812,13,0,0,0,0,0,0,0,1
+2,6,21-30,iOS,he,'Apple iPhone','Apple ',1,1,google,cpc,'Paid Search','yad1 - מתחרים',Unknown,378,17,0,0,0,0,0,0,0,1
+3,21,01-10,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,2465,19,0,0,0,0,0,0,0,1
+3,10,21-30,iOS,ru,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),Unknown,0,1,0,0,0,0,0,0,0,1
+2,9,11-20,Android,en,'Huawei EVA-L09 P9 Standard Edition','Huawei ',1,1,google,organic,'Organic Search',(none),Unknown,131,3,0,0,0,0,0,0,0,1
+6,14,01-10,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,380,11,0,0,0,0,0,0,0,1
+7,20,11-20,Android,he,'Samsung SM-A500F Galaxy A5','Samsung ',2,2,google,organic,'Organic Search',(none),Unknown,298,8,0,0,0,0,0,0,0,1
+3,19,51-60,Android,he,'Samsung SM-A500F Galaxy A5','Samsung ',3,3,google,organic,'Organic Search',(none),Unknown,543,22,0,0,0,0,0,0,0,1
+5,16,31-40,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',5,4-5,(direct),(none),Direct,(none),Unknown,1549,29,0,0,0,0,0,0,0,1
+3,17,21-30,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,1466,6,0,0,0,0,0,0,0,1
+3,7,51-60,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,166,3,0,0,0,0,0,0,0,1
+5,21,01-10,Android,he,'LG D855 G3','LG ',7,6-10,(direct),(none),Direct,(none),Unknown,123,3,0,0,0,0,0,0,0,1
+7,14,11-20,Android,ru,'Xiaomi Redmi Note 3','Xiaomi ',3,3,(direct),(none),Direct,(none),Unknown,525,6,0,0,0,0,0,0,0,1
+3,18,31-40,iOS,he,'Apple iPhone','Apple ',13,11-20,(direct),(none),Direct,(none),Unknown,281.666667,3,0,0,0,0,0,0,0,1
+1,10,21-30,iOS,he,'Apple iPhone','Apple ',19,11-20,google,organic,'Organic Search',(none),Unknown,1085,19,0,0,0,0,0,0,0,1
+7,22,51-60,Android,he,'Xiaomi Redmi Note 4','Xiaomi ',17,11-20,(direct),(none),Direct,(none),Unknown,175,5.5,0,0,0,0,0,0,0,1
+3,17,11-20,iOS,he,'Apple iPhone','Apple ',6,6-10,(direct),(none),Direct,(none),Unknown,370,4,0,0,0,0,0,0,0,1
+4,18,51-60,Android,he,'Xiaomi Mi 5','Xiaomi ',1,1,(direct),(none),Direct,(none),Unknown,61,3,0,0,0,0,0,0,0,1
+3,14,51-60,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,107,2,0,0,0,0,0,0,0,1
+4,8,51-60,Android,en,'Samsung SM-G900F Galaxy S5','Samsung ',10,6-10,google,organic,'Organic Search',(none),Unknown,58.5,2.5,0,0,0,0,0,0,0,1
+2,14,21-30,Android,en,'Samsung SM-J510F Galaxy J5 (2016)','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,274,8,0,0,0,0,0,0,0,1
+6,5,31-40,Android,he,'LG D855 G3','LG ',14,11-20,(direct),(none),Direct,(none),Unknown,663,8,0,0,0,0,0,0,0,1
+2,20,01-10,Android,he,'LG D855 G3','LG ',3,3,(direct),(none),Direct,(none),Unknown,469,14,0,0,0,0,0,0,0,1
+1,15,41-50,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',7,6-10,(direct),(none),Direct,(none),Unknown,132.4,2.2,0,0,0,0,0,0,0,1
+5,16,31-40,iOS,en,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,284,9,0,0,0,0,0,0,0,1
+2,6,41-50,Android,he,'Xiaomi Redmi 3S','Xiaomi ',39,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,867,10,0,1,0,0,0,0,0,1
+1,10,41-50,Android,he,'LG H735 G4 Beat','LG ',3,3,re_facebook,yad1_re_facebook,(Other),'(not set)',Unknown,158.333333,6,0,0,0,0,0,0,0,1
+3,13,31-40,Android,en,'Samsung SM-G9200 Galaxy S6','Samsung ',1,1,google,organic,'Organic Search',(none),Unknown,71,2,0,0,0,0,0,0,0,1
+5,6,11-20,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',32,21-50,(direct),(none),Direct,(none),Unknown,114,8,0,0,0,0,0,0,0,1
+4,3,51-60,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,410,5,0,0,0,0,0,0,0,1
+2,19,11-20,Android,he,'LG D855 G3','LG ',344,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,2379.6,32.8,0,1,0,1,1,1,0,1
+2,16,31-40,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,136,6,0,0,0,0,0,0,0,1
+2,17,01-10,Android,en,'Samsung SM-G925F Galaxy S6 Edge','Samsung ',4,4-5,(direct),(none),Direct,(none),Unknown,101,9,0,0,0,0,0,0,0,1
+1,9,31-40,iOS,he,'Apple iPhone','Apple ',779,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,1558,20.5,0,1,0,1,0,0,0,1
+6,6,51-60,iOS,he,'Apple iPhone','Apple ',12,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,1294.8,42.2,0,1,0,1,0,0,0,1
+6,9,11-20,iOS,he,'Apple iPhone','Apple ',13,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,1448.5,45.5,0,1,0,1,0,0,0,1
+7,19,21-30,Android,he,'Meizu U20','Meizu ',5,4-5,google,organic,'Organic Search',(none),Unknown,461,4,0,0,0,0,0,0,0,1
+1,1,51-60,Android,he,'Meizu U20','Meizu ',6,6-10,google,organic,'Organic Search',(none),Unknown,230.5,2.5,0,0,0,0,0,0,0,1
+6,0,01-10,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',38,21-50,(direct),(none),Direct,(none),Unknown,0,1,0,0,0,0,0,0,0,1
+2,19,51-60,Android,en,'OnePlus A0001 One','OnePlus ',1,1,(direct),(none),Direct,(none),Unknown,270,2,0,0,0,0,0,0,0,1
+1,10,21-30,Android,he,'Huawei EVA-L09 P9 Standard Edition','Huawei ',6,6-10,(direct),(none),Direct,(none),Unknown,14.333333,1.666667,0,0,0,0,0,0,0,1
+4,20,11-20,Android,he,'LG F670S K10','LG ',2,2,(direct),(none),Direct,(none),Unknown,968,5,0,0,0,0,0,0,0,1
+3,18,31-40,Android,en,'Samsung SM-G930F Galaxy S7','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,58,2,0,0,0,0,0,0,0,1
+6,16,41-50,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,162,6,0,0,0,0,0,0,0,1
+7,22,01-10,Android,he,'Samsung SM-J500F Galaxy J5','Samsung ',7,6-10,(direct),(none),Direct,(none),Unknown,418.666667,3.333333,0,0,0,0,0,0,0,1
+7,22,01-10,Android,he,'Samsung SM-J500F Galaxy J5','Samsung ',7,6-10,(direct),(none),Direct,(none),Unknown,418.666667,3.333333,0,0,0,0,0,0,0,1
+7,22,01-10,Android,he,'Samsung SM-J500F Galaxy J5','Samsung ',7,6-10,(direct),(none),Direct,(none),Unknown,418.666667,3.333333,0,0,0,0,0,0,0,1
+7,22,01-10,Android,he,'Samsung SM-J500F Galaxy J5','Samsung ',7,6-10,(direct),(none),Direct,(none),Unknown,418.666667,3.333333,0,0,0,0,0,0,0,1
+4,14,11-20,Android,he,'Samsung SM-N910F Galaxy Note 4','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,79,3,0,0,0,0,0,0,0,1
+1,19,31-40,iOS,ru,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),Unknown,353,3,0,0,0,0,0,0,0,1
+2,17,31-40,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,525,17,0,0,0,0,0,0,0,1
+5,13,21-30,Android,he,'LG H840 G5','LG ',1,1,re_facebook,yad1_re_facebook,(Other),'(not set)',Unknown,66,3,0,0,0,0,0,0,0,1
+7,6,51-60,Android,he,'Samsung SM-A500F Galaxy A5','Samsung ',7,6-10,(direct),(none),Direct,(none),Unknown,416,10,0,0,0,0,0,0,0,1
+6,15,01-10,Android,he,'Samsung SM-E500F Galaxy E5','Samsung ',78,51+,(direct),(none),Direct,(none),Unknown,572,9,0,0,0,0,0,0,0,1
+1,8,31-40,Android,he,'(not set)','(not ',44,21-50,Whatsapp,Yad1_share,(Other),Yad1,Unknown,0,1,0,0,0,0,0,0,0,1
+7,21,51-60,Android,he,'Samsung SM-N910F Galaxy Note 4','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,58,3,0,0,0,0,0,0,0,1
+7,17,01-10,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,139,3,0,0,0,0,0,0,0,1
+3,17,01-10,iOS,he,'Apple iPhone','Apple ',54,51+,(direct),(none),Direct,(none),Unknown,144,2,0,0,0,0,0,0,0,1
+7,11,51-60,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,1209,19,0,1,0,0,0,0,0,1
+6,18,31-40,Android,he,'LG H815 G4','LG ',2,2,(direct),(none),Direct,(none),Unknown,101,3,0,0,0,0,0,0,0,1
+3,19,31-40,Android,he,'Samsung GT-I9505 Galaxy S IV','Samsung ',1,1,re_facebook,yad1_re_facebook,(Other),'(not set)',Unknown,120,3,0,0,0,0,0,0,0,1
+3,8,21-30,Android,en,'LG H955 G Flex 2','LG ',1,1,(direct),(none),Direct,(none),Unknown,99,2,0,0,0,0,0,0,0,1
+2,16,41-50,Android,he,'Samsung SM-T555 Galaxy Tab A 9.7','Samsung ',1,1,google,organic,'Organic Search',(none),Unknown,428,6,0,0,0,0,0,0,0,1
+2,18,41-50,Android,he,'Samsung SM-T555 Galaxy Tab A 9.7','Samsung ',2,2,google,organic,'Organic Search',(none),Unknown,283,4,0,0,0,0,0,0,0,1
+3,17,31-40,Android,he,'Huawei Y560-L23 Ascend Y560','Huawei ',10,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,893,14,0,1,0,1,1,0,0,1
+7,17,11-20,Android,en,'Samsung SCH i545 Galaxy S4','Samsung ',270,51+,Whatsapp,'(not set)',(Other),m-ToAd,MOBILE_WEB,2041.4,29.2,0,1,0,0,1,0,0,1
+4,8,51-60,iOS,en,'Apple iPhone','Apple ',8,6-10,(direct),(none),Direct,(none),Unknown,151.25,2,0,0,0,0,0,0,0,1
+5,11,01-10,Android,ru,'LG D855 G3','LG ',7,6-10,google,organic,'Organic Search',(none),Unknown,391,6,0,0,0,0,0,0,0,1
+4,11,41-50,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',2,2,google,organic,'Organic Search',(none),Unknown,139,9,0,0,0,0,0,0,0,1
+4,9,21-30,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,797,22,0,0,0,0,0,0,0,1
+4,11,41-50,iOS,en,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),Unknown,3109,17,0,0,0,0,0,0,0,1
+7,20,51-60,Android,he,'OnePlus A3003 3','OnePlus ',1,1,(direct),(none),Direct,(none),Unknown,404,5,0,0,0,0,0,0,0,1
+7,17,51-60,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',13,11-20,(direct),(none),Direct,(none),Unknown,164.666667,2,0,0,0,0,0,0,0,1
+7,23,11-20,Android,he,'LG H960 V10','LG ',4,4-5,google,organic,'Organic Search',(none),Unknown,111,2,0,0,0,0,0,0,0,1
+6,12,11-20,iOS,he,'Apple iPhone','Apple ',4,4-5,(direct),(none),Direct,(none),Unknown,1130,7,0,0,0,0,0,0,0,1
+2,21,01-10,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',25,21-50,(direct),(none),Direct,(none),Unknown,1326,48,0,0,0,0,0,0,0,1
+3,6,01-10,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',27,21-50,(direct),(none),Direct,(none),Unknown,2308.333333,50,0,0,0,0,0,0,0,1
+2,15,21-30,Android,he,'Xiaomi Redmi 3S','Xiaomi ',8,6-10,(direct),(none),Direct,(none),Unknown,184,5,0,0,0,0,0,0,0,1
+3,7,21-30,Android,he,'Xiaomi Redmi Note 2 Redmi Note 2','Xiaomi ',10,6-10,(direct),(none),Direct,(none),Unknown,919.5,18,0,0,0,0,0,0,0,1
+3,22,11-20,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',10,6-10,(direct),(none),Direct,(none),Unknown,47.5,2.5,0,0,0,0,0,0,0,1
+3,20,51-60,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',1,1,google,organic,'Organic Search',(none),Unknown,1252,22,0,0,0,0,0,0,0,1
+1,16,11-20,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,444,3,0,0,0,0,0,0,0,1
+6,13,01-10,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),Unknown,226,4,0,0,0,0,0,0,0,1
+2,16,01-10,iOS,he,'Apple iPhone 6s','Apple ',2,2,re_facebook,yad1_re_facebook,(Other),'(not set)',Unknown,76,2,0,0,0,0,0,0,0,1
+7,14,21-30,iOS,he,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),Unknown,286,5,0,0,0,0,0,0,0,1
+1,19,51-60,Android,he,'Samsung GT-I9301I Galaxy S III Neo+','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,488.5,3.5,0,0,0,0,0,0,0,1
+7,14,51-60,Android,he,'LG D855 G3','LG ',4,4-5,(direct),(none),Direct,(none),Unknown,149,6,0,0,0,0,0,0,0,1
+4,10,51-60,Android,he,'LG D855 G3','LG ',5,4-5,(direct),(none),Direct,(none),Unknown,106.5,5,0,0,0,0,0,0,0,1
+7,7,51-60,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',14,11-20,(direct),(none),Direct,(none),MOBILE_WEB,405,21,0,1,0,1,1,0,0,1
+4,17,31-40,iOS,he,'Apple iPhone','Apple ',5,4-5,(direct),(none),Direct,(none),Unknown,414,6,0,0,0,0,0,0,0,1
+1,7,31-40,Android,en,'LG D855 G3','LG ',1,1,(direct),(none),Direct,(none),Unknown,1831,5,0,0,0,0,0,0,0,1
+6,16,31-40,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,41,2,0,0,0,0,0,0,0,1
+1,19,41-50,Android,en,'Samsung SM-G925F Galaxy S6 Edge','Samsung ',7,6-10,(direct),(none),Direct,(none),Unknown,350,2.5,0,0,0,0,0,0,0,1
+1,5,41-50,iOS,he,'Apple iPhone','Apple ',6,6-10,(direct),(none),Direct,(none),Unknown,54.666667,2,0,0,0,0,0,0,0,1
+2,10,31-40,Android,he,'Samsung SM-G925F Galaxy S6 Edge','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,201,5,0,0,0,0,0,0,0,1
+6,18,11-20,Android,he,'(not set)','(not ',1,1,(direct),(none),Direct,(none),Unknown,0,1,0,0,0,0,0,0,0,1
+2,6,01-10,Android,he,'Samsung GT-I9500 Galaxy S IV','Samsung ',3,3,(direct),(none),Direct,(none),Unknown,517,4,0,0,0,0,0,0,0,1
+3,1,31-40,Android,he,'Xiaomi Redmi Note 4','Xiaomi ',7,6-10,search.clearch.org,referral,Referral,(none),MOBILE_WEB,423.4,6,0,1,0,0,0,0,0,1
+3,9,21-30,Android,he,'Xiaomi Redmi Note 4','Xiaomi ',8,6-10,search.clearch.org,referral,Referral,(none),Unknown,352.833333,5.166667,0,0,0,0,0,0,0,1
+4,7,51-60,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,113,2,0,0,0,0,0,0,0,1
+4,14,01-10,iOS,he,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),Unknown,56.5,1.5,0,0,0,0,0,0,0,1
+7,22,21-30,Android,he,'Meizu M2 Note M2 Note','Meizu ',16,11-20,(direct),(none),Direct,(none),Unknown,179,6,0,0,0,0,0,0,0,1
+3,13,21-30,Android,he,'Samsung SM-J700H Galaxy J7','Samsung ',6,6-10,(direct),(none),Direct,(none),Unknown,189,3,0,0,0,0,0,0,0,1
+4,22,31-40,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,1008,5,0,0,0,0,0,0,0,1
+4,17,11-20,iOS,en,'Apple iPhone','Apple ',4,4-5,(direct),(none),Direct,(none),Unknown,0,1,0,0,0,0,0,0,0,1
+2,5,21-30,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',2,2,google,cpc,'Paid Search','yad1 - מתחרים',Unknown,196,10,0,0,0,0,0,0,0,1
+1,10,11-20,iOS,he,'Apple iPhone','Apple ',17,11-20,(direct),(none),Direct,(none),Unknown,94.5,2.5,0,0,0,0,0,0,0,1
+5,14,31-40,Android,he,'Asus ASUS_Z00AD ZenFone 2','Asus ',10,6-10,Whatsapp,Yad1_share,(Other),Yad1,Unknown,0,1,0,0,0,0,0,0,0,1
+2,13,21-30,Android,he,'Asus ASUS_Z00AD ZenFone 2','Asus ',11,11-20,Whatsapp,Yad1_share,(Other),Yad1,Unknown,0,1,0,0,0,0,0,0,0,1
+3,10,51-60,Android,he,'LG H815 G4','LG ',27,21-50,(direct),(none),Direct,(none),Unknown,50,2.5,0,0,0,0,0,0,0,1
+3,21,31-40,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,61,3,0,0,0,0,0,0,0,1
+6,15,31-40,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',1,1,re_facebook,yad1_re_facebook,(Other),'(not set)',Unknown,249,3,0,0,0,0,0,0,0,1
+1,16,41-50,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',2,2,re_facebook,yad1_re_facebook,(Other),'(not set)',Unknown,162.5,3,0,0,0,0,0,0,0,1
+3,16,31-40,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',6,6-10,(direct),(none),Direct,(none),Unknown,95,3,0,0,0,0,0,0,0,1
+5,13,51-60,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',18,11-20,(direct),(none),Direct,(none),Unknown,55,3,0,0,0,0,0,0,0,1
+2,16,41-50,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',20,11-20,(direct),(none),Direct,(none),Unknown,27.333333,2,0,0,0,0,0,0,0,1
+6,4,31-40,Android,en,'Samsung SM-G900FD Galaxy S5','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,1547,14,0,0,0,0,0,0,0,1
+2,8,51-60,Android,en,'LG H815 G4','LG ',8,6-10,google,organic,'Organic Search',(none),Unknown,46.25,1.75,0,0,0,0,0,0,0,1
+6,11,41-50,Android,he,'LG H815 G4','LG ',1,1,(direct),(none),Direct,(none),Unknown,486,4,0,0,0,0,0,0,0,1
+2,23,51-60,iOS,he,'Apple iPhone','Apple ',2,2,google,organic,'Organic Search',(none),Unknown,238,2.5,0,0,0,0,0,0,0,1
+6,21,41-50,Android,he,'Huawei EVA-L09 P9 Standard Edition','Huawei ',2,2,re_facebook,yad1_re_facebook,(Other),'(not set)',Unknown,116,3,0,0,0,0,0,0,0,1
+2,11,31-40,Android,he,'Samsung GT-I9100 Galaxy S II','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,205,2,0,0,0,0,0,0,0,1
+3,18,11-20,Android,he,'(not set)','(not ',217,51+,google,organic,'Organic Search',(none),MOBILE_WEB,622.2,13.8,0,1,0,1,0,0,0,1
+7,8,31-40,iOS,he,'Apple iPhone','Apple ',29,21-50,(direct),(none),Direct,(none),Unknown,136,4,0,0,0,0,0,0,0,1
+7,21,21-30,Android,he,'(not set)','(not ',1,1,(direct),(none),Direct,(none),Unknown,589,10,0,0,0,0,0,0,0,1
+4,5,31-40,iOS,he,'Apple iPhone','Apple ',111,51+,(direct),(none),Direct,(none),Unknown,40,1.333333,0,0,0,0,0,0,0,1
+1,17,21-30,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),Unknown,108,13,0,0,0,0,0,0,0,1
+1,22,31-40,iOS,he,'Apple iPhone','Apple ',2,2,google,organic,'Organic Search',(none),Unknown,54,7,0,0,0,0,0,0,0,1
+6,7,21-30,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,195,4,0,0,0,0,0,0,0,1
+7,9,21-30,iOS,he,'Apple iPhone','Apple ',219,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,1048.5,50.5,0,1,0,1,1,0,0,1
+7,18,31-40,Android,en,'LG H815 G4','LG ',1,1,(direct),(none),Direct,(none),Unknown,1536,27,0,0,0,0,0,0,0,1
+1,19,41-50,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,253,6,0,0,0,0,0,0,0,1
+2,19,01-10,iOS,en,'Apple iPhone','Apple ',13,11-20,(direct),(none),Direct,(none),Unknown,206.5,1.5,0,0,0,0,0,0,0,1
+3,4,41-50,iOS,en,'Apple iPhone','Apple ',14,11-20,(direct),(none),Direct,(none),Unknown,165.2,1.4,0,0,0,0,0,0,0,1
+1,18,51-60,Android,he,'Xiaomi Redmi Note 4','Xiaomi ',1,1,(direct),(none),Direct,(none),Unknown,310,7,0,0,0,0,0,0,0,1
+1,10,11-20,Android,he,'Samsung SM-J510F Galaxy J5 (2016)','Samsung ',29,21-50,google,organic,'Organic Search',(none),Unknown,387.714286,18.714286,0,0,0,0,0,0,0,1
+2,20,01-10,Android,he,'LG D855 G3','LG ',2,2,(direct),(none),Direct,(none),Unknown,66,3,0,0,0,0,0,0,0,1
+2,13,11-20,Android,en,'Google Nexus 5','Google ',42,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,1079,25,0,1,0,1,0,0,0,1
+3,10,41-50,Android,he,'Meizu MX5','Meizu ',1,1,(direct),(none),Direct,(none),Unknown,612,5,0,0,0,0,0,0,0,1
+3,16,51-60,Android,he,'Samsung SM-J500F Galaxy J5','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,215,8,0,0,0,0,0,0,0,1
+5,14,51-60,iOS,he,'Apple iPhone','Apple ',11,11-20,(direct),(none),Direct,(none),Unknown,73,2,0,0,0,0,0,0,0,1
+6,18,11-20,iOS,he,'Apple iPhone','Apple ',12,11-20,(direct),(none),Direct,(none),Unknown,72.5,2,0,0,0,0,0,0,0,1
+4,19,01-10,Android,en,'Sony Xperia D6653 Xperia Z3','Sony ',5,4-5,google,organic,'Organic Search',(none),Unknown,41,2,0,0,0,0,0,0,0,1
+3,10,11-20,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,274,6,0,0,0,0,0,0,0,1
+3,20,11-20,Android,en,'Xiaomi Mi 5','Xiaomi ',2,2,(direct),(none),Direct,(none),Unknown,103,2.5,0,0,0,0,0,0,0,1
+6,14,51-60,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,374,17,0,0,0,0,0,0,0,1
+4,19,41-50,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',12,11-20,google,cpc,'Paid Search','Yad1- דירות ערים',Unknown,120.5,3,0,0,0,0,0,0,0,1
+3,19,51-60,iOS,he,'Apple iPhone','Apple ',18,11-20,(direct),(none),Direct,(none),Unknown,266.666667,2.333333,0,0,0,0,0,0,0,1
+2,16,51-60,Android,he,'LG D620 G2 Mini','LG ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,274,4,0,1,0,0,0,0,0,1
+3,6,31-40,Android,he,'LG D620 G2 Mini','LG ',2,2,google,organic,'Organic Search',(none),MOBILE_WEB,508.5,6.5,0,1,0,0,0,0,0,1
+6,12,41-50,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',11,11-20,(direct),(none),Direct,(none),Unknown,184,6,0,0,0,0,0,0,0,1
+2,17,31-40,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,896,4,0,0,0,0,0,0,0,1
+6,5,01-10,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',7,6-10,(direct),(none),Direct,(none),Unknown,362.333333,7.333333,0,0,0,0,0,0,0,1
+6,9,21-30,iOS,he,'Apple iPhone','Apple ',3,3,(direct),(none),Direct,(none),Unknown,93,2,0,0,0,0,0,0,0,1
+4,17,11-20,iOS,he,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),Unknown,0,1,0,0,0,0,0,0,0,1
+4,6,31-40,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,173,5,0,0,0,0,0,0,0,1
+7,8,01-10,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',5,4-5,(direct),(none),Direct,(none),Unknown,3992,50,0,0,0,0,0,0,0,1
+1,14,51-60,Android,he,'(not set)','(not ',2,2,google,organic,'Organic Search',(none),MOBILE_WEB,370.5,5.5,0,1,0,0,0,0,0,1
+3,6,51-60,Android,he,'(not set)','(not ',3,3,google,organic,'Organic Search',(none),MOBILE_WEB,425,6,0,1,1,0,0,0,0,1
+4,16,21-30,Android,en,'LG VS987 G5','LG ',1,1,google,organic,'Organic Search',(none),Unknown,53,2,0,0,0,0,0,0,0,1
+2,9,51-60,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',12,11-20,(direct),(none),Direct,(none),Unknown,98,3,0,0,0,0,0,0,0,1
+1,9,21-30,iOS,he,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),Unknown,88.5,2,0,0,0,0,0,0,0,1
+6,22,21-30,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',20,11-20,(direct),(none),Direct,(none),Unknown,133,3,0,0,0,0,0,0,0,1
+2,16,31-40,Android,he,'LG H815 G4','LG ',25,21-50,(direct),(none),Direct,(none),MOBILE_WEB,122.75,3.25,0,1,0,1,0,0,0,1
+2,20,21-30,Android,he,'LG LG-H850 G Flex 2','LG ',2,2,(direct),(none),Direct,(none),Unknown,152,4,0,0,0,0,0,0,0,1
+2,20,31-40,Android,he,'LG LG-H850 G Flex 2','LG ',3,3,google,organic,'Organic Search',(none),Unknown,176,6,0,0,0,0,0,0,0,1
+4,15,31-40,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',9,6-10,(direct),(none),Direct,(none),Unknown,123,4,0,0,0,0,0,0,0,1
+6,13,41-50,iOS,en,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),Unknown,1635,4,0,0,0,0,0,0,0,1
+3,18,51-60,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',2,2,google,organic,'Organic Search',(none),MOBILE_WEB,1383.5,23.5,0,1,0,1,0,1,1,1
+6,12,51-60,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',39,21-50,google,organic,'Organic Search',(none),Unknown,658,6,0,0,0,0,0,0,0,1
+4,12,41-50,Android,he,'(not set)','(not ',6,6-10,(direct),(none),Direct,(none),Unknown,253,4,0,0,0,0,0,0,0,1
+2,16,01-10,iOS,he,'Apple iPhone','Apple ',8,6-10,(direct),(none),Direct,(none),Unknown,419.5,2.5,0,0,0,0,0,0,0,1
+4,18,21-30,iOS,he,'Apple iPhone','Apple ',9,6-10,(direct),(none),Direct,(none),Unknown,695.333333,3,0,0,0,0,0,0,0,1
+7,20,01-10,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,72,3,0,0,0,0,0,0,0,1
+3,16,31-40,iOS,he,'Apple iPhone','Apple ',28,21-50,(direct),(none),Direct,(none),Unknown,1115,33,0,0,0,0,0,0,0,1
+3,5,41-50,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),Unknown,80,2,0,0,0,0,0,0,0,1
+3,16,11-20,Android,en,'Samsung SM-N900U Galaxy Note 3','Samsung ',4,4-5,(direct),(none),Direct,(none),Unknown,1725,8,0,0,0,0,0,0,0,1
+3,7,21-30,Android,he,'Samsung SM-G530F Galaxy Grand Prime','Samsung ',6,6-10,(direct),(none),Direct,(none),Unknown,1334,4,0,0,0,0,0,0,0,1
+4,18,41-50,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,164,3,0,0,0,0,0,0,0,1
+1,20,51-60,iOS,he,'Apple iPhone','Apple ',3,3,(direct),(none),Direct,(none),Unknown,539,7.5,0,0,0,0,0,0,0,1
+3,20,21-30,Android,en,'Samsung SM-G930F Galaxy S7','Samsung ',8,6-10,google,organic,'Organic Search',(none),Unknown,457,17,0,0,0,0,0,0,0,1
+7,17,41-50,Android,he,'LG H815 G4','LG ',20,11-20,(direct),(none),Direct,(none),Unknown,133.5,2.5,0,0,0,0,0,0,0,1
+1,8,41-50,Android,he,'Xiaomi Redmi Note 4','Xiaomi ',1,1,(direct),(none),Direct,(none),Unknown,1215,20,0,0,0,0,0,0,0,1
+3,5,41-50,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,275.5,2.5,0,0,0,0,0,0,0,1
+6,9,31-40,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,1143,5,0,0,0,0,0,0,0,1
+6,10,21-30,iOS,he,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),Unknown,827,6.5,0,0,0,0,0,0,0,1
+6,10,51-60,iOS,he,'Apple iPhone','Apple ',3,3,google,organic,'Organic Search',(none),Unknown,869,10.333333,0,0,0,0,0,0,0,1
+6,12,11-20,iOS,he,'Apple iPhone','Apple ',4,4-5,google,organic,'Organic Search',(none),Unknown,954.75,17.75,0,0,0,0,0,0,0,1
+6,22,41-50,iOS,he,'Apple iPhone','Apple ',7,6-10,google,organic,'Organic Search',(none),Unknown,783.166667,13.166667,0,0,0,0,0,0,0,1
+5,21,21-30,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',3,3,google,organic,'Organic Search',(none),Unknown,198,8,0,0,0,0,0,0,0,1
+3,19,51-60,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',30,21-50,(direct),(none),Direct,(none),MOBILE_WEB,443,8,0,1,0,0,0,0,0,1
+5,15,31-40,Android,he,'LG H815 G4','LG ',10,6-10,(direct),(none),Direct,(none),Unknown,261,9,0,0,0,0,0,0,0,1
+4,18,31-40,Android,ru,'Samsung SM-N9005 Galaxy Note 3','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,162,3,0,0,0,0,0,0,0,1
+3,6,51-60,iOS,he,'Apple iPhone','Apple ',9,6-10,(direct),(none),Direct,(none),Unknown,113,8,0,0,0,0,0,0,0,1
+3,9,21-30,iOS,he,'Apple iPhone','Apple ',10,6-10,(direct),(none),Direct,(none),Unknown,56.5,4.5,0,0,0,0,0,0,0,1
+1,13,11-20,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,79,2,0,0,0,0,0,0,0,1
+7,10,21-30,Android,he,'Google Nexus 5','Google ',5,4-5,(direct),(none),Direct,(none),Unknown,1302,5,0,0,0,0,0,0,0,1
+2,12,11-20,Android,he,'Samsung SM-A710F Galaxy A7 Duos','Samsung ',15,11-20,(direct),(none),Direct,(none),MOBILE_WEB,4829,112,0,1,0,1,1,0,0,1
+7,14,01-10,Android,en,'LG D855 G3','LG ',8,6-10,(direct),(none),Direct,(none),Unknown,1206,6,0,0,0,0,0,0,0,1
+2,4,11-20,iOS,he,'Apple iPhone','Apple ',812,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,689.8,35.8,0,1,0,0,0,0,0,1
+3,7,31-40,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',3,3,Whatsapp,Yad1_share,(Other),Yad1,Unknown,120,3,0,0,0,0,0,0,0,1
+3,11,31-40,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',4,4-5,Whatsapp,Yad1_share,(Other),Yad1,Unknown,60,2.5,0,0,0,0,0,0,0,1
+3,20,31-40,iOS,en,'Apple iPhone','Apple ',5,4-5,(direct),(none),Direct,(none),Unknown,1193,9,0,0,0,0,0,0,0,1
+3,22,21-30,Android,en,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,50,2.5,0,0,0,0,0,0,0,1
+6,9,41-50,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,4279,116,0,0,0,0,0,0,0,1
+4,7,31-40,iOS,en,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,158,2,0,0,0,0,0,0,0,1
+4,8,21-30,iOS,en,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),Unknown,160,2.5,0,0,0,0,0,0,0,1
+1,8,31-40,Android,he,'Samsung SM-J500F Galaxy J5','Samsung ',11,11-20,(direct),(none),Direct,(none),Unknown,98,4,0,0,0,0,0,0,0,1
+3,18,21-30,iOS,he,'Apple iPhone','Apple ',2,2,google,organic,'Organic Search',(none),Unknown,25,2.5,0,0,0,0,0,0,0,1
+6,12,01-10,iOS,he,'Apple iPhone','Apple ',20,11-20,(direct),(none),Direct,(none),Unknown,197,3,0,0,0,0,0,0,0,1
+4,18,51-60,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,348,6,0,1,0,0,0,0,0,1
+7,22,41-50,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',1,1,(direct),(none),Direct,(none),Unknown,405,16,0,0,0,0,0,0,0,1
+2,19,11-20,Android,he,'Lenovo YT3-X50L Yoga Tab 3','Lenovo ',5,4-5,(direct),(none),Direct,(none),Unknown,250,9,0,0,0,0,0,0,0,1
+6,9,21-30,Android,en,'LG D855 G3','LG ',33,21-50,(direct),(none),Direct,(none),Unknown,30.5,2,0,0,0,0,0,0,0,1
+7,10,51-60,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',1,1,google,organic,'Organic Search',(none),Unknown,226,9,0,0,0,0,0,0,0,1
+6,22,21-30,Android,en,'LG H815 G4','LG ',1,1,(direct),(none),Direct,(none),Unknown,804,7,0,0,0,0,0,0,0,1
+7,7,11-20,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,473,5,0,0,0,0,0,0,0,1
+6,8,41-50,iOS,en,'Apple iPhone','Apple ',9,6-10,(direct),(none),Direct,(none),Unknown,97,2,0,0,0,0,0,0,0,1
+4,18,41-50,iOS,he,'Apple iPhone','Apple ',100,51+,(direct),(none),Direct,(none),Unknown,316.75,4.25,0,0,0,0,0,0,0,1
+7,12,21-30,Android,he,'LG D855 G3','LG ',571,51+,(direct),(none),Direct,(none),Unknown,159,3,0,0,0,0,0,0,0,1
+7,17,01-10,iOS,he,'Apple iPhone','Apple ',30,21-50,(direct),(none),Direct,(none),Unknown,95,2,0,0,0,0,0,0,0,1
+6,20,01-10,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,0,1,0,0,0,0,0,0,0,1
+5,16,21-30,iOS,en,'Apple iPhone','Apple ',5,4-5,(direct),(none),Direct,(none),Unknown,1018,19,0,0,0,0,0,0,0,1
+5,13,01-10,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,426,3,0,0,0,0,0,0,0,1
+1,17,31-40,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',63,51+,google,organic,'Organic Search',(none),Unknown,205.222222,7,0,0,0,0,0,0,0,1
+7,16,01-10,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',1,1,google,organic,'Organic Search',(none),Unknown,78,3,0,0,0,0,0,0,0,1
+2,21,11-20,Android,fr,'HOMTOM HT7 Pro','HOMTOM ',1,1,(direct),(none),Direct,(none),Unknown,699,24,0,0,0,0,0,0,0,1
+2,19,41-50,Android,he,'(not set)','(not ',2,2,(direct),(none),Direct,(none),Unknown,88,2,0,0,0,0,0,0,0,1
+6,12,01-10,Android,he,'LG D855 G3','LG ',1,1,(direct),(none),Direct,(none),Unknown,98,3,0,0,0,0,0,0,0,1
+6,17,11-20,Android,he,'LG D855 G3','LG ',2,2,(direct),(none),Direct,(none),Unknown,108.5,3,0,0,0,0,0,0,0,1
+2,18,01-10,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',27,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,253,6,0,1,0,0,0,0,0,1
+4,21,11-20,Android,he,'Samsung GT-I8200N S III mini','Samsung ',3,3,(direct),(none),Direct,(none),Unknown,765,3,0,0,0,0,0,0,0,1
+4,20,51-60,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',3,3,(direct),(none),Direct,(none),Unknown,444.333333,12,0,0,0,0,0,0,0,1
+6,22,11-20,Android,he,'LG F670S K10','LG ',2,2,google,cpc,'Paid Search','yad1 - מתחרים',Unknown,227,13,0,0,0,0,0,0,0,1
+4,16,31-40,Android,en,'Google Nexus 5','Google ',9,6-10,'Yad1 Lead Confirmation',email,Email,'Yad1 Lead Confirmation',Unknown,328.333333,1.666667,0,0,0,0,0,0,0,1
+2,12,51-60,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),Unknown,50,3,0,0,0,0,0,0,0,1
+1,20,31-40,iOS,he,'Apple iPhone','Apple ',38,21-50,(direct),(none),Direct,(none),Unknown,160,3,0,0,0,0,0,0,0,1
+3,19,11-20,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',26,21-50,google,cpc,'Paid Search','Yad1- פרוייקטים ערים',Unknown,163.25,3.75,0,0,0,0,0,0,0,1
+6,20,11-20,Android,he,'Motorola Moto G (4) Moto G4','Motorola ',6,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,253,11,0,0,0,0,0,0,0,1
+7,1,31-40,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,203,7,0,0,0,0,0,0,0,1
+7,8,41-50,Android,he,'(not set)','(not ',3,3,google,organic,'Organic Search',(none),Unknown,360.666667,6.666667,0,0,0,0,0,0,0,1
+2,19,11-20,iOS,he,'Apple iPhone','Apple ',9,6-10,(direct),(none),Direct,(none),Unknown,392,3,0,0,0,0,0,0,0,1
+1,12,31-40,Android,en,'LG LG-D958 G Flex','LG ',784,51+,google,organic,'Organic Search',(none),MOBILE_WEB,712.857143,18.714286,0,1,0,0,0,0,0,1
+2,6,21-30,Android,en,'LG LG-D958 G Flex','LG ',788,51+,google,cpc,'Paid Search','Yad2 - Brand E',MOBILE_WEB,551.8,15.5,0,0,0,0,0,0,0,1
+5,17,41-50,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',8,6-10,(direct),(none),Direct,(none),Unknown,86,2,0,0,0,0,0,0,0,1
+4,19,21-30,iOS,he,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),Unknown,76,2,0,0,0,0,0,0,0,1
+5,16,51-60,iOS,en,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,70,2,0,0,0,0,0,0,0,1
+5,23,21-30,iOS,en,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),Unknown,35,1.5,0,0,0,0,0,0,0,1
+4,23,11-20,Android,ru,'Samsung SM-C7000 Galaxy C7','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,899,4,0,0,0,0,0,0,0,1
+6,10,41-50,Android,ru,'Samsung SM-C7000 Galaxy C7','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,505.5,5,0,0,0,0,0,0,0,1
+4,17,51-60,Android,ru,'Samsung SM-C7000 Galaxy C7','Samsung ',3,3,(direct),(none),Direct,(none),Unknown,351.333333,4,0,0,0,0,0,0,0,1
+3,10,21-30,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,1122,22,0,0,0,0,0,0,0,1
+4,10,51-60,iOS,he,'Apple iPhone','Apple ',3,3,(direct),(none),Direct,(none),Unknown,492.666667,11.666667,0,0,0,0,0,0,0,1
+1,20,51-60,Android,he,'LG H850 G Flex 2','LG ',3,3,google,organic,'Organic Search',(none),Unknown,472.5,17,0,0,0,0,0,0,0,1
+7,8,01-10,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',3,3,(direct),(none),Direct,(none),Unknown,288,7,0,0,0,0,0,0,0,1
+4,20,51-60,iOS,fr,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,250,16,0,0,0,0,0,0,0,1
+6,11,31-40,Android,en,'LG F670S K10','LG ',5,4-5,(direct),(none),Direct,(none),Unknown,77,2,0,0,0,0,0,0,0,1
+7,14,31-40,Android,he,'(not set)','(not ',2,2,google,organic,'Organic Search',(none),MOBILE_WEB,630.5,12,0,1,1,0,0,0,0,1
+7,18,31-40,Android,he,'Huawei P8max P8 Max','Huawei ',3,3,(direct),(none),Direct,(none),Unknown,120,2,0,0,0,0,0,0,0,1
+6,9,41-50,Android,he,'LG D855 G3','LG ',2,2,(direct),(none),Direct,(none),Unknown,79,2,0,0,0,0,0,0,0,1
+2,20,31-40,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,60,2,0,0,0,0,0,0,0,1
+6,14,31-40,iOS,he,'Apple iPhone','Apple ',22,21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,695,35,0,1,0,1,0,0,0,1
+6,9,01-10,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),Unknown,835,2,0,0,0,0,0,0,0,1
+7,18,21-30,Android,he,'Huawei CRR-L09 Mate S','Huawei ',4,4-5,(direct),(none),Direct,(none),Unknown,273,9,0,0,0,0,0,0,0,1
+3,7,41-50,iOS,he,'Apple iPhone','Apple ',58,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,3742,35,0,1,0,0,0,1,1,1
+7,8,11-20,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',3,3,(direct),(none),Direct,(none),MOBILE_WEB,2808,79,0,1,0,0,0,1,0,1
+3,5,51-60,Android,he,'LG H815 G4','LG ',2,2,(direct),(none),Direct,(none),Unknown,67,4,0,0,0,0,0,0,0,1
+5,19,11-20,iOS,fr,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),Unknown,111,1.5,0,0,0,0,0,0,0,1
+6,11,31-40,Android,he,'Samsung GT-I9500 Galaxy S IV','Samsung ',14,11-20,(direct),(none),Direct,(none),Unknown,341,7,0,0,0,0,0,0,0,1
+2,19,01-10,Android,he,'(not set)','(not ',2,2,google,cpc,'Paid Search','yad1 - מתחרים',Unknown,1515.5,8,0,0,0,0,0,0,0,1
+6,17,11-20,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),Unknown,121,6,0,0,0,0,0,0,0,1
+2,18,31-40,Android,he,'Samsung GT-I9301I Galaxy S III Neo+','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,82,3,0,0,0,0,0,0,0,1
+2,21,41-50,Android,he,'Samsung GT-I9301I Galaxy S III Neo+','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,130,4.5,0,0,0,0,0,0,0,1
+2,4,41-50,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,240,4,0,0,0,0,0,0,0,1
+7,19,41-50,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',1,1,(direct),(none),Direct,(none),MOBILE_WEB,1054,32,0,1,0,1,1,0,0,1
+4,11,41-50,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,1004,11,0,0,0,0,0,0,0,1
+3,21,21-30,iOS,he,'Apple iPhone','Apple ',21,21-50,google,organic,'Organic Search',(none),Unknown,260,3,0,0,0,0,0,0,0,1
+5,16,31-40,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',3,3,(direct),(none),Direct,(none),Unknown,2093,34,0,0,0,0,0,0,0,1
+6,15,01-10,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',5,4-5,(direct),(none),Direct,(none),Unknown,1488,40,0,0,0,0,0,0,0,1
+4,10,11-20,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',6,6-10,(direct),(none),Direct,(none),Unknown,1296.5,32.5,0,0,0,0,0,0,0,1
+1,9,51-60,Android,en,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,185,8,0,0,0,0,0,0,0,1
+2,15,21-30,Android,he,'Huawei RIO-L02 G8','Huawei ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,969,47,0,1,0,1,1,0,0,1
+6,4,31-40,iOS,en,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,5273,16,0,0,0,0,0,0,0,1
+6,17,51-60,iOS,he,'Apple iPhone','Apple ',3,3,(direct),(none),Direct,(none),Unknown,644,15,0,0,0,0,0,0,0,1
+4,18,41-50,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',8,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,232.333333,7.333333,0,1,0,0,0,0,0,1
+5,20,31-40,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,257,2,0,0,0,0,0,0,0,1
+4,7,11-20,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',4,4-5,(direct),(none),Direct,(none),Unknown,720,3,0,0,0,0,0,0,0,1
+6,20,21-30,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',5,4-5,google,organic,'Organic Search',(none),MOBILE_WEB,838,31,0,1,0,0,0,0,0,1
+6,6,11-20,Android,en,'LG D858HK G3','LG ',3,3,(direct),(none),Direct,(none),Unknown,129,5,0,0,0,0,0,0,0,1
+6,9,41-50,Android,en,'Google Nexus 5','Google ',3,3,(direct),(none),Direct,(none),Unknown,256,3,0,0,0,0,0,0,0,1
+1,13,41-50,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),Unknown,642,9,0,0,0,0,0,0,0,1
+7,12,31-40,iOS,he,'Apple iPhone','Apple ',245,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,4688,77,0,1,0,1,1,0,0,1
+2,15,41-50,Android,he,'(not set)','(not ',60,51+,google,organic,'Organic Search',(none),Unknown,1338,11,0,0,0,0,0,0,0,1
+3,18,31-40,Android,he,'LG D855 G3','LG ',13,11-20,(direct),(none),Direct,(none),Unknown,112,6,0,0,0,0,0,0,0,1
+4,7,21-30,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',1,1,(direct),(none),Direct,(none),MOBILE_WEB,927,26,0,1,0,1,1,0,0,1
+1,14,11-20,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),Unknown,125,2,0,0,0,0,0,0,0,1
+1,18,01-10,iOS,he,'Apple iPhone','Apple ',2,2,google,organic,'Organic Search',(none),Unknown,62.5,1.5,0,0,0,0,0,0,0,1
+7,18,31-40,Android,he,'LG D855 G3','LG ',5,4-5,(direct),(none),Direct,(none),MOBILE_WEB,363,13,0,1,0,1,0,0,0,1
+1,14,51-60,Android,en,'Xiaomi Redmi Note 3','Xiaomi ',1,1,(direct),(none),Direct,(none),Unknown,324,4,0,0,0,0,0,0,0,1
+2,19,41-50,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',4,4-5,google,organic,'Organic Search',(none),MOBILE_WEB,255.5,11.5,0,1,0,1,1,1,0,1
+6,12,31-40,iOS,he,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),Unknown,168,3,0,0,0,0,0,0,0,1
+2,10,21-30,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',6,6-10,google,organic,'Organic Search',(none),Unknown,211,4.5,0,0,0,0,0,0,0,1
+5,15,41-50,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',7,6-10,(direct),(none),Direct,(none),Unknown,0,1,0,0,0,0,0,0,0,1
+1,16,11-20,iOS,he,'Apple iPhone','Apple ',583,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,609.6,18.6,0,1,0,1,0,0,0,1
+6,9,11-20,iOS,he,'Apple iPhone','Apple ',5,4-5,(direct),(none),Direct,(none),Unknown,132,7,0,0,0,0,0,0,0,1
+4,18,11-20,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',3,3,(direct),(none),Direct,(none),Unknown,81,6,0,0,0,0,0,0,0,1
+1,18,31-40,Android,he,'Huawei MHA-L29 Mate 9','Huawei ',4,4-5,(direct),(none),Direct,(none),Unknown,110,5,0,0,0,0,0,0,0,1
+1,20,41-50,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',3,3,(direct),(none),Direct,(none),Unknown,121,3,0,0,0,0,0,0,0,1
+6,1,11-20,iOS,he,'Apple iPhone','Apple ',3,3,(direct),(none),Direct,(none),Unknown,98,5,0,0,0,0,0,0,0,1
+6,13,31-40,Android,he,'Samsung SM-N900 Galaxy Note 3','Samsung ',252,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1199.5,58.5,0,1,0,0,0,0,0,1
+1,20,01-10,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',1,1,re_facebook,yad1_re_facebook,(Other),'(not set)',Unknown,206,3,0,0,0,0,0,0,0,1
+4,21,31-40,Android,he,'Huawei EVA-L09 P9 Standard Edition','Huawei ',2,2,(direct),(none),Direct,(none),Unknown,142,3,0,0,0,0,0,0,0,1
+2,18,21-30,Android,he,'Huawei VIE-L09 P9 Plus','Huawei ',4,4-5,(direct),(none),Direct,(none),Unknown,99.5,6,0,0,0,0,0,0,0,1
+6,14,01-10,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,728,19,0,1,0,0,0,0,0,1
+7,20,21-30,iOS,he,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),Unknown,124,2,0,0,0,0,0,0,0,1
+1,19,51-60,Android,he,'LG H815 G4','LG ',52,51+,(direct),(none),Direct,(none),Unknown,310,6,0,0,0,0,0,0,0,1
+3,20,11-20,iOS,he,'Apple iPhone','Apple ',8,6-10,(direct),(none),Direct,(none),Unknown,180,3,0,0,0,0,0,0,0,1
+4,22,21-30,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',3,3,(direct),(none),Direct,(none),Unknown,130,5,0,0,0,0,0,0,0,1
+6,5,41-50,Android,he,'LG D722 G3 Mini','LG ',4,4-5,(direct),(none),Direct,(none),Unknown,1372,4,0,0,0,0,0,0,0,1
+6,10,41-50,iOS,he,'Apple iPhone','Apple ',3,3,(direct),(none),Direct,(none),Unknown,555,6,0,0,0,0,0,0,0,1
+1,21,11-20,iOS,he,'Apple iPhone','Apple ',5,4-5,(direct),(none),Direct,(none),Unknown,261.666667,4,0,0,0,0,0,0,0,1
+4,17,01-10,iOS,he,'Apple iPhone','Apple ',6,6-10,(direct),(none),Direct,(none),Unknown,624.75,4.5,0,0,0,0,0,0,0,1
+2,11,41-50,Android,he,'LG D855 G3','LG ',1,1,(direct),(none),Direct,(none),Unknown,83,3,0,0,0,0,0,0,0,1
+3,18,31-40,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',5,4-5,google,organic,'Organic Search',(none),Unknown,283.5,5.5,0,0,0,0,0,0,0,1
+7,10,41-50,iOS,he,'Apple iPhone','Apple ',12,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,152,3,0,1,0,0,0,0,0,1
+7,17,41-50,Android,he,'LG H815 G4','LG ',3,3,(direct),(none),Direct,(none),Unknown,1080,4,0,0,0,0,0,0,0,1
+3,17,01-10,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',2,2,google,organic,'Organic Search',(none),Unknown,398,4,0,0,0,0,0,0,0,1
+1,16,11-20,Android,he,'LG H960 V10','LG ',3,3,(direct),(none),Direct,(none),MOBILE_WEB,1192,14,0,1,0,1,1,0,0,1
+1,7,51-60,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',2,2,google,organic,'Organic Search',(none),Unknown,800,26,0,0,0,0,0,0,0,1
+7,19,21-30,Android,he,'Samsung SM-G925F Galaxy S6 Edge','Samsung ',7,6-10,google,organic,'Organic Search',(none),Unknown,327,8,0,0,0,0,0,0,0,1
+4,10,21-30,Android,he,'Huawei EVA-L09 P9 Standard Edition','Huawei ',3,3,re_facebook,yad1_re_facebook,(Other),'(not set)',Unknown,46,2,0,0,0,0,0,0,0,1
+1,12,51-60,iOS,ru,'Apple iPhone','Apple ',5,4-5,(direct),(none),Direct,(none),Unknown,1740,30,0,0,0,0,0,0,0,1
+2,21,31-40,iOS,ru,'Apple iPhone','Apple ',8,6-10,(direct),(none),Direct,(none),Unknown,609,16.25,0,0,0,0,0,0,0,1
+4,22,11-20,Android,he,'LG F670S K10','LG ',8,6-10,(direct),(none),Direct,(none),MOBILE_WEB,827,16,0,1,0,0,0,0,0,1
+5,7,11-20,Android,he,'LG F670S K10','LG ',9,6-10,(direct),(none),Direct,(none),Unknown,413.5,8.5,0,0,0,0,0,0,0,1
+6,14,11-20,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,1126,5,0,0,0,0,0,0,0,1
+7,12,21-30,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',16,11-20,google,cpc,'Paid Search','yad1 - מתחרים',Unknown,319,4,0,0,0,0,0,0,0,1
+7,18,21-30,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',2,2,google,organic,'Organic Search',(none),Unknown,459,18,0,0,0,0,0,0,0,1
+6,3,31-40,Android,he,'LG H815 G4','LG ',27,21-50,(direct),(none),Direct,(none),Unknown,270,5,0,0,0,0,0,0,0,1
+7,17,01-10,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',117,51+,(direct),(none),Direct,(none),Unknown,518,7.4,0,0,0,0,0,0,0,1
+3,10,51-60,Android,en,'LG D855 G3','LG ',5,4-5,(direct),(none),Direct,(none),Unknown,55.5,2.5,0,0,0,0,0,0,0,1
+2,13,31-40,Android,he,'LG H815 G4','LG ',3,3,(direct),(none),Direct,(none),Unknown,311.5,3.5,0,0,0,0,0,0,0,1
+7,18,21-30,Android,fr,'HOMTOM HT7 Pro','HOMTOM ',4,4-5,(direct),(none),Direct,(none),Unknown,326,5.5,0,0,0,0,0,0,0,1
+1,22,41-50,Android,fr,'HOMTOM HT7 Pro','HOMTOM ',7,6-10,(direct),(none),Direct,(none),Unknown,722.2,6,0,0,0,0,0,0,0,1
+4,2,41-50,Android,fr,'HOMTOM HT7 Pro','HOMTOM ',9,6-10,(direct),(none),Direct,(none),Unknown,702.714286,5.714286,0,0,0,0,0,0,0,1
+2,15,11-20,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',4,4-5,google,cpc,'Paid Search','Yad1- פרוייקטים ערים',Unknown,103.666667,5,0,0,0,0,0,0,0,1
+2,14,01-10,Android,he,'LG D855 G3','LG ',5,4-5,(direct),(none),Direct,(none),Unknown,178,4,0,0,0,0,0,0,0,1
+5,5,21-30,Android,he,'LG LG-H850 G Flex 2','LG ',1,1,(direct),(none),Direct,(none),Unknown,1041,9,0,0,0,0,0,0,0,1
+4,6,21-30,Android,he,'Samsung SM-J500F Galaxy J5','Samsung ',4,4-5,google,organic,'Organic Search',(none),Unknown,750.5,17.75,0,0,0,0,0,0,0,1
+1,13,01-10,Android,he,'Xiaomi Redmi Note 4','Xiaomi ',2,2,(direct),(none),Direct,(none),Unknown,1302,9,0,0,0,0,0,0,0,1
+7,20,41-50,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,144,3,0,0,0,0,0,0,0,1
+1,19,21-30,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,145,4,0,0,0,0,0,0,0,1
+3,17,41-50,Android,he,'Huawei EVA-L09 P9 Standard Edition','Huawei ',12,11-20,(direct),(none),Direct,(none),Unknown,572,14,0,0,0,0,0,0,0,1
+3,19,31-40,Android,he,'Huawei EVA-L09 P9 Standard Edition','Huawei ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,1311,11,0,1,0,0,0,0,0,1
+1,21,01-10,Android,he,'Huawei CRR-L09 Mate S','Huawei ',2,2,(direct),(none),Direct,(none),Unknown,82,3,0,0,0,0,0,0,0,1
+1,10,41-50,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,153,6,0,0,0,0,0,0,0,1
+5,4,41-50,Android,he,'LG D855 G3','LG ',3,3,(direct),(none),Direct,(none),Unknown,1297,9,0,0,0,0,0,0,0,1
+1,10,41-50,Android,he,'Samsung GT-I9500 Galaxy S IV','Samsung ',51,51+,(direct),(none),Direct,(none),MOBILE_WEB,1175,33,0,1,0,0,0,0,0,1
+3,6,11-20,Android,he,'Kenxinda W5','Kenxinda ',181,51+,(direct),(none),Direct,(none),Unknown,154.772727,4.681818,0,0,0,0,0,0,0,1
+5,3,41-50,Android,he,'LG D855 G3','LG ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,478,6,0,1,0,0,0,0,0,1
+7,19,11-20,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',1,1,google,organic,'Organic Search',(none),Unknown,243,13,0,0,0,0,0,0,0,1
+3,12,31-40,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',1,1,google,organic,'Organic Search',(none),Unknown,1924,19,0,0,0,0,0,0,0,1
+2,16,01-10,Android,he,'Meizu M2 Note M2 Note','Meizu ',14,11-20,google,organic,'Organic Search',(none),Unknown,337,18,0,0,0,0,0,0,0,1
+5,12,51-60,Android,ru,'LG D855 G3','LG ',11,11-20,google,cpc,'Paid Search','Yad1- פרוייקטים ערים',Unknown,227,11,0,0,0,0,0,0,0,1
+2,19,51-60,iOS,he,'Apple iPhone','Apple ',2,2,google,organic,'Organic Search',(none),Unknown,365,8,0,0,0,0,0,0,0,1
+3,8,01-10,Android,he,'Samsung SM-E500F Galaxy E5','Samsung ',90,51+,(direct),(none),Direct,(none),Unknown,609,4,0,0,0,0,0,0,0,1
+4,10,31-40,Android,he,'Samsung SM-E500F Galaxy E5','Samsung ',91,51+,(direct),(none),Direct,(none),Unknown,574,5.5,0,0,0,0,0,0,0,1
+3,15,11-20,Android,he,'Samsung SM-J510F Galaxy J5 (2016)','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,591,4,0,0,0,0,0,0,0,1
+7,10,01-10,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,91,2,0,0,0,0,0,0,0,1
+5,23,11-20,Android,ru,'LG D855 G3','LG ',9,6-10,google,organic,'Organic Search',(none),Unknown,1532,15,0,0,0,0,0,0,0,1
+7,12,11-20,Android,en,'Xiaomi Redmi Note 3','Xiaomi ',29,21-50,(direct),(none),Direct,(none),Unknown,28.5,1.5,0,0,0,0,0,0,0,1
+7,21,41-50,Android,he,'Samsung SM-T550 Galaxy Tab A 9.7','Samsung ',3,3,(direct),(none),Direct,(none),Unknown,524,14,0,0,0,0,0,0,0,1
+2,18,11-20,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',6,6-10,google,organic,'Organic Search',(none),Unknown,213,8.5,0,0,0,0,0,0,0,1
+6,11,41-50,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,264,7,0,0,0,0,0,0,0,1
+7,14,41-50,iOS,he,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),Unknown,2,2,0,0,0,0,0,0,0,1
+1,19,01-10,Android,ru,'Meizu MZ-U20 U20','Meizu ',14,11-20,(direct),(none),Direct,(none),Unknown,306,5,0,0,0,0,0,0,0,1
+1,11,11-20,Android,he,'LG LG-H850 G Flex 2','LG ',11,11-20,(direct),(none),Direct,(none),Unknown,139.666667,3.333333,0,0,0,0,0,0,0,1
+6,19,31-40,iOS,he,'Apple iPhone','Apple ',321,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,608,21,0,1,0,1,0,1,0,1
+2,18,51-60,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',1,1,google,organic,'Organic Search',(none),Unknown,402,4,0,0,0,0,0,0,0,1
+2,16,11-20,Android,he,'LG D855 G3','LG ',1,1,(direct),(none),Direct,(none),Unknown,97,2,0,0,0,0,0,0,0,1
+5,18,11-20,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',7,6-10,(direct),(none),Direct,(none),Unknown,365,8,0,0,0,0,0,0,0,1
+3,7,21-30,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',3,3,(direct),(none),Direct,(none),Unknown,89,3,0,0,0,0,0,0,0,1
+3,16,51-60,iOS,he,'Apple iPhone','Apple ',3,3,(direct),(none),Direct,(none),Unknown,974,7,0,0,0,0,0,0,0,1
+4,9,11-20,iOS,he,'Apple iPhone','Apple ',4,4-5,(direct),(none),Direct,(none),Unknown,487,4,0,0,0,0,0,0,0,1
+5,19,21-30,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',9,6-10,(direct),(none),Direct,(none),Unknown,65,3,0,0,0,0,0,0,0,1
+7,7,01-10,iOS,he,'Apple iPhone','Apple ',10,6-10,(direct),(none),Direct,(none),Unknown,178,4,0,0,0,0,0,0,0,1
+4,9,41-50,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),Unknown,132,9,0,0,0,0,0,0,0,1
+3,16,21-30,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',4,4-5,google,organic,'Organic Search',(none),Unknown,97,5.666667,0,0,0,0,0,0,0,1
+5,13,51-60,Android,he,'LG D855 G3','LG ',9,6-10,google,organic,'Organic Search',(none),Unknown,2342,10,0,0,0,0,0,0,0,1
+3,20,21-30,iOS,he,'Apple iPhone','Apple ',1,1,'Yad1 Lead Confirmation',email,Email,'Yad1 Lead Confirmation',Unknown,1073,26,0,0,0,0,0,0,0,1
+7,15,21-30,iOS,en,'Apple iPhone','Apple ',4,4-5,(direct),(none),Direct,(none),Unknown,67,2,0,0,0,0,0,0,0,1
+2,16,11-20,Android,he,'Samsung SM-A510F Galaxy A5 2016 Duos','Samsung ',6,6-10,(direct),(none),Direct,(none),Unknown,122,5,0,0,0,0,0,0,0,1
+7,0,01-10,Android,he,'LG D855 G3','LG ',13,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,329,20.333333,0,1,0,1,1,0,0,1
+3,20,51-60,Android,he,'Google Nexus 5X','Google ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,592,32,0,1,0,0,0,0,0,1
+7,15,41-50,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',7,6-10,(direct),(none),Direct,(none),Unknown,44,3,0,0,0,0,0,0,0,1
+6,8,01-10,Android,he,'LG H735 G4 Beat','LG ',5,4-5,(direct),(none),Direct,(none),Unknown,500.5,4.5,0,0,0,0,0,0,0,1
+2,20,41-50,iOS,fr,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,126,3,0,0,0,0,0,0,0,1
+4,9,41-50,Android,he,'LG D855 G3','LG ',15,11-20,(direct),(none),Direct,(none),Unknown,614.5,11,0,0,0,0,0,0,0,1
+7,19,31-40,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',24,21-50,(direct),(none),Direct,(none),Unknown,127,4,0,0,0,0,0,0,0,1
+2,20,51-60,iOS,he,'Apple iPhone 6s','Apple ',1,1,m.facebook.com,referral,Social,(none),Unknown,703,16,0,0,0,0,0,0,0,1
+5,17,51-60,iOS,he,'Apple iPhone','Apple ',5,4-5,(direct),(none),Direct,(none),Unknown,0,1,0,0,0,0,0,0,0,1
+5,19,11-20,iOS,he,'Apple iPhone','Apple ',6,6-10,(direct),(none),Direct,(none),Unknown,0,1,0,0,0,0,0,0,0,1
+1,11,21-30,iOS,he,'Apple iPhone','Apple ',8,6-10,(direct),(none),Direct,(none),Unknown,20.75,1.75,0,0,0,0,0,0,0,1
+3,14,11-20,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',85,51+,google,organic,'Organic Search',(none),Unknown,703.25,7.833333,0,0,0,0,0,0,0,1
+3,15,51-60,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',86,51+,google,organic,'Organic Search',(none),Unknown,649.153846,7.307692,0,0,0,0,0,0,0,1
+4,4,51-60,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',87,51+,google,organic,'Organic Search',(none),MOBILE_WEB,628.142857,7.428571,0,1,0,0,0,0,0,1
+4,5,31-40,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',88,51+,google,organic,'Organic Search',(none),Unknown,586.266667,7,0,0,0,0,0,0,0,1
+4,12,11-20,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',90,51+,google,organic,'Organic Search',(none),Unknown,517.705882,6.352941,0,0,0,0,0,0,0,1
+4,17,11-20,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',91,51+,google,organic,'Organic Search',(none),MOBILE_WEB,570.444444,6.722222,1,0,0,0,0,0,0,1
+6,11,51-60,Android,he,'Google Nexus 5X','Google ',12,11-20,(direct),(none),Direct,(none),Unknown,129,5,0,0,0,0,0,0,0,1
+7,12,21-30,Android,he,'LG H850 G Flex 2','LG ',1,1,(direct),(none),Direct,(none),Unknown,298,8,0,0,0,0,0,0,0,1
+6,13,21-30,iOS,en,'Apple iPhone','Apple ',56,51+,(direct),(none),Direct,(none),Unknown,183,2,0,0,0,0,0,0,0,1
+1,18,01-10,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',1,1,(direct),(none),Direct,(none),MOBILE_WEB,1041,16,0,1,0,1,0,0,0,1
+3,19,31-40,Android,he,'Meizu MZ-m2 m2','Meizu ',1,1,(direct),(none),Direct,(none),Unknown,300,4,0,0,0,0,0,0,0,1
+4,9,51-60,Android,he,'Meizu MZ-m2 m2','Meizu ',2,2,(direct),(none),Direct,(none),Unknown,150,2.5,0,0,0,0,0,0,0,1
+7,14,41-50,Android,he,'Huawei EVA-L09 P9 Standard Edition','Huawei ',9,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,275.5,18,0,1,0,1,1,0,0,1
+2,9,41-50,Android,he,'OnePlus RAIN A3000 3','OnePlus ',8,6-10,(direct),(none),Direct,(none),Unknown,182,7,0,0,0,0,0,0,0,1
+4,9,51-60,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',6,6-10,google,organic,'Organic Search',(none),Unknown,957,19,0,0,0,0,0,0,0,1
+1,17,01-10,Android,he,'Samsung SM-J500F Galaxy J5','Samsung ',71,51+,(direct),(none),Direct,(none),Unknown,117,4,0,0,0,0,0,0,0,1
+7,8,31-40,Android,he,'LG D855 G3','LG ',1,1,(direct),(none),Direct,(none),Unknown,331,2,0,0,0,0,0,0,0,1
+1,18,31-40,Android,en,'Meizu MZ-MX5 MX5','Meizu ',7,6-10,(direct),(none),Direct,(none),Unknown,49,2,0,0,0,0,0,0,0,1
+2,5,11-20,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,569,14,0,0,0,0,0,0,0,1
+3,20,31-40,Android,en,'Huawei EVA-L09 P9 Standard Edition','Huawei ',1,1,(direct),(none),Direct,(none),Unknown,134,3,0,0,0,0,0,0,0,1
+7,23,51-60,Android,he,'Samsung SM-G925F Galaxy S6 Edge','Samsung ',17,11-20,google,organic,'Organic Search',(none),Unknown,1943,14.5,0,0,0,0,0,0,0,1
+2,22,11-20,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',1,1,(direct),(none),Direct,(none),Unknown,1592,7,0,0,0,0,0,0,0,1
+2,8,41-50,Android,he,'Meizu MX4','Meizu ',4,4-5,(direct),(none),Direct,(none),Unknown,439,16.5,0,0,0,0,0,0,0,1
+5,6,41-50,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,73,3,0,0,0,0,0,0,0,1
+7,19,31-40,iOS,ru,'Apple iPhone','Apple ',11,11-20,(direct),(none),Direct,(none),MOBILE_APP_IOS,1347,30,0,0,0,0,0,0,0,1
+6,11,01-10,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,92,2,0,0,0,0,0,0,0,1
+3,18,31-40,iOS,he,'Apple iPhone','Apple ',1,1,yahoo,organic,'Organic Search',(none),MOBILE_WEB,1171,25,0,1,0,1,0,0,0,1
+1,12,31-40,Android,en,'LG D855 G3','LG ',2,2,google,cpc,'Paid Search','Yad1- פרוייקטים ערים',Unknown,83.5,3,0,0,0,0,0,0,0,1
+4,23,01-10,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',19,11-20,(direct),(none),Direct,(none),Unknown,77,3,0,0,0,0,0,0,0,1
+1,6,51-60,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,211.5,3.5,0,0,0,0,0,0,0,1
+4,21,11-20,iOS,he,'Apple iPhone','Apple ',3,3,google,organic,'Organic Search',(none),Unknown,811,10.5,0,0,0,0,0,0,0,1
+3,4,51-60,Android,he,'Lenovo YT3-X50L Yoga Tab 3','Lenovo ',5,4-5,(direct),(none),Direct,(none),Unknown,1220,7,0,0,0,0,0,0,0,1
+4,6,31-40,iOS,he,'Apple iPhone','Apple ',1,1,Whatsapp,Yad1_share,(Other),Yad1,Unknown,499,11,0,0,0,0,0,0,0,1
+2,6,21-30,iOS,he,'Apple iPhone','Apple ',145,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,358.571429,11,0,1,0,1,0,0,0,1
+2,23,11-20,Android,he,'LG H815 G4','LG ',132,51+,google,cpc,'Paid Search','Yad2 - Brand E',MOBILE_WEB,544.142857,17.571429,0,1,0,1,0,0,0,1
+1,11,51-60,iOS,he,'Apple iPhone','Apple ',5,4-5,google,organic,'Organic Search',(none),Unknown,1197,14,0,0,0,0,0,0,0,1
+2,21,41-50,Android,en,'LG D855 G3','LG ',1,1,(direct),(none),Direct,(none),Unknown,209,2,0,0,0,0,0,0,0,1
+1,15,41-50,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,122,3,0,0,0,0,0,0,0,1
+4,19,51-60,iOS,en,'Apple iPhone 6 Plus','Apple ',2,2,re_facebook,yad1_re_facebook,(Other),'(not set)',Unknown,84,3,0,0,0,0,0,0,0,1
+1,21,11-20,iOS,en,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,289,5,0,0,0,0,0,0,0,1
+1,20,41-50,iOS,he,'Apple iPhone','Apple ',5,4-5,(direct),(none),Direct,(none),Unknown,1439,9,0,0,0,0,0,0,0,1
+3,20,51-60,Android,he,'LG H815 G4','LG ',1,1,(direct),(none),Direct,(none),Unknown,1843,25,0,0,0,0,0,0,0,1
+7,6,51-60,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',1,1,google,organic,'Organic Search',(none),Unknown,496,13,0,0,0,0,0,0,0,1
+7,4,41-50,iOS,he,'Apple iPhone','Apple ',15,11-20,(direct),(none),Direct,(none),Unknown,162,2,0,0,0,0,0,0,0,1
+2,20,01-10,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,1006,5,0,0,0,0,0,0,0,1
+5,15,41-50,Android,ru,'Samsung SM-G900F Galaxy S5','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,211,2,0,0,0,0,0,0,0,1
+5,11,51-60,Android,he,'Samsung SM-G928C Galaxy S6 Edge Plus','Samsung ',28,21-50,(direct),(none),Direct,(none),Unknown,1431,32,0,0,0,0,0,0,0,1
+3,10,31-40,Android,en,'Samsung SM-N920W8 Galaxy Note 5','Samsung ',7,6-10,google,organic,'Organic Search',(none),Unknown,57,2,0,0,0,0,0,0,0,1
+2,17,31-40,Android,he,'Huawei GRA-L09 P8','Huawei ',2,2,(direct),(none),Direct,(none),Unknown,67.5,3.5,0,0,0,0,0,0,0,1
+7,11,31-40,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,77,2,0,0,0,0,0,0,0,1
+1,19,11-20,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',10,6-10,(direct),(none),Direct,(none),Unknown,68,1.5,0,0,0,0,0,0,0,1
+6,11,31-40,Android,en,'LG F670S K10','LG ',1,1,(direct),(none),Direct,(none),Unknown,176,12,0,0,0,0,0,0,0,1
+4,18,21-30,Android,he,'Samsung GT-I9500 Galaxy S IV','Samsung ',19,11-20,(direct),(none),Direct,(none),Unknown,135.333333,2,0,0,0,0,0,0,0,1
+4,20,51-60,Android,he,'Samsung GT-I9301I Galaxy S III Neo+','Samsung ',24,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,214.6,8.4,0,1,0,0,0,0,0,1
+5,2,11-20,iOS,he,'Apple iPhone','Apple ',27,21-50,google,organic,'Organic Search',(none),Unknown,139,4,0,0,0,0,0,0,0,1
+1,17,11-20,Android,he,'LG H815 G4','LG ',29,21-50,(direct),(none),Direct,(none),Unknown,201,6,0,0,0,0,0,0,0,1
+2,13,31-40,Android,he,'OnePlus A2003 2','OnePlus ',1,1,(direct),(none),Direct,(none),Unknown,293,11,0,0,0,0,0,0,0,1
+3,18,41-50,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',4,4-5,(direct),(none),Direct,(none),Unknown,266,8,0,0,0,0,0,0,0,1
+2,19,11-20,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',3,3,(direct),(none),Direct,(none),Unknown,124,3,0,0,0,0,0,0,0,1
+2,7,51-60,Android,en,'(not set)','(not ',2,2,(direct),(none),Direct,(none),Unknown,602,8,0,0,0,0,0,0,0,1
+4,2,51-60,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,134,5,0,0,0,0,0,0,0,1
+7,11,11-20,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',6,6-10,(direct),(none),Direct,(none),Unknown,205,4,0,0,0,0,0,0,0,1
+7,11,11-20,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',7,6-10,google,organic,'Organic Search',(none),Unknown,301,10.5,0,0,0,0,0,0,0,1
+3,19,01-10,iOS,he,'Apple iPhone','Apple ',7,6-10,google,organic,'Organic Search',(none),Unknown,328,9,0,0,0,0,0,0,0,1
+5,23,51-60,Android,he,'LG D855 G3','LG ',2,2,(direct),(none),Direct,(none),Unknown,46,2,0,0,0,0,0,0,0,1
+5,16,31-40,Android,ru,'LG H815 G4','LG ',4,4-5,(direct),(none),Direct,(none),Unknown,689,17,0,0,0,0,0,0,0,1
+2,20,01-10,Android,ru,'LG H815 G4','LG ',7,6-10,google,cpc,'Paid Search','Yad1- דירות ערים',Unknown,817.5,9.5,0,0,0,0,0,0,0,1
+6,4,41-50,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',4,4-5,(direct),(none),Direct,(none),Unknown,0,1,0,0,0,0,0,0,0,1
+6,14,31-40,iOS,he,'Apple iPhone','Apple ',6,6-10,google,organic,'Organic Search',(none),Unknown,228,4.5,0,0,0,0,0,0,0,1
+2,22,21-30,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,1219,33,0,0,0,0,0,0,0,1
+7,0,51-60,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',16,11-20,(direct),(none),Direct,(none),Unknown,168,3,0,0,0,0,0,0,0,1
+5,19,51-60,Android,he,'Motorola XT1032 Moto G','Motorola ',1,1,(direct),(none),Direct,(none),Unknown,5490,16,0,0,0,0,0,0,0,1
+5,20,01-10,iOS,he,'Apple iPhone','Apple ',3,3,google,organic,'Organic Search',(none),Unknown,0,1,0,0,0,0,0,0,0,1
+4,20,01-10,Android,he,'LG H815 G4','LG ',1,1,(direct),(none),Direct,(none),Unknown,36,2,0,0,0,0,0,0,0,1
+1,11,01-10,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',119,51+,google,cpc,'Paid Search','yad1 - מתחרים',Unknown,782.5,23,0,0,0,0,0,0,0,1
+1,5,11-20,Android,he,'LG H815 G4','LG ',1,1,(direct),(none),Direct,(none),Unknown,83,3,0,0,0,0,0,0,0,1
+3,17,41-50,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',10,6-10,google,organic,'Organic Search',(none),Unknown,308,3,0,0,0,0,0,0,0,1
+2,20,01-10,Android,he,'Samsung SM-G925F Galaxy S6 Edge','Samsung ',24,21-50,(direct),(none),Direct,(none),Unknown,1151,7,0,0,0,0,0,0,0,1
+6,14,01-10,iOS,he,'Apple iPhone','Apple ',10,6-10,(direct),(none),Direct,(none),Unknown,330,4,0,0,0,0,0,0,0,1
+3,20,21-30,Android,he,'Huawei Ascend P7 L10','Huawei ',3,3,(direct),(none),Direct,(none),Unknown,164,5,0,0,0,0,0,0,0,1
+1,21,01-10,Android,ru,'Samsung SM-N900 Galaxy Note 3','Samsung ',10,6-10,(direct),(none),Direct,(none),Unknown,2092,6.333333,0,0,0,0,0,0,0,1
+1,21,01-10,Android,ru,'Samsung SM-N900 Galaxy Note 3','Samsung ',10,6-10,(direct),(none),Direct,(none),Unknown,2092,6.333333,0,0,0,0,0,0,0,1
+1,21,01-10,Android,ru,'Samsung SM-N900 Galaxy Note 3','Samsung ',10,6-10,(direct),(none),Direct,(none),Unknown,2092,6.333333,0,0,0,0,0,0,0,1
+1,21,01-10,Android,ru,'Samsung SM-N900 Galaxy Note 3','Samsung ',10,6-10,(direct),(none),Direct,(none),Unknown,2092,6.333333,0,0,0,0,0,0,0,1
+1,22,01-10,Android,ru,'Samsung SM-N900 Galaxy Note 3','Samsung ',10,6-10,(direct),(none),Direct,(none),Unknown,1914,7.857143,0,0,0,0,0,0,0,1
+1,22,01-10,Android,ru,'Samsung SM-N900 Galaxy Note 3','Samsung ',10,6-10,(direct),(none),Direct,(none),Unknown,1914,7.857143,0,0,0,0,0,0,0,1
+1,22,01-10,Android,ru,'Samsung SM-N900 Galaxy Note 3','Samsung ',10,6-10,(direct),(none),Direct,(none),Unknown,1914,7.857143,0,0,0,0,0,0,0,1
+1,22,01-10,Android,ru,'Samsung SM-N900 Galaxy Note 3','Samsung ',10,6-10,(direct),(none),Direct,(none),Unknown,1914,7.857143,0,0,0,0,0,0,0,1
+7,14,51-60,Android,he,'LG D855 G3','LG ',1,1,(direct),(none),Direct,(none),Unknown,102,3,0,0,0,0,0,0,0,1
+3,12,51-60,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',3,3,google,organic,'Organic Search',(none),Unknown,350,8.5,0,0,0,0,0,0,0,1
+1,1,51-60,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),Unknown,514,5,0,0,0,0,0,0,0,1
+4,17,11-20,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,46,2,0,0,0,0,0,0,0,1
+2,20,01-10,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',10,6-10,(direct),(none),Direct,(none),Unknown,789,5,0,0,0,0,0,0,0,1
+5,0,51-60,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',4,4-5,(direct),(none),Direct,(none),Unknown,279,19,0,0,0,0,0,0,0,1
+6,7,11-20,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',15,11-20,(direct),(none),Direct,(none),Unknown,951,18,0,0,0,0,0,0,0,1
+2,18,51-60,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',16,11-20,(direct),(none),Direct,(none),Unknown,639,14,0,0,0,0,0,0,0,1
+2,14,31-40,Android,he,'MediaTek MT6735','MediaTek ',75,51+,google,organic,'Organic Search',(none),MOBILE_WEB,658.789474,17.052632,0,1,0,0,0,0,0,1
+3,5,41-50,Android,he,'LG H850 G Flex 2','LG ',30,21-50,google,organic,'Organic Search',(none),Unknown,278.5,2.25,0,0,0,0,0,0,0,1
+2,4,41-50,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',1,1,google,organic,'Organic Search',(none),Unknown,211,6,0,0,0,0,0,0,0,1
+1,14,01-10,iOS,he,'Apple iPhone','Apple ',4,4-5,(direct),(none),Direct,(none),Unknown,87,2,0,0,0,0,0,0,0,1
+2,17,21-30,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',11,11-20,(direct),(none),Direct,(none),Unknown,278,6.5,0,0,0,0,0,0,0,1
+2,21,01-10,iOS,he,'Apple iPhone','Apple ',82,51+,google,organic,'Organic Search',(none),Unknown,252.04,12.64,0,0,0,0,0,0,0,1
+1,19,31-40,iOS,he,'Apple iPhone','Apple ',6,6-10,(direct),(none),Direct,(none),Unknown,1317,5,0,0,0,0,0,0,0,1
+2,8,11-20,iOS,he,'Apple iPhone','Apple ',7,6-10,(direct),(none),Direct,(none),Unknown,733,4,0,0,0,0,0,0,0,1
+4,20,11-20,iOS,he,'Apple iPhone','Apple ',9,6-10,(direct),(none),Direct,(none),Unknown,671.25,4,0,0,0,0,0,0,0,1
+7,5,21-30,Android,he,'Samsung SM-A710F Galaxy A7 Duos','Samsung ',5,4-5,(direct),(none),Direct,(none),Unknown,471,4,0,0,0,0,0,0,0,1
+3,11,01-10,iOS,en,'Apple iPhone','Apple ',2,2,google,cpc,'Paid Search','Yad2 - Brand+Product',Unknown,867,3.5,0,0,0,0,0,0,0,1
+7,12,51-60,Android,he,'LG H815 G4','LG ',11,11-20,(direct),(none),Direct,(none),Unknown,193,10,0,0,0,0,0,0,0,1
+7,17,11-20,Android,he,'LG H815 G4','LG ',12,11-20,(direct),(none),Direct,(none),Unknown,96.5,5.5,0,0,0,0,0,0,0,1
+6,20,11-20,Android,en,'Xiaomi Mi Max','Xiaomi ',3,3,google,organic,'Organic Search',(none),MOBILE_WEB,795,22,0,1,0,0,1,0,0,1
+4,22,51-60,iOS,fr,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,214,2,0,0,0,0,0,0,0,1
+3,18,01-10,iOS,he,'Apple iPhone 5s','Apple ',2,2,re_facebook,yad1_re_facebook,(Other),'(not set)',Unknown,60,2,0,0,0,0,0,0,0,1
+1,6,11-20,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',7,6-10,google,cpc,'Paid Search','yad1 - מתחרים',Unknown,588,11,0,0,0,0,0,0,0,1
+2,18,01-10,Android,he,'(not set)','(not ',7,6-10,(direct),(none),Direct,(none),Unknown,1225,7.5,0,0,0,0,0,0,0,1
+3,18,31-40,Android,he,'(not set)','(not ',8,6-10,(direct),(none),Direct,(none),Unknown,826.666667,6,0,0,0,0,0,0,0,1
+7,20,51-60,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',108,51+,(direct),(none),Direct,(none),MOBILE_WEB,1258.333333,16.5,0,1,0,0,0,1,0,1
+2,8,31-40,Android,he,'Google Nexus 6P','Google ',47,21-50,(direct),(none),Direct,(none),Unknown,490,6,0,0,0,0,0,0,0,1
+1,18,41-50,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,539.5,3,0,0,0,0,0,0,0,1
+3,21,11-20,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',4,4-5,(direct),(none),Direct,(none),Unknown,918.25,3.25,0,0,0,0,0,0,0,1
+4,18,51-60,Android,he,'Xiaomi Mi 5','Xiaomi ',1,1,(direct),(none),Direct,(none),Unknown,589,5,0,0,0,0,0,0,0,1
+4,11,51-60,iOS,he,'Apple iPhone','Apple ',23,21-50,(direct),(none),Direct,(none),Unknown,141,2.333333,0,0,0,0,0,0,0,1
+2,17,31-40,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,679,19,0,0,0,0,0,0,0,1
+6,13,31-40,Android,he,'LG D855 G3','LG ',15,11-20,(direct),(none),Direct,(none),Unknown,161,7,0,0,0,0,0,0,0,1
+2,20,51-60,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,285,9,0,0,0,0,0,0,0,1
+5,23,41-50,Android,es,'LG LG-K220 X Power','LG ',2,2,(direct),(none),Direct,(none),Unknown,227,6.5,0,0,0,0,0,0,0,1
+1,21,41-50,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,452,8,0,0,0,0,0,0,0,1
+4,21,31-40,iOS,he,'Apple iPhone','Apple ',4,4-5,(direct),(none),Direct,(none),Unknown,506,3.5,0,0,0,0,0,0,0,1
+4,1,31-40,iOS,en,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,2155,12,0,0,0,0,0,0,0,1
+4,16,51-60,iOS,en,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),Unknown,1731.5,10,0,0,0,0,0,0,0,1
+4,18,01-10,iOS,he,'Apple iPhone','Apple ',9,6-10,google,organic,'Organic Search',(none),Unknown,617.625,11.875,0,0,0,0,0,0,0,1
+3,22,41-50,Android,en,'LG D802T G2','LG ',5,4-5,re_facebook,yad1_re_facebook,(Other),'(not set)',Unknown,135,2,0,0,0,0,0,0,0,1
+7,7,01-10,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',3,3,re_facebook,yad1_re_facebook,(Other),'(not set)',Unknown,270,7,0,0,0,0,0,0,0,1
+4,14,21-30,iOS,he,'Apple iPhone','Apple ',3,3,google,organic,'Organic Search',(none),Unknown,86.5,2,0,0,0,0,0,0,0,1
+1,15,11-20,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,246,4,0,0,0,0,0,0,0,1
+3,21,31-40,Android,en,'Samsung SM-E500F Galaxy E5','Samsung ',1,1,re_facebook,yad1_re_facebook,(Other),'(not set)',Unknown,184,2,0,0,0,0,0,0,0,1
+2,11,51-60,Android,he,'LG D855 G3','LG ',1,1,Whatsapp,Yad1_share,(Other),Yad1,Unknown,0,1,0,0,0,0,0,0,0,1
+2,14,11-20,Android,he,'LG D855 G3','LG ',2,2,Whatsapp,Yad1_share,(Other),Yad1,Unknown,0,1,0,0,0,0,0,0,0,1
+5,9,41-50,Android,he,'LG D855 G3','LG ',1,1,(direct),(none),Direct,(none),Unknown,182,4,0,0,0,0,0,0,0,1
+3,16,01-10,Android,he,'LG H815 G4','LG ',1,1,google,organic,'Organic Search',(none),Unknown,306,13,0,0,0,0,0,0,0,1
+4,22,01-10,Android,he,'LG D722 G3 Mini','LG ',1,1,(direct),(none),Direct,(none),Unknown,349,23,0,0,0,0,0,0,0,1
+7,11,11-20,Android,en,'Samsung SM-N910C Galaxy Note 4','Samsung ',2,2,google,organic,'Organic Search',(none),MOBILE_WEB,812.5,15,0,1,0,1,1,0,0,1
+2,15,01-10,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,120,5,0,0,0,0,0,0,0,1
+3,11,31-40,iOS,en,'Apple iPhone','Apple ',55,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,1431,40,0,1,0,1,1,0,0,1
+7,21,21-30,iOS,he,'Apple iPhone','Apple ',3,3,(direct),(none),Direct,(none),Unknown,1381.5,30.5,0,0,0,0,0,0,0,1
+4,18,11-20,iOS,he,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),Unknown,150,3.5,0,0,0,0,0,0,0,1
+5,18,11-20,iOS,en,'Apple iPhone SE','Apple ',1,1,re_facebook,yad1_re_facebook,(Other),'(not set)',Unknown,132,2,0,0,0,0,0,0,0,1
+7,19,51-60,Android,he,'Samsung SM-G925V Galaxy S6 Edge','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,372,3,0,0,0,0,0,0,0,1
+3,5,01-10,Android,he,'Samsung SM-N910F Galaxy Note 4','Samsung ',31,21-50,(direct),(none),Direct,(none),Unknown,189,8.5,0,0,0,0,0,0,0,1
+4,10,21-30,Android,he,'Samsung SM-N910F Galaxy Note 4','Samsung ',32,21-50,(direct),(none),Direct,(none),Unknown,152,6.666667,0,0,0,0,0,0,0,1
+5,21,11-20,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',2,2,google,organic,'Organic Search',(none),Unknown,1563,14,0,0,0,0,0,0,0,1
+7,13,41-50,Android,en,'LG D855 G3','LG ',31,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,723,17,0,1,0,0,0,0,0,1
+7,17,01-10,Android,en,'LG D855 G3','LG ',32,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,874.5,14,0,1,0,1,0,0,0,1
+4,21,11-20,Android,he,'LG D855 G3','LG ',1,1,(direct),(none),Direct,(none),Unknown,139,3,0,0,0,0,0,0,0,1
+2,15,01-10,Android,he,'HTC One M7','HTC ',1,1,google,organic,'Organic Search',(none),Unknown,399,3,0,0,0,0,0,0,0,1
+4,13,51-60,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',33,21-50,google,organic,'Organic Search',(none),Unknown,65.666667,1.666667,0,0,0,0,0,0,0,1
+7,14,11-20,Android,he,'LG D802 G2','LG ',1251,51+,google,organic,'Organic Search',(none),Unknown,678.428571,30.428571,0,0,0,0,0,0,0,1
+7,14,11-20,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',231,51+,(direct),(none),Direct,(none),MOBILE_WEB,560,22,0,1,0,0,0,0,0,1
+1,14,21-30,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,1527,6,0,0,0,0,0,0,0,1
+2,20,11-20,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',3,3,(direct),(none),Direct,(none),Unknown,161,4,0,0,0,0,0,0,0,1
+3,18,11-20,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',25,21-50,google,organic,'Organic Search',(none),Unknown,509,5,0,0,0,0,0,0,0,1
+2,13,01-10,Android,ru,'LG H525n G4C','LG ',22,21-50,(direct),(none),Direct,(none),Unknown,80.666667,2.333333,0,0,0,0,0,0,0,1
+4,17,11-20,iOS,he,'Apple iPhone','Apple ',252,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,887,16,0,1,0,1,0,0,0,1
+7,20,11-20,Android,he,'LG F670S K10','LG ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,912,14,0,1,0,0,0,0,0,1
+6,21,41-50,iOS,en,'Apple iPhone','Apple ',14,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,600,16,0,1,0,1,0,0,0,1
+6,21,41-50,iOS,en,'Apple iPhone','Apple ',14,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,600,16,0,1,0,1,0,0,0,1
+6,21,41-50,iOS,en,'Apple iPhone','Apple ',14,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,600,16,0,1,0,1,0,0,0,1
+6,21,41-50,iOS,en,'Apple iPhone','Apple ',14,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,600,16,0,1,0,1,0,0,0,1
+2,13,41-50,iOS,he,'Apple iPhone','Apple ',2,2,google,organic,'Organic Search',(none),Unknown,249,9,0,0,0,0,0,0,0,1
+2,14,21-30,iOS,he,'Apple iPhone','Apple ',3,3,google,organic,'Organic Search',(none),Unknown,205,6.666667,0,0,0,0,0,0,0,1
+1,11,51-60,Android,he,'LG D855 G3','LG ',2,2,google,organic,'Organic Search',(none),Unknown,403,6,0,0,0,0,0,0,0,1
+4,19,11-20,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',9,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,5688,164,0,1,0,1,1,1,0,1
+4,18,41-50,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',20,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,502,20,0,1,1,0,0,0,0,1
+5,19,51-60,Android,he,'Samsung SM-G928C Galaxy S6 Edge Plus','Samsung ',4,4-5,(direct),(none),Direct,(none),Unknown,81,3,0,0,0,0,0,0,0,1
+5,1,11-20,Android,he,'Samsung SM-G900A Galaxy S5','Samsung ',9,6-10,(direct),(none),Direct,(none),Unknown,55,3,0,0,0,0,0,0,0,1
+7,17,11-20,Android,he,'Xiaomi Redmi Note 4','Xiaomi ',8,6-10,(direct),(none),Direct,(none),MOBILE_WEB,720.2,13.2,0,1,0,0,0,0,0,1
+4,4,51-60,Android,ru,'LG D855 G3','LG ',3,3,(direct),(none),Direct,(none),Unknown,584.666667,5.333333,0,0,0,0,0,0,0,1
+5,2,21-30,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',56,51+,(direct),(none),Direct,(none),Unknown,99,3,0,0,0,0,0,0,0,1
+6,15,41-50,iOS,he,'Apple iPhone','Apple ',10,6-10,(direct),(none),Direct,(none),Unknown,158,6,0,0,0,0,0,0,0,1
+3,20,01-10,Android,en,'LG H990 V20','LG ',3,3,(direct),(none),Direct,(none),Unknown,1430.5,6,0,0,0,0,0,0,0,1
+4,13,21-30,Android,he,'Meizu m3 note m3 note','Meizu ',2,2,(direct),(none),Direct,(none),Unknown,350.5,3.5,0,0,0,0,0,0,0,1
+7,18,41-50,iOS,en,'Apple iPhone','Apple ',3,3,(direct),(none),Direct,(none),Unknown,76,2,0,0,0,0,0,0,0,1
+3,21,41-50,Android,he,'Motorola XT1562 Moto X Play','Motorola ',17,11-20,(direct),(none),Direct,(none),Unknown,424,15,0,0,0,0,0,0,0,1
+1,20,41-50,Android,he,'Samsung SM-J700F Galaxy J7','Samsung ',1,1,re_facebook,yad1_re_facebook,(Other),'(not set)',Unknown,70,3,0,0,0,0,0,0,0,1
+7,12,21-30,Android,he,'Meizu U20','Meizu ',1,1,(direct),(none),Direct,(none),Unknown,460,12,0,0,0,0,0,0,0,1
+4,20,21-30,iOS,he,'Apple iPhone','Apple ',241,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,1172.5,16,0,1,0,0,0,0,0,1
+7,8,01-10,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,85,2,0,0,0,0,0,0,0,1
+5,23,11-20,iOS,he,'Apple iPhone','Apple ',3,3,google,organic,'Organic Search',(none),Unknown,151,2,0,0,0,0,0,0,0,1
+1,6,21-30,iOS,he,'Apple iPhone','Apple ',1,1,google,organic,'Organic Search',(none),Unknown,151,4,0,0,0,0,0,0,0,1
+3,20,51-60,iOS,he,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),Unknown,61,2,0,0,0,0,0,0,0,1
+4,2,01-10,Android,en,'LG H815 G4','LG ',2,2,google,organic,'Organic Search',(none),MOBILE_WEB,1569,13.5,0,1,0,0,0,0,0,1
+1,6,21-30,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',10,6-10,(direct),(none),Direct,(none),Unknown,228,3,0,0,0,0,0,0,0,1
+1,21,41-50,Android,he,'(not set)','(not ',6,6-10,(direct),(none),Direct,(none),Unknown,124,3,0,0,0,0,0,0,0,1
+1,11,41-50,iOS,he,'Apple iPhone','Apple ',12,11-20,google,organic,'Organic Search',(none),Unknown,334,6,0,0,0,0,0,0,0,1
+1,20,41-50,iOS,he,'Apple iPhone','Apple ',13,11-20,google,organic,'Organic Search',(none),Unknown,413,13.5,0,0,0,0,0,0,0,1
+1,18,41-50,Android,he,'OnePlus A0001 One','OnePlus ',3,3,google,organic,'Organic Search',(none),Unknown,103.333333,2.333333,0,0,0,0,0,0,0,1
+2,11,51-60,Android,he,'LG D855 G3','LG ',7,6-10,google,organic,'Organic Search',(none),MOBILE_WEB,2818,11,0,1,0,1,0,0,0,1
+1,23,11-20,iOS,ru,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,374,6,0,0,0,0,0,0,0,1
+6,22,31-40,iOS,he,'Apple iPhone','Apple ',11,11-20,(direct),(none),Direct,(none),Unknown,1401.6,14,0,0,0,0,0,0,0,1
+6,18,21-30,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',32,21-50,(direct),(none),Direct,(none),Unknown,1035,14,0,0,0,0,0,0,0,1
+4,11,51-60,Android,he,'Samsung SM-J500F Galaxy J5','Samsung ',13,11-20,(direct),(none),Direct,(none),MOBILE_WEB,1488.833333,6,0,0,0,0,0,0,0,1
+2,7,01-10,Android,he,'Meizu m3 note m3 note','Meizu ',10,6-10,google,organic,'Organic Search',(none),Unknown,182.714286,2.285714,0,0,0,0,0,0,0,1
+7,19,31-40,iOS,he,'Apple iPhone','Apple ',389,51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,890,29.833333,0,1,0,0,0,0,0,1
+6,23,31-40,iOS,he,'Apple iPhone','Apple ',6,6-10,(direct),(none),Direct,(none),Unknown,235,5,0,0,0,0,0,0,0,1
+6,11,41-50,Android,he,'LG D802 G2','LG ',52,51+,(direct),(none),Direct,(none),Unknown,1527,45,0,0,0,0,0,0,0,1
+7,21,41-50,Android,he,'LG D802 G2','LG ',56,51+,google,cpc,'Paid Search','Yad1- פרוייקטים ערים',Unknown,2061.2,44,0,0,0,0,0,0,0,1
+2,19,11-20,Android,he,'Motorola XT1562 Moto X Play','Motorola ',2,2,(direct),(none),Direct,(none),Unknown,59.5,1.5,0,0,0,0,0,0,0,1
+3,10,31-40,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',7,6-10,Whatsapp,Yad1_share,(Other),Yad1,Unknown,47.75,4.25,0,0,0,0,0,0,0,1
+7,19,41-50,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,374,11,0,0,0,0,0,0,0,1
+5,12,51-60,Android,he,'Sony E6653 Xperia Z5','Sony ',6,6-10,Whatsapp,'(not set)',(Other),m-ToAd,Unknown,39.5,2,0,0,0,0,0,0,0,1
+2,16,41-50,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',15,11-20,(direct),(none),Direct,(none),Unknown,1056,10.5,0,0,0,0,0,0,0,1
+6,6,31-40,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,149,4,0,0,0,0,0,0,0,1
+2,15,41-50,Android,he,'LG D802 G2','LG ',141,51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,623.2,13.8,0,1,0,1,1,0,0,1
+2,17,01-10,iOS,en,'Apple iPhone','Apple ',29,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,867,17,0,1,0,1,0,0,0,1
+5,22,01-10,Android,he,'Samsung SM-G900W8 Galaxy S5','Samsung ',236,51+,(direct),(none),Direct,(none),MOBILE_WEB,283.285714,11.428571,0,1,0,0,0,0,0,1
+5,22,01-10,Android,he,'Samsung SM-G900W8 Galaxy S5','Samsung ',236,51+,(direct),(none),Direct,(none),MOBILE_WEB,283.285714,11.428571,0,1,0,0,0,0,0,1
+5,22,01-10,Android,he,'Samsung SM-G900W8 Galaxy S5','Samsung ',236,51+,(direct),(none),Direct,(none),MOBILE_WEB,283.285714,11.428571,0,1,0,0,0,0,0,1
+5,22,01-10,Android,he,'Samsung SM-G900W8 Galaxy S5','Samsung ',236,51+,(direct),(none),Direct,(none),MOBILE_WEB,283.285714,11.428571,0,1,0,0,0,0,0,1
+2,7,31-40,iOS,he,'Apple iPhone','Apple ',56,51+,google,organic,'Organic Search',(none),Unknown,704,9,0,0,0,0,0,0,0,1
+2,2,21-30,Android,en,'LG D855 G3','LG ',8,6-10,(direct),(none),Direct,(none),Unknown,304,8,0,0,0,0,0,0,0,1
+3,15,11-20,Android,en,'LG D855 G3','LG ',10,6-10,(direct),(none),Direct,(none),Unknown,260.666667,5.333333,0,0,0,0,0,0,0,1
+6,14,31-40,iOS,he,'Apple iPhone','Apple ',19,11-20,(direct),(none),Direct,(none),Unknown,101,4,0,0,0,0,0,0,0,1
+7,16,51-60,Android,he,'LG D802 G2','LG ',2,2,(direct),(none),Direct,(none),Unknown,460,17,0,0,0,0,0,0,0,1
+7,12,11-20,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,86,2,0,0,0,0,0,0,0,1
+7,16,21-30,iOS,he,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),Unknown,43,1.5,0,0,0,0,0,0,0,1
+7,13,11-20,iOS,he,'Apple iPhone','Apple ',15,11-20,(direct),(none),Direct,(none),Unknown,1257.5,3,0,0,0,0,0,0,0,1
+3,19,41-50,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',2,2,(direct),(none),Direct,(none),Unknown,115,6,0,0,0,0,0,0,0,1
+5,16,21-30,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',15,11-20,(direct),(none),Direct,(none),Unknown,2552,13,0,0,0,0,0,0,0,1
+7,13,41-50,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,1689,37,0,0,0,0,0,0,0,1
+3,17,51-60,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',4,4-5,Whatsapp,Yad1_share,(Other),Yad1,MOBILE_WEB,759,12.333333,0,1,0,0,0,0,0,1
+7,15,01-10,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',41,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,1098,41,0,1,0,0,0,0,0,1
+5,15,01-10,iOS,he,'Apple iPhone','Apple ',8,6-10,(direct),(none),Direct,(none),Unknown,71,2,0,0,0,0,0,0,0,1
+1,19,31-40,Android,he,'LG H815 G4','LG ',3,3,(direct),(none),Direct,(none),Unknown,1443,6,0,0,0,0,0,0,0,1
+1,4,21-30,Android,he,'Samsung SM-J500F Galaxy J5','Samsung ',1,1,google,organic,'Organic Search',(none),Unknown,1178,11,0,0,0,0,0,0,0,1
+2,18,51-60,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',1,1,google,organic,'Organic Search',(none),MOBILE_WEB,460,9,0,1,0,1,1,0,0,1
+1,9,51-60,Android,he,'Samsung SM-G900F Galaxy S5','Samsung ',3,3,google,organic,'Organic Search',(none),Unknown,129.5,3,0,0,0,0,0,0,0,1
+3,15,01-10,Android,en,'Samsung SM-G900F Galaxy S5','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,880,3,0,0,0,0,0,0,0,1
+1,22,01-10,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,396,4,0,0,0,0,0,0,0,1
+1,6,31-40,Android,he,'Samsung SM-N920C Galaxy Note 5','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,1221,9,0,0,0,0,0,0,0,1
+6,18,01-10,Android,he,'Xiaomi Redmi Note 4','Xiaomi ',1,1,(direct),(none),Direct,(none),Unknown,149,3,0,0,0,0,0,0,0,1
+7,10,01-10,iOS,he,'Apple iPhone','Apple ',50,21-50,(direct),(none),Direct,(none),Unknown,207.666667,7.333333,0,0,0,0,0,0,0,1
+4,16,41-50,iOS,he,'Apple iPhone 6s','Apple ',1,1,m.facebook.com,referral,Social,(none),Unknown,135,3,0,0,0,0,0,0,0,1
+7,13,21-30,Android,en,'Xiaomi Redmi Note 3','Xiaomi ',3,3,(direct),(none),Direct,(none),Unknown,449.666667,3.666667,0,0,0,0,0,0,0,1
+7,13,51-60,Android,he,'Sony E5303 Xperia C4','Sony ',14,11-20,google,organic,'Organic Search',(none),MOBILE_WEB,802,16,0,0,0,0,0,0,0,1
+2,8,31-40,Android,en,'Samsung SM-G925F Galaxy S6 Edge','Samsung ',9,6-10,(direct),(none),Direct,(none),Unknown,250,6,0,0,0,0,0,0,0,1
+4,10,21-30,Android,he,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',7,6-10,(direct),(none),Direct,(none),Unknown,921,3,0,0,0,0,0,0,0,1
+3,17,41-50,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',1,1,(direct),(none),Direct,(none),Unknown,58,3,0,0,0,0,0,0,0,1
+2,17,51-60,Android,he,'Samsung SM-G925F Galaxy S6 Edge','Samsung ',1,1,Whatsapp,Yad1_share,(Other),Yad1,Unknown,47,2,0,0,0,0,0,0,0,1
+6,3,11-20,Android,he,'LG D855 G3','LG ',86,51+,(direct),(none),Direct,(none),Unknown,42.666667,2.333333,0,0,0,0,0,0,0,1
+1,8,21-30,Android,he,'LG D855 G3','LG ',90,51+,(direct),(none),Direct,(none),Unknown,75.142857,2.285714,0,0,0,0,0,0,0,1
+1,17,21-30,Android,he,'LG D855 G3','LG ',2,2,(direct),(none),Direct,(none),Unknown,315,3,0,0,0,0,0,0,0,1
+2,7,31-40,Android,he,'LG D855 G3','LG ',3,3,(direct),(none),Direct,(none),Unknown,157.5,2,0,0,0,0,0,0,0,1
+4,12,11-20,Android,ru,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',3,3,google,organic,'Organic Search',(none),Unknown,200,6,0,0,0,0,0,0,0,1
+4,16,51-60,Android,ru,'Samsung SM-G935F Galaxy S7 Edge','Samsung ',5,4-5,'Yad1 Lead Confirmation',email,Email,'Yad1 Lead Confirmation',Unknown,123.6,4.2,0,0,0,0,0,0,0,1
+6,18,01-10,iOS,he,'Apple iPhone','Apple ',12,11-20,(direct),(none),Direct,(none),Unknown,285,8,0,0,0,0,0,0,0,1
+4,18,41-50,Android,he,'LG H860 G5','LG ',4,4-5,(direct),(none),Direct,(none),Unknown,2654,3,0,0,0,0,0,0,0,1
+4,6,51-60,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',3,3,google,cpc,'Paid Search','Yad1- פרוייקטים ערים',Unknown,91,3,0,0,0,0,0,0,0,1
+4,17,31-40,Android,he,'Samsung SM-G930F Galaxy S7','Samsung ',4,4-5,google,cpc,'Paid Search','Yad1- פרוייקטים ערים',Unknown,45.5,2,0,0,0,0,0,0,0,1
+3,19,31-40,iOS,he,'Apple iPhone','Apple ',1,1,(direct),(none),Direct,(none),Unknown,2173,8,0,0,0,0,0,0,0,1
+1,15,31-40,Android,he,'LG D855 G3','LG ',21,21-50,google,organic,'Organic Search',(none),MOBILE_WEB,829.6,26,0,1,0,1,0,0,0,1
+2,9,31-40,Android,he,'Samsung SM-N910F Galaxy Note 4','Samsung ',4,4-5,google,cpc,'Paid Search','yad1 - מתחרים',Unknown,191,7,0,0,0,0,0,0,0,1
+7,19,01-10,Android,he,'OnePlus E1001 X','OnePlus ',2,2,re_facebook,yad1_re_facebook,(Other),'(not set)',Unknown,0,1,0,0,0,0,0,0,0,1
+7,10,11-20,iOS,he,'Apple iPhone','Apple ',4,4-5,(direct),(none),Direct,(none),Unknown,299,2,0,0,0,0,0,0,0,1
+1,19,31-40,Android,he,'Samsung GT-I9301I Galaxy S III Neo+','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,38,2,0,0,0,0,0,0,0,1
+2,17,41-50,Android,he,'Huawei GRA-L09 P8','Huawei ',12,11-20,google,organic,'Organic Search',(none),Unknown,68.333333,2.666667,0,0,0,0,0,0,0,1
+4,7,41-50,Android,he,'Xiaomi Redmi Note 3','Xiaomi ',1,1,(direct),(none),Direct,(none),Unknown,111,5,0,0,0,0,0,0,0,1
+2,12,31-40,iOS,he,'Apple iPhone','Apple ',9,6-10,(direct),(none),Direct,(none),Unknown,74.5,1.5,0,0,0,0,0,0,0,1
+4,21,31-40,iOS,he,'Apple iPhone','Apple ',4,4-5,google,organic,'Organic Search',(none),Unknown,358,13,0,0,0,0,0,0,0,1
+2,8,11-20,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',2,2,(direct),(none),Direct,(none),Unknown,567,6,0,0,0,0,0,0,0,1
+7,15,01-10,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',3,3,facebook,share,(Other),ToAdFromMyYad2,MOBILE_WEB,961,20,0,1,0,0,0,0,0,1
+6,22,21-30,iOS,he,'Apple iPhone','Apple ',4,4-5,(direct),(none),Direct,(none),Unknown,149,4,0,0,0,0,0,0,0,1
+1,20,11-20,iOS,en,'Apple iPhone','Apple ',2,2,(direct),(none),Direct,(none),Unknown,366,9,0,0,0,0,0,0,0,1
+3,18,01-10,Android,he,'Xiaomi Redmi Note 4','Xiaomi ',41,21-50,(direct),(none),Direct,(none),Unknown,162,5,0,0,0,0,0,0,0,1
+7,13,51-60,iOS,en,'Apple iPhone','Apple ',5,4-5,(direct),(none),Direct,(none),Unknown,78,2,0,0,0,0,0,0,0,1
+2,16,41-50,Android,he,'Samsung SM-G920F Galaxy S6','Samsung ',11,11-20,google,organic,'Organic Search',(none),Unknown,71.6,2.2,0,0,0,0,0,0,0,1
+6,18,31-40,Android,he,'Samsung SM-N910C Galaxy Note 4','Samsung ',33,21-50,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,953,44,0,1,0,1,1,0,0,1
+2,16,41-50,iOS,he,'Apple iPhone','Apple ',3,3,(direct),(none),Direct,(none),Unknown,1568,8,0,0,0,0,0,0,0,1
+6,11,11-20,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',11,11-20,google,organic,'Organic Search',(none),Unknown,35,1.5,0,0,0,0,0,0,0,1
+1,13,11-20,Android,he,'Samsung SM-J710F Galaxy J7 (2016)','Samsung ',12,11-20,google,organic,'Organic Search',(none),Unknown,50.333333,2.333333,0,0,0,0,0,0,0,1
+2,18,21-30,iOS,he,'Apple iPhone','Apple ',12,11-20,(direct),(none),Direct,(none),Unknown,591.5,4.5,0,0,0,0,0,0,0,1
+5,22,21-30,Android,en,'LG D851 G3','LG ',4,4-5,google,organic,'Organic Search',(none),Unknown,1306,10,0,0,0,0,0,0,0,1

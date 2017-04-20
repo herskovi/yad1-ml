@@ -1,0 +1,798 @@
+@relation R_data_frame
+
+@attribute WeekDay numeric
+@attribute Hour numeric
+@attribute MinuteRange string
+@attribute operatingSystem string
+@attribute language string
+@attribute MobileDeviceManuf string
+@attribute VisitNumberGroup string
+@attribute Source string
+@attribute Medium string
+@attribute channelGrouping string
+@attribute campaign string
+@attribute platform string
+@attribute AccumAvgTimeonSite numeric
+@attribute AccumAvgpageviews numeric
+@attribute isFeedCar numeric
+@attribute isFeedNadlan numeric
+@attribute isFeedSecondHand numeric
+@attribute isNadlanRoomsFilter numeric
+@attribute isNadlanPriceFilter numeric
+@attribute isNadlanShowPhone numeric
+@attribute isNadlanCallSeller numeric
+@attribute Success numeric
+
+@data
+3,20,41-50,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,363,4,0,0,0,0,0,0,0,1
+6,9,31-40,Android,en,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,78,2,0,0,0,0,0,0,0,1
+7,10,51-60,Android,he,'Google ',1,(direct),(none),Direct,(none),MOBILE_WEB,58,3,0,0,0,0,0,0,0,1
+7,12,01-10,Android,he,'Google ',2,(direct),(none),Direct,(none),MOBILE_WEB,122.5,4.5,0,0,0,0,0,0,0,1
+7,13,31-40,Android,en,'(not ',1,(direct),(none),Direct,(none),MOBILE_WEB,783,21,0,0,0,0,0,0,0,1
+6,11,31-40,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,76,3,0,0,0,0,0,0,0,1
+2,16,21-30,iOS,ru,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,774,10,0,0,0,0,0,0,0,1
+6,13,11-20,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,364,4,0,0,0,0,0,0,0,1
+5,8,11-20,Android,he,'LG ',3,(direct),(none),Direct,(none),MOBILE_WEB,120.5,6.5,0,0,0,0,0,0,0,1
+6,18,41-50,Android,he,'Samsung ',4-5,google,organic,'Organic Search',(none),MOBILE_WEB,234,7,0,0,0,0,0,0,0,1
+1,6,31-40,Android,he,'Samsung ',6-10,google,cpc,'Paid Search','yad1 - מתחרים',MOBILE_WEB,295.666667,9.333333,0,0,0,0,0,0,0,1
+1,9,51-60,Android,he,'Samsung ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,459.8,8,0,0,0,0,0,0,0,1
+1,10,51-60,Android,he,'Samsung ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,933.666667,10.666667,0,0,0,0,0,0,0,1
+4,21,31-40,Android,he,'Huawei ',2,(direct),(none),Direct,(none),MOBILE_WEB,142,3,0,0,0,0,0,0,0,1
+1,10,31-40,Android,he,'Samsung ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,151.333333,5.333333,0,0,0,0,0,0,0,1
+1,19,21-30,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,1002,3,0,0,0,0,0,0,0,1
+4,10,21-30,Android,he,'Samsung ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,1842,5,0,0,0,0,0,0,0,1
+1,21,21-30,Android,he,'Samsung ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,58,3,0,0,0,0,0,0,0,1
+6,7,11-20,iOS,he,'Apple ',2,(direct),(none),Direct,(none),MOBILE_WEB,882.5,15,0,0,0,0,0,0,0,1
+1,7,21-30,Android,he,'LG ',3,google,organic,'Organic Search',(none),MOBILE_WEB,301.5,2.5,0,0,0,0,0,0,0,1
+7,21,01-10,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,163,4,0,0,0,0,0,0,0,1
+6,13,11-20,Android,he,'(not ',1,google,organic,'Organic Search',(none),MOBILE_WEB,874,22,0,1,0,0,0,0,0,1
+7,20,11-20,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,40,2,0,0,0,0,0,0,0,1
+7,9,31-40,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,1816,31,0,0,0,0,0,0,0,1
+2,10,01-10,iOS,he,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,1249,26,0,1,0,0,0,0,0,1
+4,9,21-30,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,797,22,0,0,0,0,0,0,0,1
+4,11,41-50,iOS,en,'Apple ',2,(direct),(none),Direct,(none),MOBILE_WEB,3109,17,0,0,0,0,0,0,0,1
+7,4,01-10,Android,he,'Samsung ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,1299,8,0,0,0,0,0,0,0,1
+5,19,41-50,Android,he,'ZTE ',1,(direct),(none),Direct,(none),MOBILE_WEB,1467,33,0,0,0,0,0,0,0,1
+6,6,31-40,Android,he,'ZTE ',2,(direct),(none),Direct,(none),MOBILE_WEB,828.5,20,0,0,0,0,0,0,0,1
+7,8,21-30,Android,en,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,27,2,0,0,0,0,0,0,0,1
+3,8,11-20,iOS,he,'Apple ',11-20,yahoo,organic,'Organic Search',(none),MOBILE_WEB,1614,26.5,0,1,0,0,0,1,0,1
+4,19,01-10,Android,en,'Sony ',4-5,google,organic,'Organic Search',(none),MOBILE_WEB,41,2,0,0,0,0,0,0,0,1
+4,18,41-50,Android,he,'Samsung ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,665,19,0,1,0,0,0,0,0,1
+1,15,41-50,Android,he,'(not ',3,(direct),(none),Direct,(none),MOBILE_WEB,1307,8,0,0,0,0,0,0,0,1
+1,15,01-10,iOS,he,'Apple ',3,(direct),(none),Direct,(none),MOBILE_WEB,364,8,0,0,0,0,0,0,0,1
+2,3,51-60,iOS,he,'Apple ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,185,5,0,0,0,0,0,0,0,1
+4,12,51-60,Android,he,'LG ',2,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,0,0,0,0,0,0,1
+4,21,01-10,Android,he,'LG ',3,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,0,0,0,0,0,0,1
+4,23,41-50,Android,he,'LG ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,0,0,0,0,0,0,1
+1,18,21-30,Android,he,'Google ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,280,12,0,0,0,0,0,0,0,1
+3,14,51-60,Android,ru,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,364,8,0,0,0,0,0,0,0,1
+7,22,31-40,Android,he,'Samsung ',21-50,search.clearch.org,referral,Referral,(none),MOBILE_WEB,725,15.5,0,1,0,0,0,0,0,1
+1,14,11-20,iOS,he,'Apple ',51+,google,organic,'Organic Search',(none),MOBILE_WEB,4482,61,0,1,0,0,0,1,1,1
+6,15,01-10,iOS,en,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,336,2,0,0,0,0,0,0,0,1
+6,18,51-60,iOS,en,'Apple ',2,(direct),(none),Direct,(none),MOBILE_WEB,168,1.5,0,0,0,0,0,0,0,1
+7,9,31-40,iOS,en,'Apple ',3,google,organic,'Organic Search',(none),MOBILE_WEB,111,4,0,0,0,0,0,0,0,1
+6,6,41-50,Android,he,'Samsung ',1,google,organic,'Organic Search',(none),MOBILE_WEB,56,2,0,0,0,0,0,0,0,1
+1,15,11-20,Android,he,'Samsung ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,49.5,2,0,0,0,0,0,0,0,1
+6,12,31-40,Android,he,'Huawei ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,115,4,0,0,0,0,0,0,0,1
+3,9,11-20,Android,he,'LG ',2,(direct),(none),Direct,(none),MOBILE_WEB,240,13.5,0,0,0,0,0,0,0,1
+4,3,51-60,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,410,5,0,0,0,0,0,0,0,1
+2,16,01-10,Android,he,'Samsung ',51+,(direct),(none),Direct,(none),MOBILE_WEB,847.8,17.2,0,1,0,1,1,1,1,1
+3,10,01-10,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,597,10,0,0,0,0,0,0,0,1
+4,13,21-30,Android,he,'Meizu ',2,(direct),(none),Direct,(none),MOBILE_WEB,566,5,0,0,0,0,0,0,0,1
+6,11,31-40,Android,he,'Samsung ',3,Whatsapp,Yad1_share,(Other),Yad1,MOBILE_WEB,97,3,0,0,0,0,0,0,0,1
+3,21,31-40,iOS,he,'Apple ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,297,6,0,0,0,0,0,0,0,1
+5,21,01-10,Android,he,'LG ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,233,5,0,0,0,0,0,0,0,1
+6,13,51-60,Android,he,'Google ',2,(direct),(none),Direct,(none),MOBILE_WEB,226,9,0,0,0,0,0,0,0,1
+7,14,01-10,Android,en,'Motorola ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,1424,11,0,0,0,0,0,0,0,1
+6,7,41-50,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,53,2,0,0,0,0,0,0,0,1
+1,8,01-10,Android,he,'Samsung ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,591.4,13,0,1,0,0,1,0,0,1
+1,9,51-60,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,91,3,0,0,0,0,0,0,0,1
+5,6,41-50,Android,he,'LG ',51+,(direct),(none),Direct,(none),MOBILE_WEB,117,13,0,0,0,0,0,0,0,1
+7,5,51-60,Android,he,'Meizu ',1,google,cpc,'Paid Search','Yad2 - Brand E',MOBILE_WEB,950,31,0,1,0,1,1,0,0,1
+6,15,21-30,iOS,he,'Apple ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,212,4,0,0,0,0,0,0,0,1
+4,21,11-20,iOS,he,'Apple ',3,google,organic,'Organic Search',(none),MOBILE_WEB,811,10.5,0,0,0,0,0,0,0,1
+4,6,31-40,iOS,he,'Apple ',1,Whatsapp,Yad1_share,(Other),Yad1,MOBILE_WEB,499,11,0,0,0,0,0,0,0,1
+6,16,01-10,Android,he,'Samsung ',1,google,organic,'Organic Search',(none),MOBILE_WEB,154,6,0,0,0,0,0,0,0,1
+4,7,31-40,iOS,en,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,158,2,0,0,0,0,0,0,0,1
+4,8,21-30,iOS,en,'Apple ',2,(direct),(none),Direct,(none),MOBILE_WEB,160,2.5,0,0,0,0,0,0,0,1
+2,8,01-10,Android,he,'(not ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,877.5,5,0,0,0,0,0,0,0,1
+7,20,21-30,iOS,he,'Apple ',1,google,organic,'Organic Search',(none),MOBILE_WEB,2233,22,0,0,0,0,0,0,0,1
+1,18,31-40,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,565,3,0,0,0,0,0,0,0,1
+1,18,51-60,Android,he,'Samsung ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,123.5,4.5,0,0,0,0,0,0,0,1
+7,12,11-20,Android,he,'Sony ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,170.5,2.5,0,0,0,0,0,0,0,1
+5,19,41-50,iOS,he,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,728.666667,19.166667,0,1,0,0,0,0,0,1
+2,19,01-10,iOS,he,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,1400.823529,31.588235,0,1,0,1,1,0,0,1
+7,7,51-60,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,0,0,0,0,0,0,1
+2,19,01-10,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,337,3,0,0,0,0,0,0,0,1
+2,5,11-20,Android,he,'Meizu ',1,(direct),(none),Direct,(none),MOBILE_WEB,338,9,0,0,0,0,0,0,0,1
+7,22,11-20,Android,he,'Samsung ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,74,5,0,0,0,0,0,0,0,1
+4,16,21-30,Android,en,'LG ',1,google,organic,'Organic Search',(none),MOBILE_WEB,53,2,0,0,0,0,0,0,0,1
+6,7,21-30,iOS,he,'Apple ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,106,3,0,0,0,0,0,0,0,1
+2,4,11-20,Android,he,'Samsung ',51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1015.5,9,0,1,0,0,1,0,0,1
+2,13,11-20,Android,he,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,431,6,0,0,0,0,0,0,0,1
+4,18,11-20,iOS,he,'Apple ',2,(direct),(none),Direct,(none),MOBILE_WEB,150,3.5,0,0,0,0,0,0,0,1
+3,10,31-40,iOS,en,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,103,2,0,0,0,0,0,0,0,1
+4,18,11-20,Android,he,'Xiaomi ',3,(direct),(none),Direct,(none),MOBILE_WEB,81,6,0,0,0,0,0,0,0,1
+7,22,11-20,Android,he,'Xiaomi ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,60.5,4.5,0,0,0,0,0,0,0,1
+7,12,21-30,iOS,he,'Apple ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,703,4,0,0,0,0,0,0,0,1
+7,13,01-10,iOS,he,'Apple ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,468.666667,3,0,0,0,0,0,0,0,1
+3,4,21-30,Android,he,'LG ',51+,google,organic,'Organic Search',(none),MOBILE_WEB,3686,21,0,1,0,1,0,0,0,1
+2,22,11-20,Android,he,'Xiaomi ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,66,3,0,0,0,0,0,0,0,1
+4,7,21-30,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,927,26,0,1,0,1,1,0,0,1
+5,19,21-30,Android,en,'Samsung ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,285,3,0,0,0,0,0,0,0,1
+7,6,41-50,Android,he,'LG ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,135,4.5,0,0,0,0,0,0,0,1
+2,16,41-50,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,72,3,0,0,0,0,0,0,0,1
+7,20,11-20,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,261,4,0,0,0,0,0,0,0,1
+3,9,51-60,Android,he,'LG ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,341.5,15.5,0,0,0,0,0,0,0,1
+7,23,31-40,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,833,4,0,0,0,0,0,0,0,1
+7,17,01-10,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,77,3,0,0,0,0,0,0,0,1
+1,10,21-30,Android,he,'Samsung ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,508.333333,11,0,0,0,0,0,0,0,1
+3,10,21-30,Android,he,'Samsung ',51+,google,organic,'Organic Search',(none),MOBILE_WEB,612.571429,12.142857,0,0,0,0,0,0,0,1
+1,17,11-20,Android,he,'Samsung ',1,google,organic,'Organic Search',(none),MOBILE_WEB,198,4,0,0,0,0,0,0,0,1
+7,15,41-50,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,722,6,0,0,0,0,0,0,0,1
+5,22,11-20,Android,he,'Samsung ',1,google,organic,'Organic Search',(none),MOBILE_WEB,491,14,0,1,0,0,0,0,0,1
+2,13,31-40,iOS,nl,'Apple ',1,google,organic,'Organic Search',(none),MOBILE_WEB,332,3,0,0,0,0,0,0,0,1
+7,16,21-30,Android,en,'Samsung ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,1126,22,0,0,0,0,0,0,0,1
+3,15,21-30,Android,he,'Xiaomi ',1,(direct),(none),Direct,(none),MOBILE_WEB,474,4,0,0,0,0,0,0,0,1
+3,14,21-30,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,74,4,0,0,0,0,0,0,0,1
+3,5,31-40,Android,he,'LG ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,394,3,0,0,0,0,0,0,0,1
+1,8,31-40,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,62,3,0,0,0,0,0,0,0,1
+2,10,11-20,Android,he,'LG ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,274.5,12,0,0,0,0,0,0,0,1
+2,19,01-10,iOS,he,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,1209,16.2,0,1,0,0,0,1,1,1
+4,23,51-60,iOS,he,'Apple ',2,(direct),(none),Direct,(none),MOBILE_WEB,464.5,7.5,0,0,0,0,0,0,0,1
+3,5,01-10,Android,fr,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,47,2,0,0,0,0,0,0,0,1
+3,12,51-60,Android,fr,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,23.5,1.5,0,0,0,0,0,0,0,1
+2,9,11-20,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,448,21,0,0,0,0,0,0,0,1
+2,13,31-40,Android,en,'Samsung ',51+,google,organic,'Organic Search',(none),MOBILE_WEB,238.285714,3.285714,0,0,0,0,0,0,0,1
+3,21,01-10,Android,he,'Samsung ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,182,6,0,0,0,0,0,0,0,1
+6,9,11-20,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,1841,10,0,0,0,0,0,0,0,1
+7,9,31-40,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,1012,11,0,0,0,0,0,0,0,1
+7,20,21-30,Android,he,'LG ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,1139,21,0,1,0,0,0,1,0,1
+4,14,11-20,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,79,3,0,0,0,0,0,0,0,1
+2,13,01-10,Android,he,'LG ',1,google,organic,'Organic Search',(none),MOBILE_WEB,874,18,0,0,0,0,0,0,0,1
+2,18,21-30,Android,he,'LG ',51+,(direct),(none),Direct,(none),MOBILE_WEB,376,2,0,0,0,0,0,0,0,1
+6,4,41-50,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,371,3,0,0,0,0,0,0,0,1
+1,14,51-60,Android,he,'Samsung ',3,(direct),(none),Direct,(none),MOBILE_WEB,78,3,0,0,0,0,0,0,0,1
+2,10,21-30,Android,he,'Samsung ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,56.5,4,0,0,0,0,0,0,0,1
+7,11,51-60,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,418,12,0,0,0,0,0,0,0,1
+1,15,31-40,Android,ru,'LG ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,443,3,0,0,0,0,0,0,0,1
+2,22,01-10,Android,he,'Samsung ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,552,14,0,0,0,0,0,0,0,1
+4,7,31-40,Android,en,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,416,6,0,0,0,0,0,0,0,1
+3,19,01-10,iOS,en,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,427,5,0,0,0,0,0,0,0,1
+2,16,51-60,Android,he,'Meizu ',1,(direct),(none),Direct,(none),MOBILE_WEB,253,6,0,0,0,0,0,0,0,1
+1,11,11-20,iOS,he,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,500.25,14.25,0,1,0,1,1,0,0,1
+7,10,21-30,Android,he,'Samsung ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,454,15,0,0,0,0,0,0,0,1
+5,10,41-50,iOS,he,'Apple ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,13,1.75,0,0,0,0,0,0,0,1
+5,21,01-10,Android,ru,'LG ',11-20,google,cpc,'Paid Search','Yad1- פרוייקטים ערים',MOBILE_WEB,239,9,0,0,0,0,0,0,0,1
+2,19,21-30,iOS,he,'Apple ',2,(direct),(none),Direct,(none),MOBILE_WEB,527,8,0,0,0,0,0,0,0,1
+3,22,21-30,Android,en,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,100,4,0,0,0,0,0,0,0,1
+4,9,51-60,Android,he,'Samsung ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,957,19,0,0,0,0,0,0,0,1
+6,21,21-30,Android,he,'(not ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,184.5,3,0,0,0,0,0,0,0,1
+5,19,31-40,Android,he,'Samsung ',51+,google,organic,'Organic Search',(none),MOBILE_WEB,2532.5,12.5,0,0,0,0,0,0,0,1
+7,10,11-20,Android,he,'Samsung ',51+,google,organic,'Organic Search',(none),MOBILE_WEB,1710,9.333333,0,0,0,0,0,0,0,1
+5,10,01-10,Android,he,'Samsung ',21-50,google,organic,'Organic Search',(none),MOBILE_WEB,1101,22,0,1,0,1,0,1,0,1
+2,19,31-40,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,69,3,0,0,0,0,0,0,0,1
+3,16,31-40,Android,he,'Samsung ',1,google,organic,'Organic Search',(none),MOBILE_WEB,116,10,0,0,0,0,0,0,0,1
+1,14,51-60,iOS,en,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,127,3,0,0,0,0,0,0,0,1
+7,8,01-10,iOS,he,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_WEB,1926,17,0,0,0,0,0,0,0,1
+5,21,41-50,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,398,4,0,0,0,0,0,0,0,1
+5,21,41-50,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,398,4,0,0,0,0,0,0,0,1
+5,21,41-50,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,398,4,0,0,0,0,0,0,0,1
+5,21,41-50,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,398,4,0,0,0,0,0,0,0,1
+5,22,01-10,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,468,6.333333,0,0,0,0,0,0,0,1
+5,22,01-10,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,468,6.333333,0,0,0,0,0,0,0,1
+5,22,01-10,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,468,6.333333,0,0,0,0,0,0,0,1
+5,22,01-10,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,468,6.333333,0,0,0,0,0,0,0,1
+7,20,51-60,Android,he,'Samsung ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,66,3,0,0,0,0,0,0,0,1
+5,9,41-50,iOS,he,'Apple ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,66.5,1.5,0,0,0,0,0,0,0,1
+2,8,11-20,iOS,he,'Apple ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,38,4,0,0,0,0,0,0,0,1
+4,7,51-60,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,113,2,0,0,0,0,0,0,0,1
+4,14,01-10,iOS,he,'Apple ',2,(direct),(none),Direct,(none),MOBILE_WEB,56.5,1.5,0,0,0,0,0,0,0,1
+6,11,11-20,iOS,it,'Apple ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,205,4.25,0,0,0,0,0,0,0,1
+6,18,11-20,Android,he,'Samsung ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,821,18,0,0,0,0,0,0,0,1
+6,4,51-60,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,89,2,0,0,0,0,0,0,0,1
+2,20,21-30,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,306,3,0,0,0,0,0,0,0,1
+4,12,41-50,Android,he,'(not ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,253,4,0,0,0,0,0,0,0,1
+4,18,21-30,iOS,he,'Apple ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,1247,4,0,0,0,0,0,0,0,1
+2,12,51-60,iOS,en,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,80,2,0,0,0,0,0,0,0,1
+7,18,51-60,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,663,10,0,0,0,0,0,0,0,1
+3,16,11-20,Android,en,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,2150,8,0,0,0,0,0,0,0,1
+7,17,51-60,Android,en,'LG ',1,google,organic,'Organic Search',(none),MOBILE_WEB,229,3,0,0,0,0,0,0,0,1
+6,8,01-10,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,39,3,0,0,0,0,0,0,0,1
+4,8,51-60,iOS,en,'Apple ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,161,3,0,0,0,0,0,0,0,1
+4,11,41-50,Android,he,'Samsung ',2,google,organic,'Organic Search',(none),MOBILE_WEB,139,9,0,0,0,0,0,0,0,1
+1,13,31-40,Android,he,'Samsung ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,70,2.5,0,0,0,0,0,0,0,1
+7,18,31-40,Android,ru,'Samsung ',51+,(direct),(none),Direct,(none),MOBILE_WEB,605.333333,11.666667,0,1,0,1,0,0,0,1
+6,19,01-10,Android,he,'LG ',51+,(direct),(none),Direct,(none),MOBILE_WEB,1272.5,22,0,1,0,0,1,0,0,1
+2,4,41-50,Android,he,'Samsung ',4-5,google,organic,'Organic Search',(none),MOBILE_WEB,92,3,0,0,0,0,0,0,0,1
+5,5,21-30,Android,he,'LG ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,147,3,0,0,0,0,0,0,0,1
+6,15,21-30,Android,he,'Xiaomi ',1,(direct),(none),Direct,(none),MOBILE_WEB,353,20,0,0,0,0,0,0,0,1
+7,15,41-50,iOS,en,'Apple ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,319,10,0,0,0,0,0,0,0,1
+4,18,41-50,Android,he,'Samsung ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,502,20,0,1,1,0,0,0,0,1
+2,15,01-10,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,415,16,0,0,0,0,0,0,0,1
+3,16,21-30,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,375,27,0,0,0,0,0,0,0,1
+7,13,41-50,Android,he,'LG ',4-5,google,organic,'Organic Search',(none),MOBILE_WEB,1029,49,0,1,0,1,1,0,0,1
+4,2,01-10,Android,en,'LG ',2,google,organic,'Organic Search',(none),MOBILE_WEB,2976,19,0,1,0,0,0,0,0,1
+1,6,21-30,Android,he,'Samsung ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,138.75,3,0,0,0,0,0,0,0,1
+7,6,41-50,iOS,en,'Apple ',1,google,organic,'Organic Search',(none),MOBILE_WEB,386,8,0,0,0,0,0,0,0,1
+7,11,11-20,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,4946,22,0,0,0,0,0,0,0,1
+5,7,11-20,Android,he,'Samsung ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,589,3,0,0,0,0,0,0,0,1
+4,18,41-50,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,164,3,0,0,0,0,0,0,0,1
+3,8,01-10,Android,he,'Xiaomi ',1,google,organic,'Organic Search',(none),MOBILE_WEB,223,7,0,0,0,0,0,0,0,1
+4,21,31-40,iOS,he,'Apple ',4-5,google,organic,'Organic Search',(none),MOBILE_WEB,358,13,0,0,0,0,0,0,0,1
+7,21,31-40,Android,he,'Xiaomi ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,780.666667,4,0,0,0,0,0,0,0,1
+6,5,41-50,iOS,he,'Apple ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,132,7,0,0,0,0,0,0,0,1
+2,14,51-60,Android,he,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,236,2,0,0,0,0,0,0,0,1
+3,19,01-10,iOS,en,'Apple ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,66.4,4.2,0,0,0,0,0,0,0,1
+4,18,51-60,Android,he,'Xiaomi ',1,(direct),(none),Direct,(none),MOBILE_WEB,61,3,0,0,0,0,0,0,0,1
+4,8,51-60,Android,en,'Samsung ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,58.5,2.5,0,0,0,0,0,0,0,1
+7,20,51-60,iOS,he,'Apple ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,76,2,0,0,0,0,0,0,0,1
+1,3,31-40,iOS,he,'Apple ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,29,2.666667,0,0,0,0,0,0,0,1
+1,3,31-40,iOS,he,'Apple ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,212.5,3.75,0,0,0,0,0,0,0,1
+1,19,21-30,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,911,5,0,0,0,0,0,0,0,1
+7,10,31-40,Android,he,'LG ',2,(direct),(none),Direct,(none),MOBILE_WEB,163,3,0,0,0,0,0,0,0,1
+4,14,41-50,Android,he,'LG ',2,(direct),(none),Direct,(none),MOBILE_WEB,695,4,0,0,0,0,0,0,0,1
+4,2,41-50,Android,fr,'HOMTOM ',1,(direct),(none),Direct,(none),MOBILE_WEB,196,3,0,0,0,0,0,0,0,1
+2,19,41-50,Android,he,'Samsung ',3,(direct),(none),Direct,(none),MOBILE_WEB,185.666667,4,0,0,0,0,0,0,0,1
+3,18,51-60,iOS,he,'Apple ',1,google,organic,'Organic Search',(none),MOBILE_WEB,173,5,0,0,0,0,0,0,0,1
+5,18,21-30,Android,he,'Samsung ',21-50,google,organic,'Organic Search',(none),MOBILE_WEB,628.5,7.5,0,0,0,0,0,0,0,1
+1,4,31-40,Android,he,'Samsung ',21-50,google,organic,'Organic Search',(none),MOBILE_WEB,322.333333,12.833333,0,1,0,1,1,0,0,1
+5,15,41-50,Android,en,'Xiaomi ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,268,4,0,0,0,0,0,0,0,1
+3,6,51-60,Android,he,'LG ',21-50,google,organic,'Organic Search',(none),MOBILE_WEB,1636.8,36.4,0,1,0,1,0,1,0,1
+6,16,01-10,iOS,he,'Apple ',2,google,organic,'Organic Search',(none),MOBILE_WEB,298,21,0,0,0,0,0,0,0,1
+7,18,01-10,Android,he,'OnePlus ',1,google,organic,'Organic Search',(none),MOBILE_WEB,427,5,0,0,0,0,0,0,0,1
+6,8,11-20,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,2013,4,0,0,0,0,0,0,0,1
+7,6,31-40,Android,he,'Samsung ',51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,472.5,14,0,1,0,0,0,0,0,1
+3,19,41-50,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,361,16,0,0,0,0,0,0,0,1
+5,7,01-10,Android,he,'Samsung ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,248,4,0,0,0,0,0,0,0,1
+5,19,01-10,iOS,he,'Apple ',3,(direct),(none),Direct,(none),MOBILE_WEB,284,2,0,0,0,0,0,0,0,1
+6,10,51-60,iOS,he,'Apple ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,921,2.5,0,0,0,0,0,0,0,1
+7,9,21-30,iOS,he,'Apple ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,614,2,0,0,0,0,0,0,0,1
+1,18,11-20,Android,ru,'Samsung ',2,google,organic,'Organic Search',(none),MOBILE_WEB,843,16.5,0,0,0,0,0,0,0,1
+7,18,31-40,Android,he,'OnePlus ',1,(direct),(none),Direct,(none),MOBILE_WEB,84,3,0,0,0,0,0,0,0,1
+3,10,11-20,Android,he,'OnePlus ',2,(direct),(none),Direct,(none),MOBILE_WEB,109,6,0,0,0,0,0,0,0,1
+5,19,31-40,Android,he,'LG ',2,(direct),(none),Direct,(none),MOBILE_WEB,245,3.5,0,0,0,0,0,0,0,1
+2,21,11-20,Android,he,'Feiteng ',1,(direct),(none),Direct,(none),MOBILE_WEB,187,3,0,0,0,0,0,0,0,1
+2,4,11-20,iOS,he,'Apple ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,73,2,0,0,0,0,0,0,0,1
+2,15,01-10,iOS,he,'Apple ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,36.5,1.5,0,0,0,0,0,0,0,1
+7,21,41-50,Android,he,'LG ',21-50,google,cpc,'Paid Search','Yad2 - Business for Sale - Search',MOBILE_WEB,554.5,2.5,0,0,0,0,0,0,0,1
+4,23,41-50,Android,he,'Samsung ',4-5,re_facebook,yad1_re_facebook,(Other),'(not set)',MOBILE_WEB,1266,4,0,0,0,0,0,0,0,1
+4,15,31-40,Android,he,'Samsung ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,123,4,0,0,0,0,0,0,0,1
+1,13,31-40,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,114,2,0,0,0,0,0,0,0,1
+4,21,11-20,Android,he,'Samsung ',3,(direct),(none),Direct,(none),MOBILE_WEB,804,3,0,0,0,0,0,0,0,1
+4,20,51-60,Android,he,'Samsung ',3,(direct),(none),Direct,(none),MOBILE_WEB,1009,26,0,0,0,0,0,0,0,1
+7,12,51-60,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,254,4,0,0,0,0,0,0,0,1
+3,4,41-50,Android,he,'Samsung ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,311,11,0,0,0,0,0,0,0,1
+3,17,51-60,Android,he,'Samsung ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,1756.333333,18.333333,0,0,0,0,0,0,0,1
+1,19,11-20,Android,he,'Feiteng ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,233,8,0,0,0,0,0,0,0,1
+6,13,31-40,Android,he,'LG ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,721,30,0,0,0,0,0,0,0,1
+1,20,01-10,Android,en,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,1038,6,0,0,0,0,0,0,0,1
+4,18,41-50,Android,he,'LG ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,2654,3,0,0,0,0,0,0,0,1
+4,6,51-60,Android,he,'Samsung ',3,google,cpc,'Paid Search','Yad1- פרוייקטים ערים',MOBILE_WEB,91,3,0,0,0,0,0,0,0,1
+4,17,31-40,Android,he,'Samsung ',4-5,google,cpc,'Paid Search','Yad1- פרוייקטים ערים',MOBILE_WEB,45.5,2,0,0,0,0,0,0,0,1
+3,7,11-20,Android,he,'Samsung ',3,re_facebook,yad1_re_facebook,(Other),'(not set)',MOBILE_WEB,836,5,0,0,0,0,0,0,0,1
+5,16,41-50,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,876,22,0,0,0,0,0,0,0,1
+7,16,41-50,Android,he,'LG ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,229,6,0,0,0,0,0,0,0,1
+1,3,01-10,iOS,he,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_WEB,98,4,0,0,0,0,0,0,0,1
+6,11,41-50,Android,he,'LG ',2,google,cpc,'Paid Search','yad1 - מתחרים',MOBILE_WEB,123,6.5,0,0,0,0,0,0,0,1
+2,18,51-60,Android,he,'LG ',2,(direct),(none),Direct,(none),MOBILE_WEB,56.5,2,0,0,0,0,0,0,0,1
+1,6,11-20,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,33.5,1.5,0,0,0,0,0,0,0,1
+4,17,11-20,iOS,en,'Apple ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,0,0,0,0,0,0,1
+5,10,41-50,iOS,en,'Apple ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,0,0,0,0,0,0,1
+6,0,51-60,Android,he,'Asus ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,0,0,0,0,0,0,1
+1,11,31-40,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,231.857143,4.857143,0,0,0,0,0,0,0,1
+6,15,11-20,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,205,13,0,0,0,0,0,0,0,1
+7,19,41-50,Android,he,'LG ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,1231.5,20,0,0,0,0,0,0,0,1
+7,15,51-60,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,99,2,0,0,0,0,0,0,0,1
+7,12,31-40,iOS,he,'Apple ',2,google,cpc,'Paid Search','Yad1- פרוייקטים ערים',MOBILE_WEB,328,5,0,0,0,0,0,0,0,1
+2,16,11-20,iOS,he,'Apple ',21-50,google,organic,'Organic Search',(none),MOBILE_WEB,2069.166667,35.5,0,1,0,1,0,0,0,1
+3,14,11-20,iOS,he,'Apple ',21-50,google,organic,'Organic Search',(none),MOBILE_WEB,1826.5,37.625,0,1,0,1,0,0,0,1
+5,20,51-60,Android,he,'Xiaomi ',2,(direct),(none),Direct,(none),MOBILE_WEB,1453,15,0,1,0,0,0,0,0,1
+4,19,41-50,Android,he,'Samsung ',11-20,google,cpc,'Paid Search','Yad1- דירות ערים',MOBILE_WEB,120.5,3,0,0,0,0,0,0,0,1
+6,3,51-60,Android,he,'Samsung ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,102,3.5,0,0,0,0,0,0,0,1
+6,17,31-40,Android,ru,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,1891,15,0,0,0,0,0,0,0,1
+7,18,01-10,Android,he,'(not ',1,(direct),(none),Direct,(none),MOBILE_WEB,181,3,0,0,0,0,0,0,0,1
+3,3,41-50,Android,en,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,264,4,0,0,0,0,0,0,0,1
+5,18,31-40,iOS,he,'Apple ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,168,7,0,0,0,0,0,0,0,1
+7,15,51-60,Android,en,'Xiaomi ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,696,9,0,0,0,0,0,0,0,1
+7,17,11-20,Android,he,'Samsung ',1,google,organic,'Organic Search',(none),MOBILE_WEB,1953,11,0,1,0,0,0,0,0,1
+3,11,11-20,Android,he,'LG ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,94.25,2.5,0,0,0,0,0,0,0,1
+4,10,51-60,Android,he,'LG ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,64,4,0,0,0,0,0,0,0,1
+4,17,31-40,iOS,he,'Apple ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,901,11,0,0,0,0,0,0,0,1
+7,22,01-10,iOS,en,'Apple ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,565.3,2.9,0,0,0,0,0,0,0,1
+7,22,01-10,iOS,en,'Apple ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,565.3,2.9,0,0,0,0,0,0,0,1
+7,22,01-10,iOS,en,'Apple ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,565.3,2.9,0,0,0,0,0,0,0,1
+7,22,01-10,iOS,en,'Apple ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,565.3,2.9,0,0,0,0,0,0,0,1
+1,15,31-40,Android,he,'Xiaomi ',2,(direct),(none),Direct,(none),MOBILE_WEB,1514,6,0,0,0,0,0,0,0,1
+3,10,21-30,iOS,he,'Apple ',2,google,organic,'Organic Search',(none),MOBILE_WEB,1417,18.5,0,1,0,0,1,1,1,1
+6,8,11-20,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,274,6,0,0,0,0,0,0,0,1
+6,18,31-40,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,50.5,2.5,0,0,0,0,0,0,0,1
+3,6,41-50,iOS,he,'Apple ',3,google,organic,'Organic Search',(none),MOBILE_WEB,2477,5,0,0,0,0,0,0,0,1
+1,19,21-30,Android,he,'Google ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,45.166667,2.5,0,0,0,0,0,0,0,1
+7,5,01-10,Android,he,'Samsung ',1,google,organic,'Organic Search',(none),MOBILE_WEB,459,15,0,0,0,0,0,0,0,1
+6,23,31-40,Android,en,'Samsung ',4-5,google,cpc,'Paid Search','yad1 - מתחרים',MOBILE_WEB,550,17,0,0,0,0,0,0,0,1
+1,20,41-50,Android,he,'Huawei ',3,(direct),(none),Direct,(none),MOBILE_WEB,48,2,0,0,0,0,0,0,0,1
+2,20,01-10,Android,ru,'Feiteng ',11-20,divur_nadlan,sargel,(Other),nadlan_sale,MOBILE_WEB,4313,59,0,1,0,0,1,0,0,1
+1,20,11-20,Android,he,'Xiaomi ',51+,google,organic,'Organic Search',(none),MOBILE_WEB,577.714286,18.285714,0,1,0,1,1,0,0,1
+7,8,01-10,iOS,he,'Apple ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,3830,128,0,1,0,1,1,0,0,1
+4,18,21-30,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,406,4,0,0,0,0,0,0,0,1
+7,12,41-50,Android,he,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,136,4,0,0,0,0,0,0,0,1
+4,20,51-60,Android,he,'Samsung ',21-50,google,organic,'Organic Search',(none),MOBILE_WEB,92,3,0,1,0,0,0,0,0,1
+7,11,41-50,Android,he,'Samsung ',3,google,organic,'Organic Search',(none),MOBILE_WEB,502,13,0,0,0,0,0,0,0,1
+2,8,41-50,Android,en,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,40,2,0,0,0,0,0,0,0,1
+6,19,21-30,Android,he,'Samsung ',51+,(direct),(none),Direct,(none),MOBILE_WEB,355,5,0,0,0,0,0,0,0,1
+4,18,51-60,Android,he,'Samsung ',1,google,organic,'Organic Search',(none),MOBILE_WEB,348,6,0,1,0,0,0,0,0,1
+3,6,31-40,iOS,en,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,203,7,0,0,0,0,0,0,0,1
+1,9,21-30,Android,en,'Samsung ',3,(direct),(none),Direct,(none),MOBILE_WEB,73,3,0,0,0,0,0,0,0,1
+7,12,01-10,iOS,he,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,318,12,0,1,0,1,0,0,0,1
+4,9,11-20,iOS,he,'Apple ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,0,0,0,0,0,0,1
+5,23,31-40,Android,he,'LG ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,980,11,0,0,0,0,0,0,0,1
+7,15,41-50,Android,he,'Meizu ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,149,7,0,0,0,0,0,0,0,1
+3,3,51-60,Android,en,'Xiaomi ',2,(direct),(none),Direct,(none),MOBILE_WEB,392,5,0,0,0,0,0,0,0,1
+4,21,31-40,iOS,he,'Apple ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,1012,6,0,0,0,0,0,0,0,1
+7,10,41-50,Android,he,'(not ',1,(direct),(none),Direct,(none),MOBILE_WEB,347,8,0,0,0,0,0,0,0,1
+1,16,31-40,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,114,5,0,0,0,0,0,0,0,1
+2,4,01-10,iOS,he,'Apple ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,0,0,0,0,0,0,1
+3,12,21-30,iOS,en,'Apple ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,54,3.333333,0,0,0,0,0,0,0,1
+3,3,21-30,Android,he,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,250,3,0,0,0,0,0,0,0,1
+3,4,41-50,Android,he,'Huawei ',2,google,organic,'Organic Search',(none),MOBILE_WEB,82.5,2,0,0,0,0,0,0,0,1
+6,22,31-40,Android,he,'LG ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,0,0,0,0,0,0,1
+1,7,11-20,iOS,en,'Apple ',2,(direct),(none),Direct,(none),MOBILE_WEB,56.5,2,0,0,0,0,0,0,0,1
+4,7,31-40,Android,he,'Samsung ',4-5,google,organic,'Organic Search',(none),MOBILE_WEB,48,3,0,0,0,0,0,0,0,1
+7,11,51-60,Android,he,'(not ',1,(direct),(none),Direct,(none),MOBILE_WEB,160,6,0,0,0,0,0,0,0,1
+6,22,01-10,Android,en,'Samsung ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,505.5,22,0,1,0,0,0,0,0,1
+7,6,21-30,Android,en,'Samsung ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,406.333333,17,0,0,0,0,0,0,0,1
+3,14,51-60,Android,en,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,526,8,0,0,0,0,0,0,0,1
+3,15,01-10,Android,en,'LG ',2,'Yad1 Lead Confirmation',email,Email,'Yad1 Lead Confirmation',MOBILE_WEB,316,7,0,0,0,0,0,0,0,1
+7,7,31-40,Android,he,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,68,3,0,0,0,0,0,0,0,1
+5,11,21-30,Android,he,'Samsung ',3,(direct),(none),Direct,(none),MOBILE_WEB,178,4.5,0,0,0,0,0,0,0,1
+7,9,01-10,Android,he,'LG ',3,google,organic,'Organic Search',(none),MOBILE_WEB,352.666667,7.333333,0,0,0,0,0,0,0,1
+2,11,31-40,Android,he,'Samsung ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,100,6,0,0,0,0,0,0,0,1
+5,1,31-40,Android,he,'Samsung ',4-5,google,cpc,'Paid Search','yad1 - מתחרים',MOBILE_WEB,1161,28,0,0,0,0,0,0,0,1
+5,16,11-20,Android,he,'Samsung ',51+,(direct),(none),Direct,(none),MOBILE_WEB,103,2,0,0,0,0,0,0,0,1
+1,19,31-40,Android,he,'Google ',1,google,organic,'Organic Search',(none),MOBILE_WEB,59,2,0,0,0,0,0,0,0,1
+6,10,31-40,Android,he,'Xiaomi ',1,re_facebook,yad1_re_facebook,(Other),'(not set)',MOBILE_WEB,93,3,0,0,0,0,0,0,0,1
+4,20,11-20,Android,he,'LG ',2,(direct),(none),Direct,(none),MOBILE_WEB,968,5,0,0,0,0,0,0,0,1
+7,15,11-20,Android,he,'Samsung ',3,google,organic,'Organic Search',(none),MOBILE_WEB,722,24,0,0,0,0,0,0,0,1
+2,5,31-40,iOS,he,'Apple ',1,google,organic,'Organic Search',(none),MOBILE_WEB,3556,63,0,0,0,0,0,0,0,1
+4,17,11-20,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,46,2,0,0,0,0,0,0,0,1
+7,11,51-60,Android,he,'Samsung ',1,google,cpc,'Paid Search','Yad1- פרוייקטים ערים',MOBILE_WEB,157,6,0,0,0,0,0,0,0,1
+6,22,11-20,Android,he,'LG ',2,(direct),(none),Direct,(none),MOBILE_WEB,1139,7,0,0,0,0,0,0,0,1
+5,4,51-60,iOS,he,'Apple ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,252,5,0,0,0,0,0,0,0,1
+6,12,41-50,iOS,he,'Apple ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,69,2,0,0,0,0,0,0,0,1
+5,7,31-40,Android,en,'Samsung ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,309,11,0,0,0,0,0,0,0,1
+7,9,01-10,Android,en,'LG ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,74,4,0,0,0,0,0,0,0,1
+1,20,11-20,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,174,3,0,0,0,0,0,0,0,1
+1,19,51-60,Android,he,'Samsung ',3,(direct),(none),Direct,(none),MOBILE_WEB,113.333333,1.666667,0,0,0,0,0,0,0,1
+7,22,51-60,iOS,he,'Apple ',1,google,cpc,'Paid Search','yad1 - מתחרים',MOBILE_WEB,861,7,0,0,0,0,0,0,0,1
+1,12,21-30,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,175,2,0,0,0,0,0,0,0,1
+4,6,21-30,Android,he,'Samsung ',4-5,google,organic,'Organic Search',(none),MOBILE_WEB,1863,50,0,0,0,0,0,0,0,1
+6,7,01-10,iOS,he,'Apple ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,737.75,9.5,0,0,0,0,0,0,0,1
+6,17,21-30,iOS,he,'Apple ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,616.4,8.2,0,0,0,0,0,0,0,1
+1,9,41-50,Android,ru,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,189.5,2.5,0,0,0,0,0,0,0,1
+2,15,01-10,iOS,en,'Apple ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,151,2,0,0,0,0,0,0,0,1
+7,10,41-50,Android,he,'LG ',3,(direct),(none),Direct,(none),MOBILE_WEB,336,8,0,0,0,0,0,0,0,1
+5,8,31-40,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,206,4,0,0,0,0,0,0,0,1
+2,14,11-20,Android,he,'Feiteng ',3,google,organic,'Organic Search',(none),MOBILE_WEB,372,13,0,0,0,0,0,0,0,1
+6,12,01-10,Android,he,'Huawei ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,1621,13,0,0,0,0,0,0,0,1
+1,6,11-20,Android,he,'Samsung ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,144.5,6,0,0,0,0,0,0,0,1
+4,19,51-60,iOS,en,'Apple ',2,re_facebook,yad1_re_facebook,(Other),'(not set)',MOBILE_WEB,84,3,0,0,0,0,0,0,0,1
+3,2,11-20,Android,he,'Samsung ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,980,8.5,0,0,0,0,0,0,0,1
+1,9,41-50,iOS,he,'Apple ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,385.5,8,0,0,0,0,0,0,0,1
+7,10,01-10,iOS,en,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,331,13,0,0,0,0,0,0,0,1
+7,12,51-60,iOS,en,'Apple ',2,(direct),(none),Direct,(none),MOBILE_WEB,165.5,7,0,0,0,0,0,0,0,1
+2,4,31-40,iOS,en,'Apple ',3,(direct),(none),Direct,(none),MOBILE_WEB,110.333333,5,0,0,0,0,0,0,0,1
+1,15,31-40,Android,ru,'Samsung ',51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,1871.846154,49.307692,0,1,0,1,1,1,0,1
+7,22,01-10,Android,he,'Samsung ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,817,17.5,0,1,0,1,0,1,0,1
+4,17,51-60,Android,ru,'Samsung ',3,(direct),(none),Direct,(none),MOBILE_WEB,43,2,0,0,0,0,0,0,0,1
+2,17,41-50,iOS,he,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,334.5,12,0,1,0,1,0,0,0,1
+3,20,01-10,Android,he,'SonyEricsson ',1,(direct),(none),Direct,(none),MOBILE_WEB,1731,4,0,0,0,0,0,0,0,1
+4,10,51-60,iOS,he,'Apple ',3,(direct),(none),Direct,(none),MOBILE_WEB,356,12,0,0,0,0,0,0,0,1
+3,18,11-20,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,174.5,4,0,0,0,0,0,0,0,1
+4,20,51-60,iOS,fr,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,250,16,0,0,0,0,0,0,0,1
+7,17,21-30,iOS,he,'Apple ',1,google,organic,'Organic Search',(none),MOBILE_WEB,1909,49,0,1,0,1,0,0,0,1
+5,5,31-40,Android,he,'Samsung ',1,re_facebook,yad1_re_facebook,(Other),'(not set)',MOBILE_WEB,57,2,0,0,0,0,0,0,0,1
+1,16,51-60,iOS,en,'Apple ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,147,10,0,0,0,0,0,0,0,1
+2,17,01-10,iOS,en,'Apple ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,73.5,5.5,0,0,0,0,0,0,0,1
+7,12,21-30,iOS,he,'Apple ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,405,17,0,0,0,0,0,0,0,1
+2,17,11-20,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,423,3,0,0,0,0,0,0,0,1
+7,12,41-50,iOS,en,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,87,3,0,0,0,0,0,0,0,1
+5,12,51-60,iOS,en,'Apple ',2,google,organic,'Organic Search',(none),MOBILE_WEB,510,5,0,0,0,0,0,0,0,1
+5,6,41-50,iOS,he,'Apple ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,388.5,9,0,0,0,0,0,0,0,1
+2,6,11-20,Android,he,'Samsung ',2,google,cpc,'Paid Search','yad1 - מתחרים',MOBILE_WEB,216,13.5,0,0,0,0,0,0,0,1
+5,22,01-10,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,104,4,0,0,0,0,0,0,0,1
+4,10,11-20,Android,he,'Samsung ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,722,10,0,0,0,0,0,0,0,1
+1,20,51-60,Android,he,'(not ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,808,7,0,0,0,0,0,0,0,1
+2,3,51-60,iOS,he,'Apple ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,44,2,0,0,0,0,0,0,0,1
+2,16,21-30,Android,he,'LG ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,38.333333,3,0,0,0,0,0,0,0,1
+3,10,41-50,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,906,5,0,0,0,0,0,0,0,1
+2,12,51-60,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,88,3,0,0,0,0,0,0,0,1
+6,18,11-20,Android,he,'Xiaomi ',2,google,organic,'Organic Search',(none),MOBILE_WEB,69,2,0,0,0,0,0,0,0,1
+7,11,51-60,Android,he,'LG ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,993,6,0,0,0,0,0,0,0,1
+4,7,11-20,Android,he,'Xiaomi ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,720,3,0,0,0,0,0,0,0,1
+1,16,51-60,Android,he,'LG ',21-50,google,cpc,'Paid Search','yad1 - מתחרים',MOBILE_WEB,233,10,0,0,0,0,0,0,0,1
+3,11,21-30,Android,he,'Samsung ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,540.125,9.25,0,0,0,0,0,0,0,1
+6,16,11-20,iOS,he,'Apple ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,107,2,0,0,0,0,0,0,0,1
+5,7,51-60,Android,he,'Samsung ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,334,2,0,0,0,0,0,0,0,1
+5,11,11-20,Android,he,'Samsung ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,402.5,2,0,0,0,0,0,0,0,1
+5,20,21-30,Android,he,'Samsung ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,201.25,1.5,0,0,0,0,0,0,0,1
+6,14,01-10,Android,he,'Samsung ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,161,1.4,0,0,0,0,0,0,0,1
+7,17,41-50,Android,he,'Samsung ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,115.428571,1.428571,0,0,0,0,0,0,0,1
+2,6,11-20,iOS,fr,'Apple ',51+,google,organic,'Organic Search',(none),MOBILE_WEB,550,11,0,1,0,0,0,0,0,1
+6,8,31-40,iOS,he,'Apple ',2,google,organic,'Organic Search',(none),MOBILE_WEB,199,1.5,0,0,0,0,0,0,0,1
+2,7,31-40,Android,en,'Samsung ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,798.125,8.5,0,1,0,0,0,0,0,1
+6,7,51-60,iOS,he,'Apple ',51+,google,organic,'Organic Search',(none),MOBILE_WEB,373.5,7.5,0,1,0,0,1,1,1,1
+7,10,11-20,Android,he,'LG ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,168.25,7,0,1,0,0,0,0,0,1
+5,13,51-60,iOS,he,'Apple ',3,(direct),(none),Direct,(none),MOBILE_WEB,315,2,0,0,0,0,0,0,0,1
+7,11,01-10,Android,he,'Samsung ',3,google,cpc,'Paid Search','Yad1- פרוייקטים ערים',MOBILE_WEB,698.333333,9.666667,0,0,0,0,0,0,0,1
+2,18,01-10,iOS,en,'Apple ',2,(direct),(none),Direct,(none),MOBILE_WEB,806,6,0,0,0,0,0,0,0,1
+3,8,01-10,iOS,en,'Apple ',3,'Yad1 Lead Confirmation',email,Email,'Yad1 Lead Confirmation',MOBILE_WEB,460,4.5,0,0,0,0,0,0,0,1
+3,18,51-60,Android,he,'Samsung ',3,google,organic,'Organic Search',(none),MOBILE_WEB,2618,45,0,1,0,0,0,0,0,1
+4,20,01-10,Android,he,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,36,2,0,0,0,0,0,0,0,1
+1,1,41-50,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,122,3,0,0,0,0,0,0,0,1
+1,7,31-40,Android,he,'LG ',3,google,cpc,'Paid Search','yad1 - מתחרים',MOBILE_WEB,245,6,0,0,0,0,0,0,0,1
+6,21,11-20,Android,he,'Xiaomi ',1,google,organic,'Organic Search',(none),MOBILE_WEB,1335,85,0,1,0,1,0,0,0,1
+3,5,11-20,iOS,en,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,180,6,0,1,0,1,0,0,0,1
+5,4,01-10,Android,he,'Huawei ',2,google,organic,'Organic Search',(none),MOBILE_WEB,0,1,0,0,0,0,0,0,0,1
+5,5,01-10,Android,he,'Huawei ',3,google,organic,'Organic Search',(none),MOBILE_WEB,16.5,3.5,0,1,0,0,0,0,0,1
+1,8,01-10,Android,ru,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,127,4,0,0,0,0,0,0,0,1
+7,14,01-10,Android,he,'Google ',51+,(direct),(none),Direct,(none),MOBILE_WEB,98.75,3.75,0,0,0,0,0,0,0,1
+2,15,51-60,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,53,2,0,0,0,0,0,0,0,1
+5,5,01-10,Android,he,'LG ',51+,google,organic,'Organic Search',(none),MOBILE_WEB,998,15.333333,0,1,0,0,0,0,0,1
+1,17,51-60,iOS,he,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,361,12.5,0,1,0,1,0,0,0,1
+6,7,51-60,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,86,2,0,0,0,0,0,0,0,1
+3,16,01-10,Android,he,'Huawei ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,1077,34,0,1,0,1,1,1,1,1
+4,9,51-60,Android,he,'Meizu ',2,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,0,0,0,0,0,0,1
+5,12,11-20,Android,he,'Meizu ',3,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,0,0,0,0,0,0,1
+2,11,11-20,iOS,fr,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,377,2,0,0,0,0,0,0,0,1
+6,16,01-10,iOS,en,'Apple ',1,google,organic,'Organic Search',(none),MOBILE_WEB,74,3,0,0,0,0,0,0,0,1
+4,17,11-20,iOS,he,'Apple ',2,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,0,0,0,0,0,0,1
+4,6,31-40,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,173,5,0,0,0,0,0,0,0,1
+1,7,21-30,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,161,3,0,0,0,0,0,0,0,1
+1,15,21-30,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,90,5,0,0,0,0,0,0,0,1
+6,20,01-10,Android,he,'Samsung ',51+,(direct),(none),Direct,(none),MOBILE_WEB,1143.5,23.5,0,1,0,1,1,0,0,1
+1,21,41-50,Android,he,'Samsung ',3,re_facebook,yad1_re_facebook,(Other),'(not set)',MOBILE_WEB,279,13,0,0,0,0,0,0,0,1
+1,16,01-10,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,208.5,3,0,0,0,0,0,0,0,1
+6,12,51-60,Android,he,'Samsung ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,1370,5,0,0,0,0,0,0,0,1
+7,8,11-20,Android,he,'LG ',21-50,google,organic,'Organic Search',(none),MOBILE_WEB,422.909091,6.818182,0,1,0,0,0,0,0,1
+3,15,11-20,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,328,12,0,0,0,0,0,0,0,1
+5,13,31-40,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,61,2,0,0,0,0,0,0,0,1
+4,22,11-20,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,200,4,0,0,0,0,0,0,0,1
+6,21,11-20,iOS,he,'Apple ',4-5,google,organic,'Organic Search',(none),MOBILE_WEB,288,5,0,0,0,0,0,0,0,1
+1,16,51-60,Android,he,'Huawei ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,333,4,0,0,0,0,0,0,0,1
+3,22,11-20,Android,he,'Samsung ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,70,3,0,0,0,0,0,0,0,1
+3,9,51-60,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,350,6,0,0,0,0,0,0,0,1
+3,4,31-40,iOS,fr,'Apple ',21-50,google,organic,'Organic Search',(none),MOBILE_WEB,233.5,3.25,0,0,0,0,0,0,0,1
+1,14,01-10,iOS,he,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_WEB,720.5,11.5,0,1,0,0,0,0,0,1
+1,13,31-40,iOS,he,'Apple ',1,google,organic,'Organic Search',(none),MOBILE_WEB,271,3,0,0,0,0,0,0,0,1
+7,19,31-40,Android,ru,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,1047,9,0,0,0,0,0,0,0,1
+7,5,21-30,Android,he,'Huawei ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,937,24,0,0,0,0,0,0,0,1
+7,21,21-30,Android,he,'HTC ',1,(direct),(none),Direct,(none),MOBILE_WEB,61,2,0,0,0,0,0,0,0,1
+2,22,01-10,Android,he,'Samsung ',11-20,Whatsapp,'(not set)',(Other),m-ToAd,MOBILE_WEB,683.666667,21.666667,0,1,0,1,1,0,0,1
+2,17,51-60,Android,he,'(not ',21-50,google,organic,'Organic Search',(none),MOBILE_WEB,175.8,6.8,0,0,0,0,0,0,0,1
+7,18,51-60,Android,he,'Meizu ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,478,10.333333,0,1,0,0,0,0,0,1
+7,22,51-60,iOS,en,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_WEB,78,2,0,0,0,0,0,0,0,1
+4,19,11-20,Android,he,'Samsung ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,5688,164,0,1,0,1,1,1,0,1
+1,19,21-30,iOS,he,'Apple ',51+,google,organic,'Organic Search',(none),MOBILE_WEB,378.333333,14.333333,0,0,0,0,0,0,0,1
+1,20,11-20,iOS,he,'Apple ',51+,google,organic,'Organic Search',(none),MOBILE_WEB,351,14.25,0,1,0,1,0,0,0,1
+7,20,11-20,Android,he,'OnePlus ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,323,4.5,0,0,0,0,0,0,0,1
+1,12,11-20,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,298,5,0,0,0,0,0,0,0,1
+1,13,11-20,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,168,3.5,0,0,0,0,0,0,0,1
+4,18,41-50,iOS,he,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_WEB,633.5,7.5,0,0,0,0,0,0,0,1
+6,7,11-20,Android,he,'LG ',2,google,cpc,'Paid Search','yad1 - מתחרים',MOBILE_WEB,245,6,0,0,0,0,0,0,0,1
+2,3,01-10,Android,he,'Samsung ',4-5,google,organic,'Organic Search',(none),MOBILE_WEB,123,4,0,0,0,0,0,0,0,1
+3,15,31-40,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,377,2,0,0,0,0,0,0,0,1
+7,14,41-50,Android,he,'LG ',51+,google,organic,'Organic Search',(none),MOBILE_WEB,283,10,0,1,0,0,0,0,0,1
+3,0,21-30,Android,he,'Samsung ',51+,google,organic,'Organic Search',(none),MOBILE_WEB,480.2,15,0,1,0,0,0,0,0,1
+3,8,51-60,Android,en,'OnePlus ',1,(direct),(none),Direct,(none),MOBILE_WEB,78,3,0,0,0,0,0,0,0,1
+3,21,41-50,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,376,6,0,0,0,0,0,0,0,1
+5,10,11-20,Android,he,'Samsung ',4-5,google,cpc,'Paid Search','yad1 - מתחרים',MOBILE_WEB,2134,28,0,0,0,0,0,0,0,1
+6,15,01-10,Android,ru,'Xiaomi ',2,(direct),(none),Direct,(none),MOBILE_WEB,476,4,0,0,0,0,0,0,0,1
+1,3,51-60,Android,he,'Samsung ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,71.666667,2.333333,0,0,0,0,0,0,0,1
+3,6,51-60,Android,en,'Sony ',1,(direct),(none),Direct,(none),MOBILE_WEB,849,5,0,0,0,0,0,0,0,1
+3,11,11-20,Android,he,'(not ',1,google,organic,'Organic Search',(none),MOBILE_WEB,298,6,0,0,0,0,0,0,0,1
+3,16,01-10,Android,he,'(not ',2,google,organic,'Organic Search',(none),MOBILE_WEB,149,3.5,0,0,0,0,0,0,0,1
+4,10,21-30,Android,he,'Huawei ',3,re_facebook,yad1_re_facebook,(Other),'(not set)',MOBILE_WEB,46,2,0,0,0,0,0,0,0,1
+7,17,01-10,Android,he,'Huawei ',4-5,re_facebook,yad1_re_facebook,(Other),'(not set)',MOBILE_WEB,50,2,0,0,0,0,0,0,0,1
+7,10,41-50,iOS,he,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,632,19,0,1,0,0,0,0,0,1
+1,20,41-50,iOS,he,'Apple ',1,google,organic,'Organic Search',(none),MOBILE_WEB,2133,9,0,1,0,0,0,0,0,1
+6,3,51-60,Android,he,'Samsung ',21-50,google,organic,'Organic Search',(none),MOBILE_WEB,1406,39,0,1,0,1,0,0,0,1
+6,14,41-50,iOS,he,'Apple ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,519,4,0,0,0,0,0,0,0,1
+6,15,01-10,iOS,he,'Apple ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,317.5,2.5,0,0,0,0,0,0,0,1
+1,5,01-10,Android,ru,'Samsung ',51+,(direct),(none),Direct,(none),MOBILE_WEB,1917,10,0,0,0,0,0,0,0,1
+1,21,11-20,Android,he,'LG ',51+,(direct),(none),Direct,(none),MOBILE_WEB,315,6,0,0,0,0,0,0,0,1
+6,12,41-50,Android,he,'LG ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,257,7,0,0,0,0,0,0,0,1
+2,4,01-10,Android,en,'OnePlus ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,64,2,0,0,0,0,0,0,0,1
+5,1,31-40,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,272,4,0,0,0,0,0,0,0,1
+2,17,31-40,Android,he,'Samsung ',2,google,organic,'Organic Search',(none),MOBILE_WEB,311,13,0,0,0,0,0,0,0,1
+7,13,51-60,Android,en,'LG ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,793,22,0,1,0,1,0,0,0,1
+7,16,31-40,Android,ru,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,108,3,0,0,0,0,0,0,0,1
+2,9,11-20,iOS,he,'Apple ',1,re_facebook,yad1_re_facebook,(Other),'(not set)',MOBILE_WEB,53,2,0,0,0,0,0,0,0,1
+4,16,41-50,iOS,he,'Apple ',1,m.facebook.com,referral,Social,(none),MOBILE_WEB,135,3,0,0,0,0,0,0,0,1
+2,19,01-10,Android,he,'LG ',51+,google,organic,'Organic Search',(none),MOBILE_WEB,1219,39.5,0,1,0,0,1,0,0,1
+6,12,31-40,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,110,6,0,0,0,0,0,0,0,1
+6,6,31-40,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,215,2,0,0,0,0,0,0,0,1
+6,2,01-10,iOS,en,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,664,4,0,0,0,0,0,0,0,1
+7,23,21-30,Android,he,'Samsung ',2,google,organic,'Organic Search',(none),MOBILE_WEB,168,7,0,0,0,0,0,0,0,1
+4,12,11-20,Android,ru,'Samsung ',3,google,organic,'Organic Search',(none),MOBILE_WEB,200,6,0,0,0,0,0,0,0,1
+4,16,51-60,Android,ru,'Samsung ',4-5,'Yad1 Lead Confirmation',email,Email,'Yad1 Lead Confirmation',MOBILE_WEB,123.6,4.2,0,0,0,0,0,0,0,1
+3,7,01-10,Android,he,'Samsung ',51+,google,organic,'Organic Search',(none),MOBILE_WEB,464,6.285714,0,0,0,0,0,0,0,1
+1,18,41-50,Android,he,'Xiaomi ',1,(direct),(none),Direct,(none),MOBILE_WEB,136,4,0,0,0,0,0,0,0,1
+6,4,11-20,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,2160,11,0,0,0,0,0,0,0,1
+3,7,31-40,iOS,he,'Apple ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,195,3,0,0,0,0,0,0,0,1
+3,8,21-30,iOS,he,'Apple ',1,google,organic,'Organic Search',(none),MOBILE_WEB,60,2,0,0,0,0,0,0,0,1
+4,22,11-20,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,76,2,0,0,0,0,0,0,0,1
+5,13,31-40,Android,en,'LG ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,1600,3,0,0,0,0,0,0,0,1
+3,14,21-30,iOS,en,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,669,14,0,0,0,0,0,0,0,1
+7,8,11-20,Android,he,'LG ',3,(direct),(none),Direct,(none),MOBILE_WEB,1579,15,0,0,0,0,0,0,0,1
+4,18,51-60,Android,he,'Xiaomi ',1,(direct),(none),Direct,(none),MOBILE_WEB,589,5,0,0,0,0,0,0,0,1
+4,11,51-60,iOS,he,'Apple ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,360,4,0,0,0,0,0,0,0,1
+7,14,01-10,Android,he,'Samsung ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,63,3,0,0,0,0,0,0,0,1
+5,18,51-60,iOS,he,'Apple ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,366,8,0,0,0,0,0,0,0,1
+1,8,41-50,iOS,en,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,1558,3,0,0,0,0,0,0,0,1
+1,22,01-10,Android,he,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,996.333333,3,0,0,0,0,0,0,0,1
+1,22,01-10,Android,he,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,996.333333,3,0,0,0,0,0,0,0,1
+1,22,01-10,Android,he,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,996.333333,3,0,0,0,0,0,0,0,1
+1,22,01-10,Android,he,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,996.333333,3,0,0,0,0,0,0,0,1
+5,12,01-10,Android,he,'(not ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,88,3,0,0,0,0,0,0,0,1
+7,20,41-50,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,349,4,0,0,0,0,0,0,0,1
+6,17,41-50,iOS,he,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,1709.25,24.875,0,1,0,0,1,1,0,1
+6,10,01-10,Android,he,'Samsung ',3,(direct),(none),Direct,(none),MOBILE_WEB,202,6,0,0,0,0,0,0,0,1
+6,7,11-20,Android,he,'Samsung ',3,google,organic,'Organic Search',(none),MOBILE_WEB,84,3,0,0,0,0,0,0,0,1
+2,9,21-30,Android,he,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,170,3,0,0,0,0,0,0,0,1
+7,10,01-10,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,145,3,0,0,0,0,0,0,0,1
+3,4,41-50,iOS,he,'Apple ',2,(direct),(none),Direct,(none),MOBILE_WEB,501.5,11,0,0,0,0,0,0,0,1
+6,20,51-60,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,70,2,0,0,0,0,0,0,0,1
+6,9,21-30,Android,he,'(not ',1,(direct),(none),Direct,(none),MOBILE_WEB,147,3,0,0,0,0,0,0,0,1
+3,12,01-10,iOS,en,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,2207,7,0,0,0,0,0,0,0,1
+2,17,31-40,Android,he,'Samsung ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,205,7,0,0,0,0,0,0,0,1
+2,23,31-40,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,146,3,0,0,0,0,0,0,0,1
+4,11,41-50,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,1004,11,0,0,0,0,0,0,0,1
+4,17,11-20,iOS,he,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,887,16,0,1,0,1,0,0,0,1
+7,14,31-40,Android,he,'Huawei ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,139,6,0,0,0,0,0,0,0,1
+7,9,51-60,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,162,2,0,0,0,0,0,0,0,1
+3,15,31-40,Android,he,'Meizu ',1,(direct),(none),Direct,(none),MOBILE_WEB,135,2,0,0,0,0,0,0,0,1
+5,20,51-60,Android,he,'Samsung ',11-20,Whatsapp,'(not set)',(Other),m-ToAd,MOBILE_WEB,895.4,21.4,0,1,0,1,0,0,0,1
+4,19,21-30,iOS,he,'Apple ',2,(direct),(none),Direct,(none),MOBILE_WEB,76,2,0,0,0,0,0,0,0,1
+4,22,51-60,iOS,he,'Apple ',2,(direct),(none),Direct,(none),MOBILE_WEB,995,4,0,0,0,0,0,0,0,1
+1,19,11-20,Android,he,'LG ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,751,8,0,0,0,0,0,0,0,1
+7,17,01-10,Android,he,'Vernee ',2,(direct),(none),Direct,(none),MOBILE_WEB,986,68,0,0,0,0,0,0,0,1
+2,16,31-40,Android,he,'Vernee ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,479.666667,29.666667,0,0,0,0,0,0,0,1
+5,22,21-30,iOS,he,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,289.5,21.75,1,1,0,1,0,0,0,1
+1,18,21-30,iOS,he,'Apple ',3,(direct),(none),Direct,(none),MOBILE_WEB,93.666667,4,0,0,0,0,0,0,0,1
+2,20,41-50,Android,he,'Samsung ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,75.75,4.5,0,0,0,0,0,0,0,1
+4,10,31-40,Android,he,'Samsung ',51+,(direct),(none),Direct,(none),MOBILE_WEB,539,7,0,0,0,0,0,0,0,1
+2,18,51-60,Android,he,'Samsung ',51+,(direct),(none),Direct,(none),MOBILE_WEB,507.666667,3.166667,0,0,0,0,0,0,0,1
+6,16,21-30,Android,he,'Samsung ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,615.5,6.5,0,0,0,0,0,0,0,1
+4,9,41-50,Android,he,'LG ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,1061,13,0,0,0,0,0,0,0,1
+7,20,41-50,Android,he,'LG ',2,(direct),(none),Direct,(none),MOBILE_WEB,1233,4,0,0,0,0,0,0,0,1
+7,9,11-20,Android,he,'LG ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,94,13,0,0,0,0,0,0,0,1
+2,20,21-30,Android,he,'Xiaomi ',21-50,Whatsapp,'(not set)',(Other),m-ToAd,MOBILE_WEB,255,10.153846,0,1,0,1,1,0,0,1
+4,4,51-60,Android,ru,'LG ',3,(direct),(none),Direct,(none),MOBILE_WEB,1607,12,0,0,0,0,0,0,0,1
+7,19,21-30,Android,he,'Samsung ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,1191,9.2,0,0,0,0,0,0,0,1
+7,22,31-40,Android,he,'LG ',2,(direct),(none),Direct,(none),MOBILE_WEB,353,11,0,0,0,0,0,0,0,1
+6,16,11-20,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,121,2,0,0,0,0,0,0,0,1
+7,9,31-40,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,78.5,2,0,0,0,0,0,0,0,1
+7,17,01-10,Android,en,'Xiaomi ',1,(direct),(none),Direct,(none),MOBILE_WEB,69,3,0,0,0,0,0,0,0,1
+6,13,51-60,Android,en,'LG ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,215,5,0,0,0,0,0,0,0,1
+1,18,01-10,Android,he,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,682,34,0,0,0,0,0,0,0,1
+2,15,01-10,Android,he,'Samsung ',51+,(direct),(none),Direct,(none),MOBILE_WEB,197.666667,3.333333,0,0,0,0,0,0,0,1
+7,14,51-60,Android,he,'Samsung ',4-5,google,organic,'Organic Search',(none),MOBILE_WEB,330,5,0,0,0,0,0,0,0,1
+1,4,01-10,Android,he,'Samsung ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,165,3,0,0,0,0,0,0,0,1
+3,19,11-20,Android,he,'Samsung ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,110,2.333333,0,0,0,0,0,0,0,1
+2,17,41-50,Android,ru,'Xiaomi ',11-20,google,cpc,'Paid Search','yad1 - מתחרים',MOBILE_WEB,780.2,4.8,0,0,0,0,0,0,0,1
+5,11,11-20,iOS,he,'Apple ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,87,5,0,0,0,0,0,0,0,1
+1,12,21-30,iOS,he,'Apple ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,43.5,3,0,0,0,0,0,0,0,1
+2,12,01-10,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,710,30,0,1,0,0,0,0,0,1
+4,23,31-40,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,63,3,0,0,0,0,0,0,0,1
+1,16,31-40,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,550,12,0,0,0,0,0,0,0,1
+3,19,11-20,Android,en,'Xiaomi ',1,(direct),(none),Direct,(none),MOBILE_WEB,528,39,0,0,0,0,0,0,0,1
+3,19,01-10,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,151,4,0,0,0,0,0,0,0,1
+4,17,21-30,Android,he,'Samsung ',51+,(direct),(none),Direct,(none),MOBILE_WEB,992.25,13.25,0,0,0,0,0,0,0,1
+6,20,11-20,Android,he,'(not ',1,(direct),(none),Direct,(none),MOBILE_WEB,334,14,0,0,0,0,0,0,0,1
+6,12,51-60,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,243,9,0,0,0,0,0,0,0,1
+1,11,11-20,Android,he,'Samsung ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,487,11,0,0,0,0,0,0,0,1
+7,8,11-20,Android,he,'Samsung ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,58,2,0,0,0,0,0,0,0,1
+7,16,51-60,Android,he,'LG ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,1802,9,0,0,0,0,0,0,0,1
+7,5,11-20,iOS,he,'Apple ',4-5,google,organic,'Organic Search',(none),MOBILE_WEB,143,5,0,0,0,0,0,0,0,1
+7,15,01-10,Android,ru,'Samsung ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,404,8,0,0,0,0,0,0,0,1
+2,19,51-60,iOS,en,'Apple ',1,Whatsapp,Yad1_share,(Other),Yad1,MOBILE_WEB,209,5,0,0,0,0,0,0,0,1
+3,9,31-40,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,1158,7,0,0,0,0,0,0,0,1
+3,19,11-20,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,144,5,0,0,0,0,0,0,0,1
+1,12,01-10,iOS,en,'Apple ',2,(direct),(none),Direct,(none),MOBILE_WEB,45,2,0,0,0,0,0,0,0,1
+6,8,01-10,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,58,3,0,0,0,0,0,0,0,1
+4,9,41-50,iOS,he,'Apple ',1,google,organic,'Organic Search',(none),MOBILE_WEB,132,9,0,0,0,0,0,0,0,1
+7,21,51-60,Android,he,'Xiaomi ',51+,google,organic,'Organic Search',(none),MOBILE_WEB,29.428571,1.857143,0,0,0,0,0,0,0,1
+7,10,41-50,iOS,he,'Apple ',3,(direct),(none),Direct,(none),MOBILE_WEB,81,3,0,0,0,0,0,0,0,1
+4,14,21-30,iOS,he,'Apple ',3,google,organic,'Organic Search',(none),MOBILE_WEB,173,3,0,0,0,0,0,0,0,1
+2,9,11-20,Android,he,'Samsung ',6-10,'Yad1 Lead Confirmation',email,Email,'Yad1 Lead Confirmation',MOBILE_WEB,81.5,3.5,0,0,0,0,0,0,0,1
+4,20,21-30,iOS,he,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,1766,17,0,1,0,0,0,0,0,1
+3,9,31-40,Android,he,'LG ',2,(direct),(none),Direct,(none),MOBILE_WEB,85.5,4.5,0,0,0,0,0,0,0,1
+3,10,41-50,Android,he,'LG ',3,(direct),(none),Direct,(none),MOBILE_WEB,516,6.666667,0,0,0,0,0,0,0,1
+5,19,41-50,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,970,4,0,0,0,0,0,0,0,1
+3,19,21-30,iOS,he,'Apple ',1,google,organic,'Organic Search',(none),MOBILE_WEB,177,7,0,0,0,0,0,0,0,1
+3,10,11-20,iOS,en,'Apple ',3,(direct),(none),Direct,(none),MOBILE_WEB,179,2,0,0,0,0,0,0,0,1
+3,11,41-50,iOS,en,'Apple ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,89.5,1.5,0,0,0,0,0,0,0,1
+1,5,41-50,iOS,he,'Apple ',2,(direct),(none),Direct,(none),MOBILE_WEB,1089,6,0,0,0,0,0,0,0,1
+6,1,31-40,Android,he,'Samsung ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,226.5,2.5,0,0,0,0,0,0,0,1
+1,16,11-20,Android,he,'LG ',1,google,organic,'Organic Search',(none),MOBILE_WEB,62,3,0,0,0,0,0,0,0,1
+5,14,11-20,Android,he,'LG ',3,google,organic,'Organic Search',(none),MOBILE_WEB,76,3,0,0,0,0,0,0,0,1
+5,9,01-10,Android,he,'LG ',4-5,google,organic,'Organic Search',(none),MOBILE_WEB,0,1,0,0,0,0,0,0,0,1
+3,14,21-30,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,850,13,0,0,0,0,0,0,0,1
+1,20,01-10,Android,he,'LG ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,212.5,9.333333,0,0,0,0,0,0,0,1
+6,2,31-40,iOS,he,'Apple ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,374.333333,9.333333,0,0,0,0,0,0,0,1
+3,20,51-60,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,1169,7,0,0,0,0,0,0,0,1
+7,9,31-40,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,48,2,0,0,0,0,0,0,0,1
+3,19,01-10,Android,he,'Samsung ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,396,15,0,0,0,0,0,0,0,1
+7,21,11-20,Android,he,'Samsung ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,915,9,0,0,0,0,0,0,0,1
+5,9,21-30,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,201,10,0,0,0,0,0,0,0,1
+1,22,41-50,iOS,he,'Apple ',3,'Yad1 Lead Confirmation',email,Email,'Yad1 Lead Confirmation',MOBILE_WEB,135.333333,6.333333,0,0,0,0,0,0,0,1
+1,9,21-30,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,254,3,0,0,0,0,0,0,0,1
+7,16,11-20,Android,he,'Samsung ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,44,5,0,0,0,0,0,0,0,1
+3,19,41-50,Android,he,'LG ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,52,2.5,0,0,0,0,0,0,0,1
+6,18,31-40,iOS,he,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,739.75,13.25,1,0,0,0,0,0,0,1
+3,18,11-20,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,936,5,0,0,0,0,0,0,0,1
+1,18,21-30,Android,he,'Samsung ',3,google,organic,'Organic Search',(none),MOBILE_WEB,110,5,0,0,0,0,0,0,0,1
+2,4,41-50,iOS,he,'Apple ',3,google,organic,'Organic Search',(none),MOBILE_WEB,498.333333,2,0,0,0,0,0,0,0,1
+2,17,31-40,iOS,he,'Apple ',4-5,google,organic,'Organic Search',(none),MOBILE_WEB,373.75,1.75,0,0,0,0,0,0,0,1
+2,7,11-20,Android,he,'Xiaomi ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,1361,5,0,0,0,0,0,0,0,1
+2,20,31-40,Android,ru,'Google ',4-5,google,organic,'Organic Search',(none),MOBILE_WEB,840,21,0,0,0,0,0,0,0,1
+7,15,01-10,Android,he,'Samsung ',2,google,organic,'Organic Search',(none),MOBILE_WEB,2443,56.5,0,1,0,0,1,0,0,1
+6,12,21-30,Android,he,'Samsung ',1,google,organic,'Organic Search',(none),MOBILE_WEB,107,5,0,0,0,0,0,0,0,1
+3,17,11-20,Android,he,'LG ',4-5,metasearch.co.il,referral,Referral,(none),MOBILE_WEB,116.5,2.5,0,0,0,0,0,0,0,1
+7,8,41-50,Android,he,'Samsung ',6-10,google,cpc,'Paid Search','yad1 - מתחרים',MOBILE_WEB,169,11,0,0,0,0,0,0,0,1
+7,9,51-60,Android,he,'Samsung ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,379,7,0,0,0,0,0,0,0,1
+4,11,51-60,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,817,5,0,0,0,0,0,0,0,1
+3,7,41-50,Android,he,'Samsung ',21-50,google,cpc,'Paid Search','yad1 - מתחרים',MOBILE_WEB,1485,15.833333,0,0,0,0,0,0,0,1
+3,8,11-20,Android,he,'Samsung ',21-50,google,organic,'Organic Search',(none),MOBILE_WEB,1350.5,14.285714,0,0,0,0,0,0,0,1
+7,17,01-10,iOS,he,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,721,23,0,1,0,0,1,0,0,1
+6,9,41-50,Android,he,'Huawei ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,553,9,0,0,0,0,0,0,0,1
+7,22,01-10,Android,he,'Huawei ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,523.125,16,0,0,0,0,0,0,0,1
+7,22,01-10,Android,he,'Huawei ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,523.125,16,0,0,0,0,0,0,0,1
+7,22,01-10,Android,he,'Huawei ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,523.125,16,0,0,0,0,0,0,0,1
+7,22,01-10,Android,he,'Huawei ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,523.125,16,0,0,0,0,0,0,0,1
+2,11,31-40,Android,he,'Huawei ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,530.666667,15.222222,0,0,0,0,0,0,0,1
+1,20,41-50,Android,he,'Samsung ',3,google,organic,'Organic Search',(none),MOBILE_WEB,484.666667,3.666667,0,0,0,0,0,0,0,1
+3,8,11-20,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,0,0,0,0,0,0,1
+3,13,41-50,Android,he,'LG ',2,(direct),(none),Direct,(none),MOBILE_WEB,61,2,0,0,0,0,0,0,0,1
+4,18,31-40,Android,ru,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,162,3,0,0,0,0,0,0,0,1
+6,20,11-20,iOS,he,'Apple ',3,(direct),(none),Direct,(none),MOBILE_WEB,1360,4,0,0,0,0,0,0,0,1
+7,21,01-10,Android,he,'Samsung ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,577.25,14.5,0,1,0,1,0,0,0,1
+2,21,01-10,Android,he,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,376,5,0,0,0,0,0,0,0,1
+2,6,31-40,Android,en,'Samsung ',6-10,google,cpc,'Paid Search','Yad1- פרוייקטים ערים',MOBILE_WEB,111,5,0,0,0,0,0,0,0,1
+2,8,31-40,Android,he,'Samsung ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,64,3,0,0,0,0,0,0,0,1
+4,20,11-20,iOS,he,'Apple ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,1219,7,0,0,0,0,0,0,0,1
+7,21,21-30,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,76,3,0,0,0,0,0,0,0,1
+1,7,01-10,Android,he,'LG ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,307,4,0,0,0,0,0,0,0,1
+6,8,51-60,iOS,he,'Apple ',21-50,google,organic,'Organic Search',(none),MOBILE_WEB,1159.285714,24.285714,0,1,0,0,0,0,0,1
+7,15,41-50,Android,he,'LG ',1,re_facebook,yad1_re_facebook,(Other),'(not set)',MOBILE_WEB,202,9,0,0,0,0,0,0,0,1
+6,5,11-20,Android,en,'LG ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,870,5,0,0,0,0,0,0,0,1
+5,11,41-50,Android,he,'(not ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,1175,9,0,0,0,0,0,0,0,1
+3,10,21-30,Android,he,'Samsung ',4-5,google,cpc,'Paid Search','Yad1- פרוייקטים ערים',MOBILE_WEB,529.5,16,0,0,0,0,0,0,0,1
+7,13,21-30,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,189,15,0,0,0,0,0,0,0,1
+6,16,21-30,Android,he,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,63,3,0,0,0,0,0,0,0,1
+4,16,31-40,Android,en,'Google ',6-10,'Yad1 Lead Confirmation',email,Email,'Yad1 Lead Confirmation',MOBILE_WEB,482,2,0,0,0,0,0,0,0,1
+5,17,01-10,Android,en,'Google ',11-20,'Yad1 Lead Confirmation',email,Email,'Yad1 Lead Confirmation',MOBILE_WEB,192.8,1.4,0,0,0,0,0,0,0,1
+1,17,51-60,iOS,he,'Apple ',2,google,organic,'Organic Search',(none),MOBILE_WEB,79.5,2,0,0,0,0,0,0,0,1
+1,5,11-20,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,641,12,0,0,0,0,0,0,0,1
+1,15,21-30,Android,he,'LG ',2,m.facebook.com,referral,Social,(none),MOBILE_WEB,192,4,0,0,0,0,0,0,0,1
+3,6,51-60,iOS,he,'Apple ',21-50,google,organic,'Organic Search',(none),MOBILE_WEB,912.6,11.6,0,0,0,0,0,0,0,1
+7,17,41-50,iOS,he,'Apple ',2,re_facebook,yad1_re_facebook,(Other),'(not set)',MOBILE_WEB,102,2,0,0,0,0,0,0,0,1
+2,20,11-20,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,615,18,0,1,0,0,0,0,0,1
+5,6,41-50,Android,he,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,58,3,0,0,0,0,0,0,0,1
+1,21,11-20,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,661,11,0,0,0,0,0,0,0,1
+1,18,01-10,Android,he,'Samsung ',1,google,organic,'Organic Search',(none),MOBILE_WEB,748,20,0,1,0,0,0,0,0,1
+1,16,41-50,Android,en,'(not ',1,google,organic,'Organic Search',(none),MOBILE_WEB,142,8,0,0,0,0,0,0,0,1
+2,8,31-40,Android,he,'Samsung ',3,(direct),(none),Direct,(none),MOBILE_WEB,713,22,0,0,0,0,0,0,0,1
+3,6,51-60,Android,he,'Samsung ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,619.5,20,0,0,0,0,0,0,0,1
+2,7,01-10,iOS,he,'Apple ',21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,1247,26,0,1,0,0,1,0,0,1
+5,19,01-10,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,705,5,0,0,0,0,0,0,0,1
+6,8,51-60,Android,he,'Samsung ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,145,3,0,0,0,0,0,0,0,1
+4,10,21-30,Android,he,'Samsung ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,78,3,0,0,0,0,0,0,0,1
+3,6,41-50,Android,en,'OnePlus ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,2068,19,0,0,0,0,0,0,0,1
+4,21,11-20,Android,he,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,139,3,0,0,0,0,0,0,0,1
+7,20,31-40,Android,he,'Samsung ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,159,5,0,0,0,0,0,0,0,1
+5,18,11-20,iOS,he,'Apple ',1,google,organic,'Organic Search',(none),MOBILE_WEB,253,5,0,0,0,0,0,0,0,1
+2,13,31-40,Android,en,'LG ',3,(direct),(none),Direct,(none),MOBILE_WEB,1735,37,0,0,0,0,0,0,0,1
+6,3,01-10,Android,he,'LG ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,671,10,0,1,0,0,0,0,0,1
+7,23,41-50,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,154,9,0,0,0,0,0,0,0,1
+7,20,21-30,Android,he,'Samsung ',1,google,organic,'Organic Search',(none),MOBILE_WEB,215,4,0,0,0,0,0,0,0,1
+4,4,51-60,Android,he,'Xiaomi ',51+,google,organic,'Organic Search',(none),MOBILE_WEB,355,9,0,1,0,0,0,0,0,1
+4,5,31-40,Android,he,'Xiaomi ',51+,google,organic,'Organic Search',(none),MOBILE_WEB,177.5,5,0,0,0,0,0,0,0,1
+4,12,11-20,Android,he,'Xiaomi ',51+,google,organic,'Organic Search',(none),MOBILE_WEB,90.5,3.25,0,0,0,0,0,0,0,1
+4,17,11-20,Android,he,'Xiaomi ',51+,google,organic,'Organic Search',(none),MOBILE_WEB,365.8,5.2,1,0,0,0,0,0,0,1
+7,13,11-20,Android,en,'Samsung ',4-5,google,organic,'Organic Search',(none),MOBILE_WEB,2172,13,0,1,0,1,1,0,0,1
+1,9,51-60,Android,he,'Samsung ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,552,7,0,0,0,0,0,0,0,1
+2,10,51-60,iOS,tr,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,1089,11,0,0,0,0,0,0,0,1
+5,17,41-50,iOS,he,'Apple ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,473.5,14,0,0,0,0,0,0,0,1
+7,9,11-20,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,147,2,0,0,0,0,0,0,0,1
+4,5,31-40,iOS,he,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_WEB,120,2,0,0,0,0,0,0,0,1
+3,9,41-50,Android,he,'LG ',4-5,Whatsapp,Yad1_share,(Other),Yad1,MOBILE_WEB,110.666667,3,0,0,0,0,0,0,0,1
+5,12,11-20,iOS,he,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,442,15,0,1,0,1,0,0,0,1
+5,12,31-40,iOS,he,'Apple ',1,google,organic,'Organic Search',(none),MOBILE_WEB,152,2,0,0,0,0,0,0,0,1
+3,18,41-50,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,623.5,8,0,0,0,0,0,0,0,1
+1,20,31-40,iOS,he,'Apple ',51+,(direct),(none),Direct,(none),MOBILE_APP_IOS,2733,180,0,1,0,0,1,0,0,1
+6,6,21-30,Android,he,'Samsung ',51+,(direct),(none),Direct,(none),MOBILE_APP_ANDROID,751,16.666667,0,1,0,1,1,1,0,1
+6,14,31-40,Android,he,'Google ',1,(direct),(none),Direct,(none),MOBILE_WEB,117,3,0,0,0,0,0,0,0,1
+4,17,01-10,iOS,he,'Apple ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,1714,6,0,0,0,0,0,0,0,1
+7,17,41-50,iOS,he,'Apple ',2,(direct),(none),Direct,(none),MOBILE_WEB,84.5,1.5,0,0,0,0,0,0,0,1
+7,18,01-10,Android,he,'LG ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,329,5,0,0,0,0,0,0,0,1
+3,15,21-30,Android,he,'Samsung ',3,(direct),(none),Direct,(none),MOBILE_WEB,104,8,0,0,0,0,0,0,0,1
+6,19,41-50,iOS,he,'Apple ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,120.5,1.5,0,0,0,0,0,0,0,1
+5,14,51-60,iOS,he,'Apple ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,1179,14,0,0,0,0,0,0,0,1
+7,20,31-40,Android,he,'Huawei ',1,(direct),(none),Direct,(none),MOBILE_WEB,378,9,0,0,0,0,0,0,0,1
+5,19,11-20,Android,he,'Google ',2,(direct),(none),Direct,(none),MOBILE_WEB,341,5,0,0,0,0,0,0,0,1
+6,5,51-60,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,202,2,0,0,0,0,0,0,0,1
+1,8,01-10,Android,en,'LG ',1,m.facebook.com,referral,Social,(none),MOBILE_WEB,208,2,0,0,0,0,0,0,0,1
+2,17,21-30,iOS,en,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,126,3,0,0,0,0,0,0,0,1
+1,16,01-10,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,804,11,0,0,0,0,0,0,0,1
+6,8,31-40,Android,he,'Samsung ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,207,4,0,0,0,0,0,0,0,1
+6,9,21-30,Android,he,'Huawei ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,113,10,0,0,0,0,0,0,0,1
+6,10,11-20,Android,he,'Insignia ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,1938,11,0,0,0,0,0,0,0,1
+2,18,11-20,Android,en,'Samsung ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,551.75,5,0,0,0,0,0,0,0,1
+6,19,21-30,Android,he,'LG ',3,google,organic,'Organic Search',(none),MOBILE_WEB,95,3.333333,0,1,0,1,0,0,0,1
+5,9,31-40,Android,he,'Samsung ',4-5,google,organic,'Organic Search',(none),MOBILE_WEB,199,5,0,0,0,0,0,0,0,1
+7,14,01-10,Android,he,'Samsung ',11-20,google,organic,'Organic Search',(none),MOBILE_WEB,399.5,9,0,1,0,1,0,0,0,1
+1,16,21-30,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,661,6.5,0,0,0,0,0,0,0,1
+1,20,41-50,Android,he,'LG ',51+,Whatsapp,'(not set)',(Other),m-ToAd,MOBILE_WEB,377.5,2.5,0,0,0,0,0,0,0,1
+7,13,51-60,Android,he,'Samsung ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,1660,7,0,0,0,0,0,0,0,1
+7,6,41-50,iOS,he,'Apple ',2,(direct),(none),Direct,(none),MOBILE_WEB,1154,3,0,0,0,0,0,0,0,1
+7,15,41-50,iOS,he,'Apple ',3,(direct),(none),Direct,(none),MOBILE_WEB,580.5,2.5,0,0,0,0,0,0,0,1
+4,7,41-50,Android,he,'Xiaomi ',1,(direct),(none),Direct,(none),MOBILE_WEB,111,5,0,0,0,0,0,0,0,1
+2,16,11-20,iOS,he,'Apple ',1,google,organic,'Organic Search',(none),MOBILE_WEB,77,2,0,0,0,0,0,0,0,1
+7,16,41-50,iOS,he,'Apple ',2,(direct),(none),Direct,(none),MOBILE_WEB,1136,4,0,0,0,0,0,0,0,1
+7,9,01-10,Android,ru,'Samsung ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,135,4,0,0,0,0,0,0,0,1
+5,9,41-50,Android,he,'Samsung ',3,(direct),(none),Direct,(none),MOBILE_WEB,48,4,0,0,0,0,0,0,0,1
+2,16,31-40,Android,he,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,188,9,0,0,0,0,0,0,0,1
+7,14,31-40,Android,ru,'Samsung ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,617,16.75,0,0,0,0,0,0,0,1
+7,18,01-10,Android,he,'Meizu ',1,google,organic,'Organic Search',(none),MOBILE_WEB,389,5,0,1,0,0,0,0,0,1
+1,20,41-50,Android,en,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,539,14,0,1,0,0,0,0,0,1
+3,15,21-30,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,130,3,0,0,0,0,0,0,0,1
+4,2,41-50,Android,fr,'HOMTOM ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,18,3,0,0,0,0,0,0,0,1
+4,22,51-60,Android,fr,'HOMTOM ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,341.5,5.5,0,0,0,0,0,0,0,1
+5,11,21-30,iOS,he,'Apple ',1,re_facebook,yad1_re_facebook,(Other),'(not set)',MOBILE_WEB,68,2,0,0,0,0,0,0,0,1
+2,16,51-60,Android,he,'Sony ',1,m.facebook.com,referral,Social,(none),MOBILE_WEB,115,3,0,0,0,0,0,0,0,1
+5,17,31-40,Android,ru,'Samsung ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,96,3,0,0,0,0,0,0,0,1
+7,8,41-50,iOS,he,'Apple ',2,(direct),(none),Direct,(none),MOBILE_WEB,122,3,0,0,0,0,0,0,0,1
+7,16,21-30,iOS,he,'Apple ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,280,3,0,0,0,0,0,0,0,1
+1,19,21-30,Android,he,'Google ',21-50,google,organic,'Organic Search',(none),MOBILE_WEB,107,7,0,0,0,0,0,0,0,1
+6,7,01-10,iOS,en,'Apple ',6-10,google,cpc,'Paid Search','yad1 - מתחרים',MOBILE_WEB,2123,13,0,0,0,0,0,0,0,1
+1,13,21-30,iOS,en,'Apple ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,326,2.5,0,0,0,0,0,0,0,1
+3,18,51-60,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,1105,6,0,0,0,0,0,0,0,1
+5,21,21-30,Android,he,'Xiaomi ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,84,3,0,0,0,0,0,0,0,1
+2,17,41-50,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,83,4,0,0,0,0,0,0,0,1
+4,13,51-60,Android,he,'Samsung ',21-50,google,organic,'Organic Search',(none),MOBILE_WEB,251,4,0,0,0,0,0,0,0,1
+1,18,11-20,Android,he,'Samsung ',51+,google,organic,'Organic Search',(none),MOBILE_WEB,583,30,0,1,0,0,0,0,0,1
+7,13,21-30,Android,he,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,1790,9,0,0,0,0,0,0,0,1
+6,20,31-40,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,278,5,0,0,0,0,0,0,0,1
+5,16,31-40,Android,fr,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,263,2,0,0,0,0,0,0,0,1
+6,14,41-50,Android,fr,'Samsung ',3,(direct),(none),Direct,(none),MOBILE_WEB,131.5,1.5,0,0,0,0,0,0,0,1
+1,8,11-20,Android,fr,'Samsung ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,87.666667,1.333333,0,0,0,0,0,0,0,1
+1,6,21-30,Android,he,'Samsung ',1,google,organic,'Organic Search',(none),MOBILE_WEB,1706,4,0,0,0,0,0,0,0,1
+7,16,51-60,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,113,4,0,0,0,0,0,0,0,1
+7,21,01-10,Android,he,'Samsung ',21-50,(direct),(none),Direct,(none),MOBILE_WEB,30.333333,1.666667,0,0,0,0,0,0,0,1
+1,1,31-40,Android,he,'Samsung ',6-10,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,0,0,0,0,0,0,1
+6,8,11-20,Android,he,'LG ',4-5,(direct),(none),Direct,(none),MOBILE_WEB,124,3,0,0,0,0,0,0,0,1
+6,5,51-60,Android,he,'LG ',2,(direct),(none),Direct,(none),MOBILE_WEB,214,4,0,0,0,0,0,0,0,1
+3,19,31-40,iOS,he,'Apple ',1,google,organic,'Organic Search',(none),MOBILE_WEB,132,3,0,0,0,0,0,0,0,1
+7,18,41-50,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,210,3,0,0,0,0,0,0,0,1
+7,8,01-10,Android,he,'Samsung ',2,google,organic,'Organic Search',(none),MOBILE_WEB,232,2,0,0,0,0,0,0,0,1
+7,22,41-50,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,492,4,0,0,0,0,0,0,0,1
+5,13,11-20,Android,he,'LG ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,258,4,0,0,0,0,0,0,0,1
+3,13,51-60,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,180,5,0,0,0,0,0,0,0,1
+5,20,21-30,iOS,he,'Apple ',1,google,organic,'Organic Search',(none),MOBILE_WEB,170,7,0,0,0,0,0,0,0,1
+7,17,21-30,Android,he,'Google ',1,(direct),(none),Direct,(none),MOBILE_WEB,1242,3,0,0,0,0,0,0,0,1
+7,18,11-20,Android,he,'Google ',2,(direct),(none),Direct,(none),MOBILE_WEB,621,2,0,0,0,0,0,0,0,1
+1,4,31-40,Android,he,'Google ',3,(direct),(none),Direct,(none),MOBILE_WEB,414,1.666667,0,0,0,0,0,0,0,1
+6,4,11-20,Android,he,'Samsung ',1,(direct),(none),Direct,(none),MOBILE_WEB,363,6,0,0,0,0,0,0,0,1
+1,23,11-20,Android,he,'LG ',1,(direct),(none),Direct,(none),MOBILE_WEB,509,4,0,0,0,0,0,0,0,1
+2,18,31-40,Android,he,'Samsung ',11-20,(direct),(none),Direct,(none),MOBILE_WEB,147,4,0,0,0,0,0,0,0,1
+4,1,31-40,iOS,en,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,2155,12,0,0,0,0,0,0,0,1
+4,16,51-60,iOS,en,'Apple ',2,(direct),(none),Direct,(none),MOBILE_WEB,1731.5,10,0,0,0,0,0,0,0,1
+4,18,01-10,iOS,he,'Apple ',6-10,google,organic,'Organic Search',(none),MOBILE_WEB,1880,31.5,0,0,0,0,0,0,0,1
+3,22,41-50,Android,en,'LG ',4-5,re_facebook,yad1_re_facebook,(Other),'(not set)',MOBILE_WEB,135,2,0,0,0,0,0,0,0,1
+3,15,11-20,iOS,he,'Apple ',21-50,(direct),(none),Direct,(none),MOBILE_APP_IOS,345,10,0,1,0,1,0,0,0,1
+3,9,31-40,Android,he,'LG ',3,(direct),(none),Direct,(none),MOBILE_WEB,155,8,0,0,0,0,0,0,0,1
+3,12,31-40,Android,he,'Samsung ',2,(direct),(none),Direct,(none),MOBILE_WEB,809.5,11,0,0,0,0,0,0,0,1
+7,8,01-10,Android,he,'Samsung ',3,(direct),(none),Direct,(none),MOBILE_WEB,0,1,0,0,0,0,0,0,0,1
+4,2,51-60,iOS,he,'Apple ',1,(direct),(none),Direct,(none),MOBILE_WEB,134,5,0,0,0,0,0,0,0,1
